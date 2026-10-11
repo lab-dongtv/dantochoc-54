@@ -1,0 +1,138 @@
+{
+  "khmer": {
+    "file": "costume/khmer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawl_and_headpiece,_Khmer_people_-_Museum_of_Vietnamese_History_-_Ho_Chi_Minh_City_-_DSC05789.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Khăn choàng và mũ đội đầu của người Khmer (Nam Bộ), trưng bày tại Bảo tàng Lịch sử Việt Nam – TP.HCM",
+    "desc_ja": "クメール人の肩掛けと冠（ホーチミン市ベトナム歴史博物館）"
+  },
+  "ba-na": {
+    "file": "costume/ba-na.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trang_phuc_Ba_Na.jpg",
+    "author": "Viethavvh at Vietnamese Wikipedia",
+    "license": "Public domain",
+    "desc_vi": "Trang phục nam và nữ truyền thống của người Ba Na, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "バナ族の男女の伝統衣装（ベトナム民族学博物館）"
+  },
+  "xo-dang": {
+    "file": "costume/xo-dang.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trang_phuc_Xo_Dang.jpg",
+    "author": "Viethavvh at Vietnamese Wikipedia",
+    "license": "Public domain",
+    "desc_vi": "Trang phục truyền thống của người Xơ Đăng, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "セダン族の伝統衣装（ベトナム民族学博物館）"
+  },
+  "co-ho": {
+    "file": "costume/co-ho.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Man%27s_belted_apron,_Co_Ho_(Chil)_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03238.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Khố nam của người Cơ Ho (nhóm Chil), Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "コホー族（チル）の男性用ふんどし（ベトナム民族学博物館）"
+  },
+  "mnong": {
+    "file": "costume/mnong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Man%27s_belted_apron,_Mnong_(Preh)_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03235.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Khố nam của người Mnông (nhóm Preh), Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "ムノン族（プレ）の男性用ふんどし（ベトナム民族学博物館）"
+  },
+  "xtieng": {
+    "file": "costume/xtieng.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skirt,_Xtieng,_Lam_Dong,_1980,_handmade_cotton_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC03935.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Váy phụ nữ Xtiêng, vải bông dệt tay (Lâm Đồng, 1980), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "スティエン族の女性用スカート（手織り綿、ベトナム女性博物館）"
+  },
+  "bru-van-kieu": {
+    "file": "costume/bru-van-kieu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Costume,_Bru_-_Van_Kieu,_Quang_Tri,_2002,_view_1,_handmade_cotton,_French_Indochinese_coins_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC03885.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục nữ Bru-Vân Kiều đính tiền xu Đông Dương (Quảng Trị, 2002), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "ブルー・ヴァンキエウ族の女性衣装（仏領インドシナ硬貨飾り、ベトナム女性博物館）"
+  },
+  "co-tu": {
+    "file": "costume/co-tu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Costumes,_(left)_E_De,_Dac_Lac,_1970,_handmade_cotton_%26_natural_dyes,_(right)_Co-tu,_Quang_Nam,_1980,_handmade_cotton,_indigo,_beads_strung_on_weft_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04067.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục Cơ Tu (bên phải; Quảng Nam, 1980, dệt hạt cườm) cạnh trang phục Ê Đê (bên trái), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "カトゥ族の衣装（右、ビーズ織り込み）とエデ族の衣装（左）（ベトナム女性博物館）"
+  },
+  "gie-trieng": {
+    "file": "costume/gie-trieng.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Costume,_Gie-Trieng,_Quang_Nam,_2000,_cotton_with_industrial_dyes_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04081.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục nữ Giẻ Triêng (Quảng Nam, 2000), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "ジェ・チエン族の女性衣装（ベトナム女性博物館）"
+  },
+  "ta-oi": {
+    "file": "costume/ta-oi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vest,_Ta-oi,_Quang_Tri,_1948,_handmade_cotton_with_beads_strung_on_the_weft_thread_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC03924.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Áo Tà Ôi dệt hạt cườm (Quảng Trị, 1948), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "タオイ族のビーズ織りの上衣（ベトナム女性博物館）"
+  },
+  "ma": {
+    "file": "costume/ma.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Costume,_Ma,_Lam_Dong,_1980,_handmade_cotton_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04070.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục người Mạ, vải bông dệt tay (Lâm Đồng, 1980), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "マー族の衣装（手織り綿、ベトナム女性博物館）"
+  },
+  "khang": {
+    "file": "costume/khang.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turban_with_parallel_lines_in_chain_stitch,_Khang,_Son_La,_1967_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC03732.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Khăn đội đầu thêu của phụ nữ Kháng (Sơn La, 1967), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "カン族女性の刺繍入り頭巾（ベトナム女性博物館）"
+  },
+  "mang": {
+    "file": "costume/mang.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Woman%27s_outfit,_Mang_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03160.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Bộ trang phục nữ của người Mảng, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "マン族の女性衣装（ベトナム民族学博物館）"
+  },
+  "gia-rai": {
+    "file": "costume/gia-rai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Costumes,_(left)_Gia-rai,_Gia_Lai,_1981,_handmade_cotton,_natural_dyes,_(right)_Gie-Trieng,_Kon_Tum,_1940,_handmade_cotton,_natural_dyes_-_Vietnamese_Women%27s_Museum_-_Hanoi,_Vietnam_-_DSC04086.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục Gia Rai (bên trái; Gia Lai, 1981) cạnh trang phục Giẻ Triêng (bên phải), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "ジャライ族の衣装（左）とジェ・チエン族の衣装（右）（ベトナム女性博物館）"
+  },
+  "e-de": {
+    "file": "costume/e-de.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Woman%27s_costume,_E_De,_Dac_Lac_province_-_Vietnam_National_Museum_of_Fine_Arts_-_Hanoi,_Vietnam_-_DSC05131.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục nữ Ê Đê (Đắk Lắk), Bảo tàng Mỹ thuật Việt Nam",
+    "desc_ja": "エデ族の女性衣装（ダクラク省、ベトナム国立美術博物館）"
+  },
+  "cham": {
+    "file": "costume/cham.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Isa_(Kim_Thanh),_c%C3%B4_g%C3%A1i_Ch%C4%83m_trong_%C4%91%E1%BB%99i_v%C5%A9_c%C3%B4ng_Phan_Rang.JPG",
+    "author": "Original uploader was Dongson*vmvn at vi.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "desc_vi": "Cô gái Chăm mặc áo dài truyền thống trước tháp Chăm (đội vũ công Phan Rang)",
+    "desc_ja": "伝統衣装を着たチャム族の女性（チャム塔の前、ファンランの舞踊団）"
+  },
+  "raglai": {
+    "file": "costume/raglai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Raglai_Dance_@MaNoi-NinhThuan-Vietnam.jpg",
+    "author": "BacLuong at Vietnamese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "desc_vi": "Múa Raglai tại nhà văn hóa xã Ma Nới, Ninh Thuận",
+    "desc_ja": "ニントゥアン省マーノイ村のラグライ族の踊り"
+  }
+}
