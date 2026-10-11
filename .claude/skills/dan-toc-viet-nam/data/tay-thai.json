@@ -1,0 +1,240 @@
+[
+  {
+    "id": "tay",
+    "vi": "Tày",
+    "ja": "タイー族",
+    "alt": "Thổ (tên cũ), Ngạn, Phén",
+    "group": "tay-thai",
+    "pop": 1845492,
+    "region_vi": "Cao Bằng, Lạng Sơn, Bắc Kạn, Hà Giang, Tuyên Quang, Thái Nguyên",
+    "region_ja": "カオバン、ランソン、バッカン、ハザン、トゥエンクアン、タイグエン",
+    "hi_vi": "Dân tộc thiểu số đông nhất; nhà sàn; hát Then với đàn tính (UNESCO 2019); lễ Lồng tồng; áo chàm giản dị.",
+    "hi_ja": "ベトナム最大の少数民族。高床式住居、弦楽器ティンを伴う「テン」の歌（ユネスコ無形文化遺産）、田植え祭りロントン。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Choang (壮族)",
+        "ja": "チワン族（壮族）"
+      }
+    ],
+    "vme_vi": "Nhà sàn Tày ở vườn ngoài trời; đàn tính, đồ nghề thầy Then trong nhà Trống Đồng.",
+    "vme_ja": "屋外展示場のタイー族の高床式住居。館内ではティン（弦楽器）やテン儀礼の道具。"
+  },
+  {
+    "id": "thai",
+    "vi": "Thái",
+    "ja": "ターイ族",
+    "alt": "Tày Đăm (Thái Đen), Tày Khao (Thái Trắng)",
+    "group": "tay-thai",
+    "pop": 1820950,
+    "region_vi": "Sơn La, Điện Biên, Lai Châu, Yên Bái, Hoà Bình, Thanh Hoá, Nghệ An",
+    "region_ja": "ソンラ、ディエンビエン、ライチャウ、イエンバイ、ホアビン、タインホア、ゲアン",
+    "hi_vi": "Nhà sàn mái mai rùa có khau cút; áo cóm khuy bạc, khăn piêu; múa Xòe (UNESCO 2021); có chữ Thái cổ.",
+    "hi_ja": "亀の甲羅形の屋根の高床式住居、銀ボタンの上着と刺繍頭巾ピエウ。ソエ踊り（ユネスコ無形文化遺産）や独自の古文字がある。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Tai Dam, Tai Dón (cùng tộc); Lào",
+        "ja": "タイ・ダム、タイ・ドン（同一民族）、ラオ人"
+      },
+      {
+        "c": "TH",
+        "vi": "Tai Dam (Lao Song), Thai",
+        "ja": "タイ・ダム（ラオ・ソン）、タイ人"
+      },
+      {
+        "c": "CN",
+        "vi": "Thái (傣族)",
+        "ja": "タイ族（傣族）"
+      },
+      {
+        "c": "US",
+        "vi": "Tai Dam ở Iowa",
+        "ja": "アイオワ州のタイ・ダム"
+      },
+      {
+        "c": "MM",
+        "vi": "Shan (bang Shan, Myanmar) — gần gũi dân tộc–ngôn ngữ với Thái Đen",
+        "ja": "シャン族（ミャンマー・シャン州）— 黒タイ族と民族・言語的に近い"
+      }
+    ],
+    "vme_vi": "Khu Tày–Thái: trang phục Thái Đen, khăn piêu, khung cửi, ếp xôi, văn bản chữ Thái cổ.",
+    "vme_ja": "タイー・ターイ語群の展示：黒ターイの衣装、ピエウ、織機、おこわ入れ、古ターイ文字の文書。"
+  },
+  {
+    "id": "nung",
+    "vi": "Nùng",
+    "ja": "ヌン族",
+    "alt": "Nùng Giang, Nùng An, Nùng Phàn Slình, Nùng Inh…",
+    "group": "tay-thai",
+    "pop": 1083298,
+    "region_vi": "Lạng Sơn, Cao Bằng, Bắc Giang, Thái Nguyên, Hà Giang; Tây Nguyên",
+    "region_ja": "ランソン、カオバン、バクザン、タイグエン、ハザン、中部高原",
+    "hi_vi": "Gần với Tày về ngôn ngữ, văn hoá; hát đối đáp Sli; trồng hồi; nhiều tên nhóm lấy theo địa danh gốc ở Quảng Tây.",
+    "hi_ja": "言語・文化はタイー族に近い。男女の掛け合い歌「スリ」、八角の栽培で知られ、集団名の多くは広西の故地の地名に由来。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Choang (壮族)",
+        "ja": "チワン族（壮族）"
+      },
+      {
+        "c": "US",
+        "vi": "Cộng đồng người Nùng di cư",
+        "ja": "移住したヌン族コミュニティ"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Tày–Thái: trang phục chàm Nùng, đồ hát Then/Sli.",
+    "vme_ja": "タイー・ターイ語群の展示で、ヌン族の藍染め衣装や儀礼の道具を探そう。"
+  },
+  {
+    "id": "san-chay",
+    "vi": "Sán Chay",
+    "ja": "サンチャイ族",
+    "alt": "Cao Lan, Sán Chỉ",
+    "group": "tay-thai",
+    "pop": 201398,
+    "region_vi": "Tuyên Quang, Thái Nguyên, Bắc Giang, Quảng Ninh, Phú Thọ",
+    "region_ja": "トゥエンクアン、タイグエン、バクザン、クアンニン、フート",
+    "hi_vi": "Hai nhóm: Cao Lan nói tiếng Tai, Sán Chỉ nói phương ngữ Hán; hát Sình ca; múa Tắc xình trong lễ cầu mùa.",
+    "hi_ja": "タイ系言語を話すカオラン人と、漢語方言を話すサンチー人の二集団から成る。掛け合い歌シンカ、豊作祈願の踊りタクシン。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Choang (壮族) – gần gũi ngôn ngữ (Cao Lan)",
+        "ja": "チワン族（壮族）—カオラン人と言語的に近縁"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Tày–Thái: tranh thờ, đồ lễ cấp sắc, nhạc cụ múa Tắc xình.",
+    "vme_ja": "タイー・ターイ語群の展示：祭祀画、成人儀礼の道具、タクシン踊りの楽器。"
+  },
+  {
+    "id": "giay",
+    "vi": "Giáy",
+    "ja": "ザイ族",
+    "alt": "Nhắng, Dẩng, Pầu Thìn, Pu Nà",
+    "group": "tay-thai",
+    "pop": 67858,
+    "region_vi": "Lào Cai, Hà Giang, Lai Châu",
+    "region_ja": "ラオカイ、ハザン、ライチャウ",
+    "hi_vi": "Giỏi làm ruộng bậc thang (có ở Sa Pa); lễ xuống đồng Roóng poọc; áo cổ xẻ chéo màu sặc sỡ.",
+    "hi_ja": "棚田耕作に長け、サパにも暮らす。田植え前の祭り「ロンポック」、色鮮やかな斜め合わせの上着が特徴。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Bố Y (布依族)",
+        "ja": "プイ族（布依族）"
+      }
+    ],
+    "vme_vi": "Tìm trong khu trưng bày nhóm Tày–Thái.",
+    "vme_ja": "タイー・ターイ語群の展示内で探してみよう。"
+  },
+  {
+    "id": "lao",
+    "vi": "Lào",
+    "ja": "ラオ族",
+    "alt": "Lào Bốc, Lào Nọi",
+    "group": "tay-thai",
+    "pop": 17532,
+    "region_vi": "Điện Biên, Sơn La, Lai Châu, Thanh Hoá, Nghệ An",
+    "region_ja": "ディエンビエン、ソンラ、ライチャウ、タインホア、ゲアン",
+    "hi_vi": "Theo Phật giáo Theravada kết hợp thờ phi; Tết té nước Bun Pi May; lễ buộc chỉ cổ tay; dệt thổ cẩm.",
+    "hi_ja": "上座部仏教と精霊信仰が共存。水かけ正月ブン・ピーマイ、手首に糸を結ぶバーシー儀礼、織物が有名。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Lao (dân tộc chính)",
+        "ja": "ラオ人（ラオスの主要民族）"
+      },
+      {
+        "c": "TH",
+        "vi": "Lào Isan",
+        "ja": "イサーンのラオ人"
+      },
+      {
+        "c": "FR",
+        "vi": "Người Lào ở Pháp (~200.000)",
+        "ja": "フランスのラオ人（約20万人）"
+      },
+      {
+        "c": "US",
+        "vi": "Người Lào ở Mỹ (~200.000, 2015)",
+        "ja": "アメリカのラオ人（約20万人・2015年）"
+      },
+      {
+        "c": "CA",
+        "vi": "Người Lào ở Canada (~24.600)",
+        "ja": "カナダのラオ人（約2万4,600人）"
+      },
+      {
+        "c": "KH",
+        "vi": "Người Lào ở Campuchia (~23.400)",
+        "ja": "カンボジアのラオ人（約2万3,400人）"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Tày–Thái: thổ cẩm, đồ lễ Phật giáo.",
+    "vme_ja": "タイー・ターイ語群の展示：織物や仏教儀礼の品々。"
+  },
+  {
+    "id": "lu",
+    "vi": "Lự",
+    "ja": "ルー族",
+    "alt": "Lừ, Nhuồn, Duồn (Tai Lue)",
+    "group": "tay-thai",
+    "pop": 6757,
+    "region_vi": "Lai Châu (Tam Đường, Sìn Hồ, Phong Thổ), Điện Biên",
+    "region_ja": "ライチャウ省、ディエンビエン省",
+    "hi_vi": "Gốc từ Sipsongpanna (Vân Nam); nhà sàn mái dốc; váy dệt hoa văn, khăn quấn nhiều vòng; Phật giáo và thờ phi.",
+    "hi_ja": "雲南シーサンパンナに起源をもつ。急勾配屋根の高床式住居、文様織りのスカートと何重にも巻く頭巾。仏教と精霊信仰。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Thái Lặc (傣泐) thuộc 傣族",
+        "ja": "タイ・ルー（傣泐、傣族の一部）"
+      },
+      {
+        "c": "LA",
+        "vi": "Lue",
+        "ja": "ルー人"
+      },
+      {
+        "c": "TH",
+        "vi": "Tai Lue (Nan, Chiang Rai)",
+        "ja": "タイ・ルー（ナーン、チェンライ）"
+      },
+      {
+        "c": "MM",
+        "vi": "Tai Lue (bang Shan)",
+        "ja": "タイ・ルー（シャン州）"
+      },
+      {
+        "c": "US",
+        "vi": "Tai Lue ở Mỹ (~4.000, 1998)",
+        "ja": "アメリカのタイ・ルー族（約4,000人・1998年）"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Tày–Thái: trang phục và vải dệt Lự.",
+    "vme_ja": "タイー・ターイ語群の展示で、ルー族の衣装や織物を探そう。"
+  },
+  {
+    "id": "bo-y",
+    "vi": "Bố Y",
+    "ja": "ボーイ族（プイ族）",
+    "alt": "Chủng Chá, Tu Dí",
+    "group": "tay-thai",
+    "pop": 3232,
+    "region_vi": "Lào Cai (Mường Khương), Hà Giang, Tuyên Quang",
+    "region_ja": "ラオカイ省ムオンクオン、ハザン、トゥエンクアン",
+    "hi_vi": "Di cư từ Quý Châu khoảng 150–200 năm trước; nhà trình tường; áo năm thân; ảnh hưởng văn hoá Hán rõ.",
+    "hi_ja": "約150〜200年前に貴州から移住。土壁の家、五つ身の長い上着を着用し、漢文化の影響が強い。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Bố Y (布依族)",
+        "ja": "プイ族（布依族）"
+      }
+    ],
+    "vme_vi": "Tìm trong khu trưng bày nhóm Tày–Thái.",
+    "vme_ja": "タイー・ターイ語群の展示内で探してみよう。"
+  }
+]

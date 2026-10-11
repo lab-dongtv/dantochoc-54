@@ -1,0 +1,178 @@
+{
+  "kinh": {
+    "file": "costume/kinh.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cinq_sœurs_à_Hanoï,_1950s.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "desc_vi": "Năm chị em người Kinh mặc áo dài ở Hà Nội, thập niên 1950",
+    "desc_ja": "1950年代ハノイ、アオザイ姿のキン族の五姉妹"
+  },
+  "muong": {
+    "file": "costume/muong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Muong_people_hoa_binh.jpg",
+    "author": "Chienol",
+    "license": "CC BY-SA 4.0",
+    "desc_vi": "Phụ nữ Mường mặc áo pắn, váy đen, Hòa Bình",
+    "desc_ja": "ホアビン省、伝統衣装のムオン族女性"
+  },
+  "tho": {
+    "file": "costume/tho.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Costume,_Tho,_Nghe_An,_1956,_cotton_with_woven_silk_patterns_-_Vietnamese_Women's_Museum_-_Hanoi,_Vietnam_-_DSC03880.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục nữ người Thổ (Nghệ An, 1956), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "トー族女性の衣装（ゲアン省、1956年）、ベトナム女性博物館"
+  },
+  "tay": {
+    "file": "costume/tay.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tay_Women.jpg",
+    "author": "DXLINH",
+    "license": "CC BY-SA 3.0",
+    "desc_vi": "Phụ nữ Tày mặc áo chàm, đội khăn",
+    "desc_ja": "藍染の上着と頭巾を着けたタイー族女性"
+  },
+  "thai": {
+    "file": "costume/thai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trang_phuc_Thai_trang.jpg",
+    "author": "Viethavvh at vi.wikipedia",
+    "license": "Public domain",
+    "desc_vi": "Trang phục Thái Trắng trưng bày tại Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "白タイ族の衣装（ベトナム民族学博物館の展示）"
+  },
+  "nung": {
+    "file": "costume/nung.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Woman's_outfit,_Nung_(Nung_Inh)_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02835.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục nữ Nùng Inh, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "ヌン族（ヌン・イン）女性の衣装、ベトナム民族学博物館"
+  },
+  "san-chay": {
+    "file": "costume/san-chay.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:高欄人婦女.jpg",
+    "author": "June Owen",
+    "license": "CC BY-SA 4.0",
+    "desc_vi": "Phụ nữ Cao Lan (Sán Chay) ở Thái Nguyên",
+    "desc_ja": "タイグエン省のカオラン（サンチャイ族）女性"
+  },
+  "giay": {
+    "file": "costume/giay.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tả_Van的Giáy婦女.jpg",
+    "author": "June Owen",
+    "license": "CC BY-SA 4.0",
+    "desc_vi": "Phụ nữ Giáy ở Tả Van, Sa Pa, Lào Cai",
+    "desc_ja": "ラオカイ省サパ・タヴァン村のザイ族女性"
+  },
+  "lao": {
+    "file": "costume/lao.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trang_phục_phụ_nữ_Lào_ở_Lai_Châu.jpg",
+    "author": "Nguyễn Thanh Quang",
+    "license": "CC BY-SA 3.0",
+    "desc_vi": "Trang phục phụ nữ Lào ở Tam Đường, Lai Châu",
+    "desc_ja": "ライチャウ省タムドゥオンのラオ族女性の衣装"
+  },
+  "lu": {
+    "file": "costume/lu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Người_Lự_ở_Lai_Châu.jpg",
+    "author": "Nguyễn Thanh Quang",
+    "license": "CC BY-SA 3.0",
+    "desc_vi": "Trang phục phụ nữ Lự ở Lai Châu",
+    "desc_ja": "ライチャウ省のルー族女性の衣装"
+  },
+  "mong": {
+    "file": "costume/mong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:FlowerHmong_Vietnam_(pixinn.net).jpg",
+    "author": "Christophe Meneboeuf",
+    "license": "CC BY-SA 3.0",
+    "desc_vi": "Chân dung phụ nữ Mông Hoa (Hmông Hoa) ở Việt Nam",
+    "desc_ja": "ベトナムの花モン族女性の肖像"
+  },
+  "dao": {
+    "file": "costume/dao.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zao_woman_(Sapa_Vietnam).jpg",
+    "author": "Viethavvh",
+    "license": "Public domain",
+    "desc_vi": "Phụ nữ Dao ở Sa Pa, Lào Cai",
+    "desc_ja": "ラオカイ省サパのザオ族女性"
+  },
+  "pa-then": {
+    "file": "costume/pa-then.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pa_Then.JPG",
+    "author": "Viethavvh",
+    "license": "Public domain",
+    "desc_vi": "Phụ nữ Pà Thẻn trong trang phục truyền thống",
+    "desc_ja": "伝統衣装のパテン族女性"
+  },
+  "co-lao": {
+    "file": "costume/co-lao.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Woman's_tunic,_Co_Lao_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02955.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Áo nữ người Cờ Lao, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "コーラオ族女性の上着、ベトナム民族学博物館"
+  },
+  "pu-peo": {
+    "file": "costume/pu-peo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trang_phuc_Pu_Peo.jpg",
+    "author": "Viethavvh at Vietnamese Wikipedia",
+    "license": "Public domain",
+    "desc_vi": "Trang phục truyền thống người Pu Péo, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "プペオ族の伝統衣装、ベトナム民族学博物館"
+  },
+  "hoa": {
+    "file": "costume/hoa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:LaoKay_famille_chinoise.jpg",
+    "author": "Unknown (postcard)",
+    "license": "Public domain",
+    "desc_vi": "Gia đình người Hoa ở Lào Cai, bưu ảnh đầu thế kỷ 20",
+    "desc_ja": "20世紀初頭の絵葉書、ラオカイの華人（ホア族）家族"
+  },
+  "ngai": {
+    "file": "costume/ngai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ngái_Siblings_from_Thái_Nguyên_Wearing_Modern_Front-Opening_Tunics.jpg",
+    "author": "June Owen",
+    "license": "CC BY 4.0",
+    "desc_vi": "Anh em người Ngái ở Thái Nguyên mặc áo xẻ nách kiểu đương đại",
+    "desc_ja": "タイグエン省のガイ族の兄妹、現代風の大襟の上着"
+  },
+  "ha-nhi": {
+    "file": "costume/ha-nhi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Woman's_costume,_Ha_Nhi,_Muong_Te,_Lai_Chau,_1980_-_Vietnamese_Women's_Museum_-_Hanoi,_Vietnam_-_DSC04302.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục nữ Hà Nhì (Mường Tè, Lai Châu, 1980), Bảo tàng Phụ nữ Việt Nam",
+    "desc_ja": "ハニ族女性の衣装（ライチャウ省ムオンテー、1980年）、ベトナム女性博物館"
+  },
+  "phu-la": {
+    "file": "costume/phu-la.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trang_phuc_Phu_La.jpg",
+    "author": "Viethavvh at Vietnamese Wikipedia",
+    "license": "Public domain",
+    "desc_vi": "Trang phục truyền thống người Phù Lá, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "プーラ族の伝統衣装、ベトナム民族学博物館"
+  },
+  "la-hu": {
+    "file": "costume/la-hu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Woman's_outfit,_La_Hu_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03127.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "desc_vi": "Trang phục nữ La Hủ, Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "ラフ族女性の衣装、ベトナム民族学博物館"
+  },
+  "lo-lo": {
+    "file": "costume/lo-lo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trang_phuc_Lo_Lo.jpg",
+    "author": "Viethavvh at Vietnamese Wikipedia",
+    "license": "Public domain",
+    "desc_vi": "Trang phục nữ Lô Lô (Hà Giang), Bảo tàng Dân tộc học Việt Nam",
+    "desc_ja": "ハザン省ロロ族女性の衣装、ベトナム民族学博物館"
+  },
+  "si-la": {
+    "file": "costume/si-la.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Si_La_people.jpg",
+    "author": "Saigon punkid at Vietnamese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "desc_vi": "Gia đình người Si La, phụ nữ mặc áo đính xu bạc truyền thống",
+    "desc_ja": "伝統衣装のシラ族の家族"
+  }
+}

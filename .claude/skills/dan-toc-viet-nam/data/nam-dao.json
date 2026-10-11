@@ -1,0 +1,152 @@
+[
+  {
+    "id": "gia-rai",
+    "vi": "Gia Rai",
+    "ja": "ジャライ族",
+    "alt": "Jarai, Jơ Rai, Chơ Rai, Hơ Bau, Hdrung, Arap, Tơ Buăn",
+    "group": "nam-dao",
+    "pop": 513930,
+    "region_vi": "Gia Lai (chủ yếu), Kon Tum, Đắk Lắk, Phú Yên",
+    "region_ja": "ザライ省を中心に、コントゥム省・ダクラク省・フーイエン省",
+    "hi_vi": "Mẫu hệ; nổi tiếng với nhà mồ và tượng gỗ dựng cho lễ bỏ mả (Pơ thi), cồng chiêng Tây Nguyên (UNESCO).",
+    "hi_ja": "母系社会。墓放棄祭（ポティ）のために建てる墓屋と木彫り像、そしてユネスコ無形文化遺産の中部高原ゴング文化で知られる。",
+    "kin": [
+      {
+        "c": "KH",
+        "vi": "Jarai ở Ratanakiri – cùng tộc, sống hai bên biên giới",
+        "ja": "ラタナキリ州のジャライ人。国境をまたいで暮らす同じ民族"
+      },
+      {
+        "c": "MY",
+        "vi": "Quan hệ ngôn ngữ Nam Đảo (xa) với tiếng Mã Lai",
+        "ja": "マレー語とは同じオーストロネシア語族（遠い親戚関係）"
+      }
+    ],
+    "vme_vi": "Nhà mồ Gia Rai với tượng gỗ ở khu ngoài trời; cồng chiêng, gùi ở khu Tây Nguyên trong nhà.",
+    "vme_ja": "屋外展示の木彫り像付きジャライ族の墓屋は必見。館内の中部高原コーナーではゴングや背負い籠も。"
+  },
+  {
+    "id": "e-de",
+    "vi": "Ê Đê",
+    "ja": "エデ族",
+    "alt": "Ra-đê (Rhade), Anăk Ê Đê, Kpă, Adham, Mđhur, Bih",
+    "group": "nam-dao",
+    "pop": 398671,
+    "region_vi": "Đắk Lắk (quanh Buôn Ma Thuột), Đắk Nông, Phú Yên, Khánh Hòa",
+    "region_ja": "ダクラク省（バンメトート周辺）、ダクノン省、フーイエン省、カインホア省",
+    "hi_vi": "Nhà dài trên sàn của đại gia đình mẫu hệ, cầu thang khắc đôi bầu ngực, ghế kpan; sử thi Đam San.",
+    "hi_ja": "母系大家族が暮らす高床式ロングハウス。乳房を彫った階段や一本木の長椅子コパンが象徴的。叙事詩『ダムサン』も有名。",
+    "kin": [
+      {
+        "c": "ID",
+        "vi": "Cùng nhánh Chamic, họ hàng ngôn ngữ với tiếng Aceh, Mã Lai",
+        "ja": "チャム語派に属し、アチェ語・マレー語と言語的な親戚"
+      },
+      {
+        "c": "MY",
+        "vi": "Quan hệ ngôn ngữ Nam Đảo (xa)",
+        "ja": "オーストロネシア語族としての遠い言語関係"
+      }
+    ],
+    "vme_vi": "Nhà dài Ê Đê ở khu ngoài trời: xem cầu thang khắc ngực, ghế kpan, bếp và gian khách.",
+    "vme_ja": "屋外のエデ族ロングハウス。乳房の彫刻がある階段、長椅子コパン、炉や客間を見てみよう。"
+  },
+  {
+    "id": "cham",
+    "vi": "Chăm",
+    "ja": "チャム族",
+    "alt": "Chàm, Chiêm Thành, Hroi; Cam/Urang Cam; Chăm Bàlamôn, Chăm Bàni, Chăm Islam",
+    "group": "nam-dao",
+    "pop": 178948,
+    "region_vi": "Ninh Thuận, Bình Thuận; An Giang, TP.HCM, Tây Ninh (Chăm Hồi giáo); Phú Yên, Bình Định (Hroi)",
+    "region_ja": "ニントゥアン省・ビントゥアン省。イスラム教徒のチャムはアンザン省・ホーチミン市・タイニン省に住む",
+    "hi_vi": "Hậu duệ vương quốc Champa: tháp Chăm (Mỹ Sơn, Pô Nagar), lễ Katê, gốm Bàu Trúc nặn tay (UNESCO 2022), dệt Mỹ Nghiệp.",
+    "hi_ja": "チャンパ王国の末裔。チャム塔（ミーソン、ポーナガル）、カテ祭り、ろくろを使わないバウチュック焼（ユネスコ2022）が有名。",
+    "kin": [
+      {
+        "c": "KH",
+        "vi": "Cham Muslim (Kampong Cham…) – cùng tộc, quan hệ trực tiếp",
+        "ja": "コンポンチャム州などのイスラム教徒チャム人。直接つながる同じ民族"
+      },
+      {
+        "c": "CN",
+        "vi": "Utsul (回辉人) ở Tam Á, Hải Nam – hậu duệ người Chăm di cư",
+        "ja": "海南島三亜の回輝人（ウツル）。移住したチャム人の子孫"
+      },
+      {
+        "c": "MY",
+        "vi": "Cộng đồng Cham ở Kelantan, Terengganu – quan hệ Hồi giáo, tị nạn",
+        "ja": "クランタン州などのチャム人コミュニティ。イスラム信仰と難民の歴史でつながる"
+      },
+      {
+        "c": "ID",
+        "vi": "Tiếng Chăm gần tiếng Aceh (Sumatra)",
+        "ja": "チャム語はスマトラのアチェ語に近い"
+      },
+      {
+        "c": "TH",
+        "vi": "Chăm ở Thái Lan (1.000–4.000)",
+        "ja": "タイのチャム族（1,000〜4,000人）"
+      },
+      {
+        "c": "US",
+        "vi": "Chăm ở Mỹ (~3.000)",
+        "ja": "アメリカのチャム族（約3,000人）"
+      },
+      {
+        "c": "FR",
+        "vi": "Chăm ở Pháp (~1.000)",
+        "ja": "フランスのチャム族（約1,000人）"
+      },
+      {
+        "c": "LA",
+        "vi": "Chăm ở Lào (~700)",
+        "ja": "ラオスのチャム族（約700人）"
+      }
+    ],
+    "vme_vi": "Nhà Chăm ở khu ngoài trời; khu Chăm trong nhà: gốm Bàu Trúc, trang phục, đồ nghi lễ.",
+    "vme_ja": "屋外のチャム族の家。館内のチャムコーナーではバウチュック焼、衣装、儀礼具が見られる。"
+  },
+  {
+    "id": "raglai",
+    "vi": "Raglai",
+    "ja": "ラグライ族",
+    "alt": "Ra Glai, Ra-clây, Rai, La-oang, Noang",
+    "group": "nam-dao",
+    "pop": 146613,
+    "region_vi": "Khánh Hòa (Khánh Sơn, Khánh Vĩnh), Ninh Thuận (Bác Ái), Bình Thuận, Lâm Đồng",
+    "region_ja": "カインホア省（カインソン・カインヴィン）、ニントゥアン省、ビントゥアン省、ラムドン省",
+    "hi_vi": "Mẫu hệ; nổi tiếng với đàn đá Khánh Sơn, bộ mã la (chiêng không núm), đàn chapi ống tre và sử thi Akhàt Jucar.",
+    "hi_ja": "母系社会。カインソンの石琴、こぶのないゴング「マラ」、竹筒の琴チャピ、叙事詩アカット・ジュカールで知られる。",
+    "kin": [
+      {
+        "c": "MY",
+        "vi": "Quan hệ ngôn ngữ Nam Đảo (xa); không có tộc tương ứng ở nước ngoài",
+        "ja": "オーストロネシア語族として遠い関係。国外に対応する民族はない"
+      }
+    ],
+    "vme_vi": "Tìm nhạc cụ tre (đàn chapi), gùi ở khu Nam Trung Bộ/Tây Nguyên trong nhà Trống Đồng.",
+    "vme_ja": "本館（銅鼓館）の南中部・中部高原コーナーで竹の楽器チャピや背負い籠を探してみよう。"
+  },
+  {
+    "id": "chu-ru",
+    "vi": "Chu Ru",
+    "ja": "チュル族",
+    "alt": "Chơ Ru, Chu, Cru",
+    "group": "nam-dao",
+    "pop": 23242,
+    "region_vi": "Lâm Đồng (Đơn Dương, Đức Trọng), một phần Ninh Thuận, Bình Thuận",
+    "region_ja": "ラムドン省（ドンズオン・ドゥックチョン）、一部ニントゥアン省・ビントゥアン省",
+    "hi_vi": "Tộc Tây Nguyên làm ruộng nước từ sớm, học kỹ thuật từ người Chăm; có nghề gốm, rèn; mẫu hệ.",
+    "hi_ja": "チャム人から技術を学び、早くから水田稲作を行ってきた高原の民族。土器づくりや鍛冶も行う母系社会。",
+    "kin": [
+      {
+        "c": "MY",
+        "vi": "Quan hệ ngôn ngữ Nam Đảo (xa); không có tộc tương ứng ở nước ngoài",
+        "ja": "オーストロネシア語族として遠い関係。国外に対応する民族はない"
+      }
+    ],
+    "vme_vi": "Tìm nông cụ ruộng nước, gốm ở khu Tây Nguyên/Nam Trung Bộ trong nhà Trống Đồng.",
+    "vme_ja": "本館の中部高原・南中部コーナーで水田用の農具や土器を探してみよう。"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "mong",
+    "vi": "Mông",
+    "ja": "モン族（フモン族）",
+    "alt": "Hmông, H'Mông, Mèo (tên cũ)",
+    "group": "hmong-dao",
+    "pop": 1393547,
+    "region_vi": "Hà Giang, Lào Cai, Lai Châu, Điện Biên, Sơn La, Yên Bái",
+    "region_ja": "ハザン、ラオカイ、ライチャウ、ディエンビエン、ソンラ、イエンバイ",
+    "hi_vi": "Nhà trình tường; váy lanh vẽ sáp ong nhuộm chàm; khèn Mông; chợ tình Khâu Vai; món thắng cố, mèn mén.",
+    "hi_ja": "土壁の家。麻布にろうけつ染めを施したスカート、笙に似た楽器ケン、カウヴァイの「愛の市」、料理タンコーで知られる。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Miêu (苗族)",
+        "ja": "ミャオ族（苗族）"
+      },
+      {
+        "c": "LA",
+        "vi": "Hmong",
+        "ja": "モン族"
+      },
+      {
+        "c": "TH",
+        "vi": "Hmong (Meo)",
+        "ja": "モン族（メオ）"
+      },
+      {
+        "c": "US",
+        "vi": "Hmong Mỹ (Minnesota, California)",
+        "ja": "アメリカのモン系住民（ミネソタ、カリフォルニア）"
+      },
+      {
+        "c": "FR",
+        "vi": "Hmong ở Pháp",
+        "ja": "フランスのモン族"
+      },
+      {
+        "c": "MM",
+        "vi": "Hmong ở Myanmar (~3.000, 2010) — cùng tộc, số nhỏ",
+        "ja": "ミャンマーのモン族（約3,000人・2010年）— 同じ民族、少数"
+      },
+      {
+        "c": "AU",
+        "vi": "Hmong ở Úc (~3.400, 2011)",
+        "ja": "オーストラリアのモン族（約3,400人・2011年）"
+      }
+    ],
+    "vme_vi": "Nhà Mông ở vườn ngoài trời; khu Mông–Dao: trang phục lanh vẽ sáp, khèn, khung dệt lanh, đồ bạc.",
+    "vme_ja": "屋外展示場のモン族の家。館内ではろうけつ染めの麻衣装、ケン、麻織りの道具、銀細工。"
+  },
+  {
+    "id": "dao",
+    "vi": "Dao",
+    "ja": "ザオ族（ヤオ族）",
+    "alt": "Mán (tên cũ), Kìm Miền, Kìm Mùn, Dao Đỏ, Dao Tiền…",
+    "group": "hmong-dao",
+    "pop": 891151,
+    "region_vi": "Hà Giang, Tuyên Quang, Lào Cai, Yên Bái, Cao Bằng, Quảng Ninh…",
+    "region_ja": "ハザン、トゥエンクアン、ラオカイ、イエンバイ、カオバン、クアンニンなど",
+    "hi_vi": "Lễ cấp sắc cho nam giới; thờ Bàn Vương; tranh thờ và chữ Nôm Dao, ảnh hưởng Đạo giáo; trang phục thêu công phu.",
+    "hi_ja": "男性の成人儀礼「カップサック」、始祖盤王の祭祀、道教の影響を受けた祭祀画と漢字系文字。刺繍の衣装が見事。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Dao (瑶族)",
+        "ja": "ヤオ族（瑶族）"
+      },
+      {
+        "c": "LA",
+        "vi": "Iu Mien, Lanten",
+        "ja": "ユーミエン、ランテン"
+      },
+      {
+        "c": "TH",
+        "vi": "Mien (Yao)",
+        "ja": "ミエン（ヤオ）"
+      },
+      {
+        "c": "US",
+        "vi": "Iu Mien (California, Oregon)",
+        "ja": "ユーミエン（カリフォルニア、オレゴン）"
+      },
+      {
+        "c": "MM",
+        "vi": "Iu Mien ở Myanmar — có mặt, chưa rõ số lượng",
+        "ja": "ミャンマーのユーミエン — 居住あり（人数不明）"
+      },
+      {
+        "c": "FR",
+        "vi": "Iu Mien ở Pháp (~2.000)",
+        "ja": "フランスのユーミエン（約2,000人）"
+      }
+    ],
+    "vme_vi": "Nhà Dao ở vườn ngoài trời; tranh thờ, mặt nạ, đồ lễ cấp sắc, trang phục Dao Đỏ trong khu Mông–Dao.",
+    "vme_ja": "屋外展示場のザオ族の家。館内では祭祀画、仮面、成人儀礼の道具、赤ザオ族の衣装。"
+  },
+  {
+    "id": "pa-then",
+    "vi": "Pà Thẻn",
+    "ja": "パテン族",
+    "alt": "Pà Hưng, Tống (Pa-Hng)",
+    "group": "hmong-dao",
+    "pop": 8248,
+    "region_vi": "Hà Giang (Bắc Quang, Quang Bình), Tuyên Quang (Lâm Bình, Chiêm Hoá)",
+    "region_ja": "ハザン省、トゥエンクアン省",
+    "hi_vi": "Trang phục màu đỏ rực, thêu hoa văn cầu kỳ; lễ nhảy lửa chân trần trên than hồng dịp đầu năm.",
+    "hi_ja": "真っ赤な刺繍衣装が特徴。新年に素足で燃える炭の上を踊る「火渡りの儀式」で有名。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Pa-Hng (巴哼), xếp vào 瑶族/苗族",
+        "ja": "パーフン（巴哼）—瑶族または苗族に分類"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Mông–Dao: trang phục đỏ, tư liệu lễ nhảy lửa.",
+    "vme_ja": "モン・ザオ語群の展示で、赤い衣装や火渡り儀式の資料を探そう。"
+  }
+]

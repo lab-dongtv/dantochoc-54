@@ -1,0 +1,168 @@
+[
+  {
+    "id": "ha-nhi",
+    "vi": "Hà Nhì",
+    "ja": "ハニ族",
+    "alt": "U Ni, Xá U Ni, Hà Nhì Già (đen), Hà Nhì Cồ Chồ, Hà Nhì La Mí",
+    "group": "tang-mien",
+    "pop": 25539,
+    "region_vi": "Lai Châu (Mường Tè), Điện Biên (Mường Nhé), Lào Cai (Bát Xát – Y Tý)",
+    "region_ja": "ライチャウ省（ムオンテー）、ディエンビエン省、ラオカイ省（バッサット県イーティー）",
+    "hi_vi": "Nhà trình tường đất nện dày, ruộng bậc thang trên núi cao, lễ Gạ Ma Thú cúng thần rừng; trang phục chàm đen gắn bạc.",
+    "hi_ja": "厚い版築の土壁の家、山の棚田、森の神を祀るガーマートゥー祭りで知られる。藍染めの黒い衣装に銀飾りをつける。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Hani (哈尼族) ở Vân Nam; ruộng bậc thang Hồng Hà – UNESCO 2013",
+        "ja": "雲南のハニ族。紅河ハニ棚田は2013年に世界遺産"
+      },
+      {
+        "c": "TH",
+        "vi": "Akha ở Chiang Rai – cùng khối Hani-Akha",
+        "ja": "チェンライ県などのアカ族。ハニ・アカ系の同じグループ"
+      },
+      {
+        "c": "LA",
+        "vi": "Akha ở Phongsaly, Luang Namtha",
+        "ja": "ポンサリー県、ルアンナムター県のアカ族"
+      },
+      {
+        "c": "MM",
+        "vi": "Akha ở bang Shan",
+        "ja": "シャン州のアカ族"
+      }
+    ],
+    "vme_vi": "Nhà trình tường Hà Nhì ở khu ngoài trời: xem độ dày tường, gác lúa, bếp.",
+    "vme_ja": "屋外展示のハニ族の土壁の家。壁の厚さ、米を蓄える屋根裏、炉に注目。"
+  },
+  {
+    "id": "phu-la",
+    "vi": "Phù Lá",
+    "ja": "プーラ族",
+    "alt": "Bồ Khô Pạ, Mu Di Pạ, Xá Phó, Phó, Phổ, Va Xơ",
+    "group": "tang-mien",
+    "pop": 12471,
+    "region_vi": "Lào Cai (Bắc Hà, Mường Khương, Bảo Thắng), Lai Châu, Sơn La, Điện Biên, Hà Giang",
+    "region_ja": "ラオカイ省（バックハー、ムオンクオン）、ライチャウ省、ソンラー省、ハザン省など",
+    "hi_vi": "Nương rẫy và ruộng bậc thang; phụ nữ giỏi dệt thêu, nổi tiếng túi đeo và áo thêu hoa văn sặc sỡ.",
+    "hi_ja": "焼畑や棚田で農耕を営む。女性は織物・刺繍が得意で、色鮮やかな刺繍の上着や肩掛け袋が有名。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Nhóm Phula (仆拉) ở Vân Nam, được xếp vào dân tộc Yi (彝族)",
+        "ja": "雲南のプーラ人。中国ではイ族（彝族）の一支系とされる"
+      }
+    ],
+    "vme_vi": "Tìm trang phục thêu và túi đeo ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.",
+    "vme_ja": "本館のチベット・ビルマ系／西北部コーナーで刺繍の衣装や肩掛け袋を探してみよう。"
+  },
+  {
+    "id": "la-hu",
+    "vi": "La Hủ",
+    "ja": "ラフ族",
+    "alt": "Khù Xung, Cò Xung, Khả Quy; trước đây gọi Xá Lá Vàng",
+    "group": "tang-mien",
+    "pop": 12113,
+    "region_vi": "Lai Châu (Mường Tè, Phong Thổ, Sìn Hồ), một ít ở Điện Biên",
+    "region_ja": "ライチャウ省（ムオンテー、フォントー、シンホー）、一部ディエンビエン省",
+    "hi_vi": "Trước đây du canh, giỏi săn bắn – hái lượm, nay định cư; đan lát mây tre tinh xảo, khèn bầu, áo chàm đính bạc.",
+    "hi_ja": "かつては移動しながら狩猟採集を行い、現在は定住。精巧な籐・竹細工、ひょうたん笙、銀飾りの藍染め衣装が特徴。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Lahu (拉祜族) ở Vân Nam – cùng tộc",
+        "ja": "雲南のラフ族（拉祜族）。同じ民族"
+      },
+      {
+        "c": "TH",
+        "vi": "Lahu (Musoe) – một trong các 'hill tribe' lớn",
+        "ja": "タイのラフ族（ムソー）。主要な山岳民族の一つ"
+      },
+      {
+        "c": "MM",
+        "vi": "Lahu ở bang Shan",
+        "ja": "シャン州のラフ族"
+      },
+      {
+        "c": "LA",
+        "vi": "Lahu ở miền Bắc Lào",
+        "ja": "ラオス北部のラフ族"
+      },
+      {
+        "c": "US",
+        "vi": "Lahu ở Mỹ (~10.000)",
+        "ja": "アメリカのラフ族（約1万人）"
+      }
+    ],
+    "vme_vi": "Tìm đồ đan lát, khèn bầu, trang phục ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.",
+    "vme_ja": "本館のチベット・ビルマ系／西北部コーナーで籠細工、ひょうたん笙、衣装を探してみよう。"
+  },
+  {
+    "id": "lo-lo",
+    "vi": "Lô Lô",
+    "ja": "ロロ族",
+    "alt": "Mùn Di, Ô Man, La La, Qua La, Màn Di; Lô Lô hoa, Lô Lô đen",
+    "group": "tang-mien",
+    "pop": 4827,
+    "region_vi": "Hà Giang (Mèo Vạc, Đồng Văn – Lô Lô Chải gần Lũng Cú), Cao Bằng (Bảo Lạc, Bảo Lâm), Lào Cai",
+    "region_ja": "ハザン省（メオヴァック、ドンヴァン、ルンクー近くのロロチャイ村）、カオバン省、ラオカイ省",
+    "hi_vi": "Một trong số ít tộc còn dùng trống đồng (cặp đực – cái) trong lễ tang; trang phục ghép vải nhiều màu rất cầu kỳ.",
+    "hi_ja": "葬儀で今も銅鼓（雄雌一対）を使う数少ない民族。色とりどりの布をはぎ合わせた手の込んだ衣装が有名。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Yi (彝族) ở Vân Nam, Tứ Xuyên, Quý Châu – cùng khối tộc người; tên cũ 倮倮 nay mang sắc thái miệt thị",
+        "ja": "雲南・四川・貴州のイ族（彝族）と同系。旧称「倮倮」は中国では蔑称とされる"
+      }
+    ],
+    "vme_vi": "Tìm trang phục ghép vải và trống đồng (nếu đang trưng bày) ở khu Tạng-Miến/Đông Bắc trong nhà Trống Đồng.",
+    "vme_ja": "本館のチベット・ビルマ系コーナーで、はぎ合わせ布の衣装や銅鼓（展示中なら）を探してみよう。"
+  },
+  {
+    "id": "cong",
+    "vi": "Cống",
+    "ja": "コン族",
+    "alt": "Xá Xeng, Phuy A, Xá Khao, Xá Xú, Mứng Nhé, Xá Cống; tự gọi Xám Khống",
+    "group": "tang-mien",
+    "pop": 2729,
+    "region_vi": "Điện Biên (Mường Nhé, Nậm Pồ), Lai Châu (Mường Tè, Nậm Nhùn), ven sông Đà",
+    "region_ja": "ディエンビエン省（ムオンニェー、ナムポー）、ライチャウ省（ムオンテー、ナムニュン）のダー川沿い",
+    "hi_vi": "Nhà sàn, lúa nương, săn bắn – hái lượm, đan lát giỏi; chịu ảnh hưởng văn hoá Thái, nhiều người song ngữ.",
+    "hi_ja": "高床式住居で陸稲を育て、狩猟採集や籠編みに優れる。ターイ族（Thái）の文化の影響が強く、バイリンガルが多い。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Gần các nhóm Phunoi/Singsili ở Phongsaly (quan hệ ngôn ngữ, chưa chắc)",
+        "ja": "ポンサリー県のプーノイ系集団と言語的に近い（詳細は不確か）"
+      }
+    ],
+    "vme_vi": "Tìm đồ đan lát, dụng cụ săn bắn ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.",
+    "vme_ja": "本館のチベット・ビルマ系／西北部コーナーで籠細工や狩猟道具を探してみよう。"
+  },
+  {
+    "id": "si-la",
+    "vi": "Si La",
+    "ja": "シラ族",
+    "alt": "Cù Dề Xừ, Khả Pẻ",
+    "group": "tang-mien",
+    "pop": 909,
+    "region_vi": "Lai Châu (Mường Tè), Điện Biên (Mường Nhé, Nậm Pồ)",
+    "region_ja": "ライチャウ省（ムオンテー）、ディエンビエン省（ムオンニェー、ナムポー）",
+    "hi_vi": "Dân tộc ít người nhất nhóm; phụ nữ búi tóc, áo ngắn gắn nhiều đồng bạc; tục nhuộm răng đen.",
+    "hi_ja": "このグループで最も人口が少ない民族。既婚女性は髷を結い、銀貨を多数縫い付けた短い上着を着る。お歯黒の風習もあった。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Sila ở Phongsaly, Luang Namtha – cùng tộc/gần gũi",
+        "ja": "ポンサリー県、ルアンナムター県のシラ人。同じか近縁の民族"
+      },
+      {
+        "c": "CN",
+        "vi": "Có thể được tính trong Hani (哈尼族) – chưa chắc",
+        "ja": "中国ではハニ族に含まれている可能性がある（不確か）"
+      }
+    ],
+    "vme_vi": "Tìm áo gắn đồng bạc ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.",
+    "vme_ja": "本館のチベット・ビルマ系／西北部コーナーで銀貨付きの上着を探してみよう。"
+  }
+]

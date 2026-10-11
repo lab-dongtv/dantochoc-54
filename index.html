@@ -1,0 +1,1231 @@
+<!doctype html>
+<html lang="ja" data-ui="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ベトナム54民族 · Bảo tàng Dân tộc học 11/10</title>
+<meta name="description" content="2026年10月11日（日）ベトナム民族学博物館 見学のしおり — 54民族と東南アジア・中国の親戚 / Lịch trình & cẩm nang Bảo tàng Dân tộc học Việt Nam – 54 dân tộc.">
+<meta name="theme-color" content="#26386a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif:wght@600;700&family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --son:#7d1d17;        /* đỏ son cung đình */
+  --son-2:#a3302a;
+  --dong:#b07d2b;       /* vàng đồng */
+  --dong-soft:#e9d3a4;
+  --muc:#1f1b17;        /* mực tàu */
+  --muc-2:#4a423a;
+  --giay:#f5eedf;       /* giấy dó */
+  --giay-2:#ece2cc;
+  --reu:#3d5a45;        /* rêu đá vôi */
+  --nuoc:#2c5f66;       /* nước sông */
+  --card:#fffaf0;
+  --line:#d9c9a6;
+  --shadow:0 1px 2px rgba(60,40,10,.08),0 6px 20px rgba(60,40,10,.07);
+  --serif:"Noto Serif","Noto Serif JP",serif;
+  --sans:"Be Vietnam Pro","Noto Sans JP",system-ui,sans-serif;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:104px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--giay);color:var(--muc);font-family:var(--sans);font-size:16px;line-height:1.75;
+  background-image:radial-gradient(rgba(176,125,43,.06) 1px,transparent 1px);background-size:5px 5px}
+img{max-width:100%;display:block}
+a{color:var(--son);text-underline-offset:3px}
+h1,h2,h3,h4{font-family:var(--serif);line-height:1.35;margin:0}
+p{margin:.5em 0}
+small{font-size:.82em}
+
+/* ---------- language switching ---------- */
+[data-ui="ja"] .vi{display:none!important}
+[data-ui="vi"] .ja{display:none!important}
+[data-ui="both"] .vi{color:var(--muc-2)}
+[data-ui="both"] p.vi,[data-ui="both"] div.vi,[data-ui="both"] li .vi{font-size:.94em}
+[data-ui="both"] span.ja + span.vi::before{content:" / ";color:var(--dong)}
+[data-ui="both"] h1 span.ja + span.vi::before,[data-ui="both"] h2 span.ja + span.vi::before{content:"";}
+[data-ui="both"] .top .vi{display:none!important}
+[data-ui="both"] :is(.hero,.edict,footer) .vi{color:inherit;opacity:.88}
+[data-ui="both"] h1 span.vi,[data-ui="both"] h2 span.vi{display:block;font-size:.62em;margin-top:.2em}
+
+/* ---------- top bar ---------- */
+.top{position:sticky;top:0;z-index:50;background:rgba(125,29,23,.97);color:#fff;backdrop-filter:blur(6px);
+  box-shadow:0 2px 10px rgba(0,0,0,.18)}
+.top-in{max-width:980px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:8px 16px}
+.seal{width:34px;height:34px;flex:none;border:2px solid var(--dong-soft);border-radius:6px;display:grid;place-items:center;
+  font-family:"Noto Serif JP",serif;font-weight:900;font-size:13px;line-height:1;color:var(--dong-soft);letter-spacing:-1px;writing-mode:vertical-rl}
+.brand{font-family:var(--serif);font-weight:700;font-size:15px;line-height:1.25;flex:1;min-width:0}
+.brand .b1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand small{display:block;font-family:var(--sans);font-weight:400;opacity:.8;font-size:11px}
+.lang{display:flex;border:1px solid rgba(255,255,255,.45);border-radius:999px;overflow:hidden;flex:none}
+.lang button{all:unset;cursor:pointer;font-size:12.5px;padding:5px 10px;color:#fff;font-weight:500}
+.lang button[aria-pressed="true"]{background:var(--dong-soft);color:var(--son)}
+.chips{max-width:980px;margin:0 auto;display:flex;gap:6px;overflow-x:auto;padding:0 16px 8px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;color:#fff;text-decoration:none;font-size:12.5px;padding:3px 11px;border-radius:999px;background:rgba(255,255,255,.13);white-space:nowrap}
+.chips a:active{background:rgba(255,255,255,.3)}
+
+/* ---------- now / next bar ---------- */
+.now{position:fixed;left:0;right:0;bottom:0;z-index:55;padding:0 10px calc(8px + env(safe-area-inset-bottom));pointer-events:none}
+.now-card{max-width:760px;margin:0 auto;pointer-events:auto}
+body{padding-bottom:96px}
+.now-card{background:var(--muc);color:#fff;border-radius:12px;padding:10px 14px;display:flex;gap:12px;align-items:center;box-shadow:var(--shadow);border-left:5px solid var(--dong)}
+.now-card .lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--dong-soft)}
+.now-card .ttl{font-weight:700;font-size:15px;line-height:1.35}
+.now-card .sub{font-size:12.5px;opacity:.85;line-height:1.4}
+.now-card .grow{flex:1;min-width:0}
+.now-card .btns{display:flex;flex-direction:column;gap:5px;flex:none}
+.now-card .ttl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.now-card .btn{font-size:12px;padding:5px 10px}
+.now-card.collapsed .sub{display:none}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:600;font-size:13.5px;line-height:1.2;
+  padding:8px 13px;border-radius:999px;border:1px solid var(--son);color:var(--son);background:#fff;white-space:nowrap}
+.btn.solid{background:var(--son);color:#fff}
+.btn.gold{background:var(--dong);border-color:var(--dong);color:#fff}
+.btn.ghost{background:transparent;border-color:rgba(255,255,255,.5);color:#fff}
+.btns-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,10,5,.15) 0%,rgba(20,10,5,.1) 40%,rgba(30,10,5,.82) 100%)}
+.hero-in{position:relative;z-index:2;max-width:980px;margin:0 auto;padding:90px 16px 56px;width:100%}
+.years{font-family:var(--serif);font-weight:700;font-size:15px;letter-spacing:.12em;color:var(--dong-soft);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.years i{font-style:normal;opacity:.6}
+.hero h1{font-size:clamp(30px,8vw,56px);font-weight:900;margin:.2em 0 .25em;text-shadow:0 2px 18px rgba(0,0,0,.4)}
+.hero .lead{font-size:clamp(15px,3.8vw,18px);max-width:640px;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.anniv{margin-top:16px;display:inline-block;background:rgba(125,29,23,.85);border:1px solid var(--dong-soft);border-radius:10px;padding:10px 14px;font-size:14px;max-width:640px;line-height:1.6}
+.anniv b{color:var(--dong-soft)}
+
+/* ---------- layout ---------- */
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+section{padding:46px 0 10px}
+.sec-h{display:flex;align-items:flex-start;gap:12px;margin-bottom:18px}
+.sec-no{flex:none;width:44px;height:44px;border-radius:50%;background:var(--son);color:var(--dong-soft);display:grid;place-items:center;
+  font-family:"Noto Serif JP",serif;font-weight:900;font-size:19px;box-shadow:0 0 0 3px var(--giay),0 0 0 4px var(--dong)}
+.sec-h h2{font-size:clamp(22px,5.5vw,30px);color:var(--son)}
+.sec-h p{margin:.2em 0 0;color:var(--muc-2);font-size:14.5px}
+.karst{display:block;width:100%;height:46px;color:var(--reu);opacity:.22;margin:26px 0 0}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px}
+.grid{display:grid;gap:14px}
+@media(min-width:720px){.grid.c2{grid-template-columns:1fr 1fr}.grid.c3{grid-template-columns:repeat(3,1fr)}}
+.tag{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--giay-2);color:var(--muc-2);margin-right:4px;line-height:1.6}
+.tag.red{background:var(--son);color:#fff}
+.tag.gold{background:var(--dong);color:#fff}
+.tag.green{background:var(--reu);color:#fff}
+.tag.blue{background:var(--nuoc);color:#fff}
+figure{margin:0}
+figure img{border-radius:10px;width:100%;aspect-ratio:3/2;object-fit:cover;background:var(--giay-2)}
+figcaption{font-size:12px;color:var(--muc-2);margin-top:4px;line-height:1.45}
+.callout{border-left:4px solid var(--dong);background:#fff6e2;padding:12px 14px;border-radius:0 10px 10px 0;font-size:14.5px}
+.callout.red{border-color:var(--son);background:#fbeceb}
+.callout.green{border-color:var(--reu);background:#edf3ee}
+ul.clean{margin:.4em 0;padding-left:1.2em}
+ul.clean li{margin:.25em 0}
+
+/* ---------- group info ---------- */
+.info{margin-top:-30px;position:relative;z-index:5}
+.info .card{display:grid;gap:12px}
+@media(min-width:720px){.info .card{grid-template-columns:1.2fr 1fr 1fr}}
+.info h3{font-size:13px;color:var(--dong);letter-spacing:.06em;font-family:var(--sans);margin-bottom:2px}
+.info .big{font-family:var(--serif);font-size:18px;font-weight:700}
+.car{display:flex;gap:8px;align-items:flex-start;font-size:14.5px;line-height:1.5}
+.car b{color:var(--son)}
+
+/* ---------- timeline ---------- */
+.tl{position:relative;margin:0;padding:0;list-style:none}
+.tl::before{content:"";position:absolute;left:21px;top:8px;bottom:8px;width:2px;background:repeating-linear-gradient(var(--dong) 0 6px,transparent 6px 11px)}
+.tl-item{position:relative;padding:0 0 22px 56px}
+.tl-icon{position:absolute;left:0;top:0;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:22px;background:var(--card);border:2px solid var(--dong);box-shadow:var(--shadow)}
+.tl-item[data-kind="car"] .tl-icon{border-color:var(--muc-2)}
+.tl-item[data-kind="boat"] .tl-icon{border-color:var(--nuoc)}
+.tl-item[data-kind="hike"] .tl-icon{border-color:var(--reu)}
+.tl-item[data-kind="food"] .tl-icon{border-color:var(--son)}
+.tl-time{font-family:var(--serif);font-weight:700;font-size:17px;color:var(--son);line-height:1.3}
+.tl-dur{font-size:12.5px;color:var(--muc-2);font-weight:500;margin-left:6px;font-family:var(--sans)}
+.tl-item h3{font-size:18.5px;margin:2px 0 6px}
+.tl-item .card{padding:14px}
+.tl-item.is-now .card{outline:3px solid var(--dong);outline-offset:2px}
+.tl-item.is-now .tl-icon{background:var(--dong);animation:pulse 2s infinite}
+.tl-item.is-done{opacity:.6}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(176,125,43,.6)}50%{box-shadow:0 0 0 9px rgba(176,125,43,0)}}
+.facts{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+.facts span{font-size:12.5px;background:var(--giay-2);border-radius:8px;padding:2px 8px}
+.leader{margin-top:10px;background:#f1ece0;border:1px dashed var(--muc-2);border-radius:10px;padding:10px 12px;font-size:14px}
+.leader > b:first-child{display:block;font-size:12px;letter-spacing:.06em;color:var(--muc-2);margin-bottom:2px}
+.leader ul{margin:.2em 0;padding-left:1.15em}
+.feel{margin-top:10px;background:#eef3ec;border-left:4px solid var(--reu);border-radius:0 10px 10px 0;padding:10px 12px;font-size:14.5px}
+.feel > b:first-child{display:block;font-size:12px;letter-spacing:.06em;color:var(--reu);margin-bottom:2px}
+.see{margin-top:10px;font-size:14.5px}
+.see > b:first-child{display:block;font-size:12px;letter-spacing:.06em;color:var(--son);margin-bottom:2px}
+.stops{list-style:none;padding:0;margin:8px 0;counter-reset:s}
+.stops li{position:relative;padding:3px 0 3px 30px;font-size:14.5px;border-bottom:1px dotted var(--line)}
+.stops li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:5px;width:21px;height:21px;border-radius:50%;background:var(--nuoc);color:#fff;font-size:11.5px;display:grid;place-items:center;font-weight:700}
+.stops li.land::before{background:var(--son)}
+.psteps{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
+.psteps figure{position:relative}
+.psteps img{aspect-ratio:4/3;object-fit:cover;border-radius:8px}
+.psteps .n{position:absolute;left:6px;top:6px;width:24px;height:24px;border-radius:50%;background:var(--son);color:#fff;font-weight:700;font-size:13px;display:grid;place-items:center;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.psteps figcaption{font-size:12.5px;line-height:1.5;color:var(--muc)}
+.psteps figcaption b{color:var(--son)}
+.psteps figcaption small{display:block;color:var(--muc-2);font-size:10.5px}
+.mini-img{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.mini-img img{border-radius:8px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.mini-img figcaption{font-size:11.5px}
+
+/* ---------- history ---------- */
+.chron{list-style:none;margin:0;padding:0}
+.chron li{display:grid;grid-template-columns:62px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.chron .y{font-family:var(--serif);font-weight:700;font-size:19px;color:var(--son);line-height:1.3}
+.chron li.key .y{color:#fff;background:var(--son);border-radius:8px;text-align:center;align-self:start;padding:2px 0}
+.chron .jp{display:block;margin-top:4px;font-size:12.5px;color:var(--nuoc);background:#e8f0f0;border-radius:6px;padding:2px 8px}
+.chron .jp::before{content:"🇯🇵 "}
+.reason h3{font-size:17px;color:var(--son);margin-bottom:4px}
+.reason .ic{font-size:26px;line-height:1}
+.edict{background:var(--son);color:#fff;border-radius:var(--r);padding:20px 18px;position:relative;overflow:hidden}
+.edict::after{content:"詔";position:absolute;right:-6px;bottom:-34px;font-family:"Noto Serif JP",serif;font-weight:900;font-size:150px;opacity:.09;line-height:1}
+.edict .han{font-family:"Noto Serif JP",serif;font-size:21px;letter-spacing:.08em;color:var(--dong-soft);font-weight:700}
+.edict p{position:relative;z-index:1}
+.kanji{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+.kanji div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px;text-align:center}
+.kanji .k{font-family:"Noto Serif JP",serif;font-size:28px;font-weight:900;color:var(--son);line-height:1.2}
+.kanji .r{font-weight:700;font-size:14px}
+.kanji .m{font-size:12.5px;color:var(--muc-2);line-height:1.45}
+
+/* ---------- misc ---------- */
+.phr{width:100%;border-collapse:collapse;font-size:14.5px}
+.phr td{padding:7px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+.phr td:first-child{font-weight:700;color:var(--son);white-space:nowrap}
+.phr.menu td:first-child{white-space:normal}
+.check{list-style:none;padding:0;margin:0;columns:2;column-gap:14px}
+@media(max-width:420px){.check{columns:1}}
+.check li{break-inside:avoid;padding:3px 0 3px 26px;position:relative;font-size:14.5px}
+.check li::before{content:"☐";position:absolute;left:2px;color:var(--son);font-size:16px;top:2px}
+.links a{display:flex;justify-content:space-between;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--muc);font-size:14.5px}
+.links a::after{content:"↗";color:var(--son);font-weight:700}
+footer{margin-top:40px;background:var(--muc);color:#d8cfbf;font-size:12.5px;padding:26px 0 calc(30px + env(safe-area-inset-bottom))}
+footer a{color:var(--dong-soft)}
+footer h4{color:#fff;font-size:14px;margin:0 0 6px}
+.credits{columns:2;column-gap:20px;line-height:1.5}
+@media(max-width:600px){.credits{columns:1}}
+.credits div{break-inside:avoid;margin-bottom:6px}
+
+/* ---------- aq-dantochoc: chàm (indigo) + thổ cẩm ---------- */
+:root{
+  --son:#26386a;        /* chàm — indigo dye */
+  --son-2:#3a5296;
+  --dong:#b5452a;       /* đỏ thổ cẩm */
+  --dong-soft:#f2d6a2;
+  --reu:#3d5a45;
+  --nuoc:#2c5f66;
+}
+.top{background:rgba(38,56,106,.97)}
+.hero img{object-position:center 85%}
+.anniv{background:rgba(38,56,106,.86)}
+.brocade{height:10px;background:
+  repeating-linear-gradient(90deg,var(--dong) 0 10px,var(--dong-soft) 10px 14px,var(--son) 14px 24px,var(--dong-soft) 24px 28px);
+  opacity:.9}
+.seal{writing-mode:horizontal-tb;font-size:11px;letter-spacing:0;line-height:1.05;text-align:center}
+.zone{border-top:4px solid var(--zc,var(--son))}
+.zone h3{font-size:17px;color:var(--zc,var(--son));margin-bottom:4px}
+
+/* language-family colours */
+.g-viet-muong{--gc:#b5452a}.g-tay-thai{--gc:#2f7d4f}.g-hmong-dao{--gc:#26386a}.g-kadai{--gc:#8a6d1f}
+.g-mon-khmer{--gc:#7a3f8f}.g-nam-dao{--gc:#1f7a8c}.g-han{--gc:#a3302a}.g-tang-mien{--gc:#5b6b2f}
+
+/* family overview */
+.fam{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.fam button{all:unset;cursor:pointer;display:block;background:var(--card);border:1px solid var(--line);border-left:6px solid var(--gc);
+  border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.fam button[aria-pressed="true"]{background:var(--gc);color:#fff}
+.fam button[aria-pressed="true"] small{color:#fff;opacity:.85}
+.fam b{display:block;font-family:var(--serif);font-size:16px}
+.fam small{display:block;color:var(--muc-2);font-size:12px;line-height:1.45}
+.fam .n{float:right;font-family:var(--serif);font-weight:700;font-size:20px;line-height:1}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0 10px}
+.filters input,.filters select{font:inherit;font-size:14px;padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muc);min-width:0}
+.filters input{flex:1 1 180px}
+.filters .count{font-size:13px;color:var(--muc-2)}
+.seen-bar{display:flex;align-items:center;gap:10px;font-size:13.5px;margin:6px 0 12px}
+.seen-bar .bar{flex:1;height:8px;border-radius:99px;background:var(--giay-2);overflow:hidden}
+.seen-bar .bar i{display:block;height:100%;background:var(--dong);width:0;transition:width .3s}
+
+/* ethnic cards */
+.eth{display:grid;gap:10px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:720px){.eth{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.e{min-width:0}
+.e{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--gc);border-radius:10px;box-shadow:var(--shadow)}
+.e summary{list-style:none;cursor:pointer;padding:10px 12px;display:flex;gap:10px;align-items:center}
+.e summary::-webkit-details-marker{display:none}
+.e .no{flex:none;width:30px;height:30px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center}
+.e .nm{flex:1;min-width:0;line-height:1.35}
+.e .nm b{font-family:var(--serif);font-size:16.5px}
+.e .nm small{display:block;color:var(--muc-2);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.e .fl{flex:none;font-size:15px;letter-spacing:1px;max-width:96px;text-align:right;line-height:1.2}
+.e .body{padding:0 12px 12px 52px;font-size:14px;line-height:1.65}
+.e .body p{margin:.35em 0}
+.e .lab{font-size:11.5px;font-weight:700;letter-spacing:.05em;color:var(--gc)}
+.kin{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0}
+.kin span{font-size:12.5px;background:var(--giay-2);border-radius:8px;padding:1px 8px}
+.e .seen{display:flex;align-items:center;gap:6px;font-size:13px;margin-top:8px;cursor:pointer}
+.e .seen input{width:18px;height:18px;accent-color:var(--dong)}
+.e.is-seen{background:#f3f1e6}
+.e.is-seen .no{background:var(--dong)}
+.e.is-seen .no::after{content:"✓"}
+.e.is-seen .no span{display:none}
+
+/* matrix */
+.mx-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.mx{border-collapse:collapse;font-size:13px;min-width:560px;width:100%}
+.mx th,.mx td{border:1px solid var(--line);padding:5px 6px;text-align:center}
+.mx th{background:var(--giay-2);font-weight:700;font-size:12px}
+.mx td:first-child,.mx th:first-child{text-align:left;white-space:nowrap}
+.mx td.v{font-weight:700;color:#fff}
+.mx td.v[data-n="0"]{background:transparent;color:var(--line);font-weight:400}
+
+/* hunt */
+.hunt{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+@media(min-width:720px){.hunt{grid-template-columns:1fr 1fr}}
+.hunt label{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-size:14px;cursor:pointer;line-height:1.5}
+.hunt input{flex:none;width:19px;height:19px;margin-top:2px;accent-color:var(--dong)}
+.hunt input:checked + span{text-decoration:line-through;opacity:.6}
+.hunt small{display:block;color:var(--muc-2)}
+
+/* ---------- demography ---------- */
+.s1{--sc:#2a78d6}.s2{--sc:#eb6834}.s3{--sc:#1baf7a}
+.tiles{display:grid;gap:10px;grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:14px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow);min-width:0}
+.tile .t-h{font-size:12px;color:var(--muc-2);display:flex;align-items:center;gap:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .t-h i{flex:none;width:10px;height:10px;border-radius:50%;background:var(--sc)}
+.tile .t-v{font-family:var(--serif);font-weight:700;font-size:clamp(22px,6vw,30px);line-height:1.2;color:var(--muc)}
+.tile .t-v small{font-size:13px;font-weight:500;margin-left:2px;color:var(--muc-2)}
+.tile .t-s{font-size:11.5px;color:var(--muc-2);line-height:1.4}
+.chart-card h3{font-size:17px;color:var(--son)}
+.chart-sub{font-size:13px;color:var(--muc-2);margin:2px 0 6px}
+.chart{position:relative;touch-action:pan-y}
+.chart svg{display:block;overflow:visible}
+.chart .grid{stroke:var(--line);stroke-width:1;opacity:.7}
+.chart .ax{font-size:11px;fill:var(--muc-2);font-family:var(--sans)}
+.chart .lbl{font-size:12px;fill:var(--muc);font-weight:600;font-family:var(--sans)}
+.chart .proj{fill:var(--giay-2);opacity:.55}
+.chart .now{stroke:var(--dong);stroke-width:1.5;stroke-dasharray:3 3}
+.chart .ln{fill:none;stroke:var(--sc);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.chart .ln.dash{stroke-dasharray:5 4}
+.chart .dot{fill:var(--sc);stroke:var(--card);stroke-width:2}
+.chart .xh{stroke:var(--muc-2);stroke-width:1}
+.chart .hit{fill:transparent;cursor:crosshair}
+.chart .tip{position:absolute;top:4px;background:var(--muc);color:#fff;border-radius:8px;padding:6px 9px;font-size:12px;line-height:1.5;pointer-events:none;white-space:nowrap;box-shadow:var(--shadow)}
+.chart .tip i,.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--sc);margin-right:5px}
+.chart .tip span{font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muc-2);margin-top:6px}
+.legend i.ln-solid,.legend i.ln-dash,.legend i.ln-now{width:18px;height:0;border-radius:0;background:none;border-top:2px solid var(--muc-2);vertical-align:middle}
+.legend i.ln-dash{border-top-style:dashed}
+.legend i.ln-now{border-top:2px dashed var(--dong)}
+.tbl-view summary{cursor:pointer;font-weight:600;font-size:14px}
+
+/* ---------- architecture cards ---------- */
+.sub-h{font-size:19px;color:var(--son);margin:26px 0 10px}
+.arch{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:720px){.arch{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ac{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;min-width:0;display:flex;flex-direction:column}
+.ac .ph{display:flex;gap:2px;overflow-x:auto;scroll-snap-type:x mandatory;background:var(--giay-2);scrollbar-width:none}
+.ac .ph::-webkit-scrollbar{display:none}
+.ac .ph figure{flex:0 0 100%;scroll-snap-align:start;position:relative}
+.ac .ph img{border-radius:0;aspect-ratio:16/10;width:100%;object-fit:cover}
+.ac .ph figcaption{position:absolute;left:0;right:0;bottom:0;margin:0;padding:14px 10px 5px;font-size:11px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+.ac .ph .cnt{position:absolute;right:8px;top:8px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;border-radius:99px;padding:1px 8px}
+.ac .noimg{aspect-ratio:16/10;display:grid;place-items:center;font-size:44px;background:repeating-linear-gradient(45deg,var(--giay-2) 0 10px,var(--giay) 10px 20px)}
+.ac .bd{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.ac h4{font-size:17.5px;color:var(--son);margin:0;line-height:1.35}
+.ac .org{font-size:12.5px;color:var(--muc-2)}
+.ac .sum{font-size:14.5px;margin:0}
+.ac .eth-link{font-size:12.5px;font-weight:700;text-decoration:none;background:var(--giay-2);border-radius:99px;padding:2px 10px;align-self:flex-start}
+.ac details{border-top:1px dashed var(--line);padding-top:6px;margin-top:auto}
+.ac details summary{cursor:pointer;font-weight:700;font-size:13.5px;color:var(--son);list-style:none}
+.ac details summary::-webkit-details-marker{display:none}
+.ac details summary::before{content:"＋ "}
+.ac details[open] summary::before{content:"－ "}
+.ac ul{margin:6px 0;padding-left:1.15em;font-size:14px}
+.ac ul li{margin:.2em 0}
+.ac .look{background:#eef3ec;border-left:4px solid var(--reu);border-radius:0 8px 8px 0;padding:7px 10px;font-size:13.5px;margin:6px 0}
+.ac .rm{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.ac .rm a{font-size:12.5px;padding:4px 10px}
+
+.ms{list-style:none;margin:8px 0 6px;padding:0 0 0 14px;border-left:3px solid var(--line)}
+.ms li{position:relative;display:grid;grid-template-columns:52px 1fr;gap:8px;padding:4px 0;font-size:14px;line-height:1.5}
+.ms li::before{content:"";position:absolute;left:-21px;top:10px;width:11px;height:11px;border-radius:50%;background:var(--card);border:2px solid var(--muc-2)}
+.ms li b{font-family:var(--serif);color:var(--son)}
+.ms li.hl::before{background:var(--dong);border-color:var(--dong)}
+.ms li.hl{font-weight:600}
+.chart .band{fill:var(--dong);opacity:.1}
+.chart .band-l{font-size:10.5px;fill:var(--dong);font-weight:700;font-family:var(--sans)}
+
+.e .av{flex:none;width:42px;height:42px;border-radius:50%;object-fit:cover;border:2px solid var(--gc);background:var(--giay-2)}
+.e .pic{margin:4px 0 8px}
+.e .pic img{border-radius:8px;width:100%;aspect-ratio:4/5;max-height:420px;object-fit:cover;object-position:center 25%;background:var(--giay-2)}
+.e .pic figcaption{font-size:11.5px}
+.e .pic figcaption a{color:var(--muc-2)}
+@media(min-width:720px){.e .pic img{aspect-ratio:1/1}}
+</style>
+</head>
+
+<body>
+
+<!-- ================= TOP BAR ================= -->
+<header class="top">
+  <div class="top-in">
+    <div class="seal" aria-hidden="true">54<br>民族</div>
+    <div class="brand">
+      <div class="b1"><span class="ja">ベトナム民族学博物館</span><span class="vi">Bảo tàng Dân tộc học Việt Nam</span></div>
+      <small>2026.10.11 (日) 10:30–13:30 · Khám phá Việt Nam</small>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="ja">日本語</button>
+      <button type="button" data-set="vi">Việt</button>
+      <button type="button" data-set="both">JA+VI</button>
+    </div>
+  </div>
+  <nav class="chips">
+    <a href="#timeline"><span class="ja">⏱ 行程</span><span class="vi">⏱ Lịch trình</span></a>
+    <a href="#museum"><span class="ja">🏛 館内マップ</span><span class="vi">🏛 Sơ đồ bảo tàng</span></a>
+    <a href="#families"><span class="ja">🗣 8つの言語グループ</span><span class="vi">🗣 8 nhóm ngôn ngữ</span></a>
+    <a href="#peoples"><span class="ja">👘 54民族図鑑</span><span class="vi">👘 54 dân tộc</span></a>
+    <a href="#region"><span class="ja">🌏 国境を越える親戚</span><span class="vi">🌏 Họ hàng xuyên biên giới</span></a>
+    <a href="#demography"><span class="ja">📈 人口と年齢</span><span class="vi">📈 Dân số & tuổi</span></a>
+    <a href="#hunt"><span class="ja">🔍 探検ミッション</span><span class="vi">🔍 Nhiệm vụ khám phá</span></a>
+    <a href="#prep"><span class="ja">🎒 準備</span><span class="vi">🎒 Chuẩn bị</span></a>
+    <a href="#links"><span class="ja">🔗 リンク</span><span class="vi">🔗 Liên kết</span></a>
+  </nav>
+</header>
+
+<!-- ================= NOW / NEXT ================= -->
+<div class="now" id="now" hidden>
+  <div class="now-card">
+    <div class="grow">
+      <div class="lbl" id="now-lbl"></div>
+      <div class="ttl" id="now-ttl"></div>
+      <div class="sub" id="now-sub"></div>
+    </div>
+    <div class="btns">
+      <a class="btn gold" id="now-go" href="#timeline"><span class="ja">詳細</span><span class="vi">Chi tiết</span></a>
+      <a class="btn ghost" id="now-map" href="#" target="_blank" rel="noopener">📍 Map</a>
+    </div>
+  </div>
+</div>
+
+<!-- ================= HERO ================= -->
+<div class="hero">
+  <img src="assets/wm-hero.jpg" alt="Bảo tàng Dân tộc học Việt Nam">
+  <div class="hero-in">
+    <div class="years"><span>54</span><i>·</i><span>8</span><i>·</i><span>1</span></div>
+    <h1><span class="ja">54の民族、ひとつの国。</span><span class="vi">54 dân tộc, một Việt Nam.</span></h1>
+    <p class="lead">
+      <span class="ja">ベトナムには公認された54の民族が暮らしています。その言葉をたどると、ラオス・タイ・カンボジア・ミャンマー、マレーシアやインドネシア、そして中国南部へと「親戚」が広がっていきます。民族学博物館で、高床の家、ゴング、藍染め、刺繍の衣装を見ながら、東南アジアと中国をつなぐ人の流れを3時間で歩きます。</span>
+      <span class="vi">Việt Nam có 54 dân tộc được công nhận. Lần theo ngôn ngữ của họ, ta gặp “họ hàng” ở Lào, Thái Lan, Campuchia, Myanmar, Malaysia, Indonesia và miền Nam Trung Quốc. 3 tiếng ở Bảo tàng Dân tộc học: nhà sàn, cồng chiêng, vải chàm, thổ cẩm, và dòng chảy con người nối Đông Nam Á với Trung Hoa.</span>
+    </p>
+    <div class="anniv">
+      <span class="ja">🗣 <b>8つの言語グループ</b>：ベト・ムオン／タイ・タイー／モン・ザオ／カダイ／モン・クメール／南島（オーストロネシア）／漢／チベット・ビルマ。今日はこの「言葉の地図」を手がかりに歩きます。</span>
+      <span class="vi">🗣 <b>8 nhóm ngôn ngữ</b>: Việt–Mường · Tày–Thái · Mông–Dao · Ka Đai · Môn–Khmer · Nam Đảo · Hán · Tạng–Miến. Hôm nay ta đi theo “bản đồ ngôn ngữ” này.</span>
+    </div>
+  </div>
+</div>
+<div class="brocade" aria-hidden="true"></div>
+
+<main>
+<!-- ================= INFO ================= -->
+<div class="wrap info">
+  <div class="card">
+    <div>
+      <h3><span class="ja">日程・集合</span><span class="vi">NGÀY & ĐIỂM HẸN</span></h3>
+      <div class="big"><span class="ja">10月11日（日）10:30 博物館入口</span><span class="vi">Chủ nhật 11/10 · 10:30 tại cổng bảo tàng</span></div>
+      <div style="font-size:14px">Số 1 Nguyễn Văn Huyên, P. Nghĩa Đô, Hà Nội · <span class="ja">見学 約3時間（〜13:30）</span><span class="vi">tham quan ~3 tiếng (đến 13:30)</span></div>
+      <div class="btns-row">
+        <a class="btn solid" data-q="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">📍 <span class="ja">博物館の地図</span><span class="vi">Bản đồ bảo tàng</span></a>
+        <a class="btn" data-from="Grandiose Hotel & Spa, 11 Liễu Giai, Ba Đình, Hà Nội" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">🚗 <span class="ja">ホテルから</span><span class="vi">Từ khách sạn</span></a>
+      </div>
+    </div>
+    <div>
+      <h3><span class="ja">開館・入場料</span><span class="vi">GIỜ MỞ CỬA · VÉ</span></h3>
+      <div class="big" id="info-hours">08:30–17:30</div>
+      <div style="font-size:14px" id="info-tickets">
+        <span class="ja">毎日 8:30–17:30（月曜・テト休館）。大人 40,000₫／学生 20,000₫／生徒 10,000₫／6歳未満無料。カメラ撮影料 200,000₫／台。☎ <a href="tel:+842437562193">024 3756 2193</a></span><span class="vi">8:30–17:30 (nghỉ thứ Hai & Tết Nguyên đán). Người lớn 40.000₫ · sinh viên 20.000₫ · học sinh 10.000₫ · dưới 6 tuổi miễn vé. Phí chụp ảnh du lịch 200.000₫/máy. ☎ <a href="tel:+842437562193">024 3756 2193</a></span>
+      </div>
+    </div>
+    <div>
+      <h3><span class="ja">今日の天気（10月の平年）</span><span class="vi">THỜI TIẾT (TB tháng 10)</span></h3>
+      <div class="big">23–30°C ☀️🌦</div>
+      <div style="font-size:14px"><span class="ja">屋外の家屋エリアは日差しが強い。帽子と水を。</span><span class="vi">Khu nhà ngoài trời nắng — mang mũ và nước.</span></div>
+      <div class="btns-row"><a class="btn" href="https://www.google.com/search?q=th%E1%BB%9Di+ti%E1%BA%BFt+C%E1%BA%A7u+Gi%E1%BA%A5y+H%C3%A0+N%E1%BB%99i+h%C3%B4m+nay">🌤 <span class="ja">今日の予報</span><span class="vi">Dự báo hôm nay</span></a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= TIMELINE ================= -->
+<section id="timeline" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">壱</div>
+    <div>
+      <h2><span class="ja">今日の行程</span><span class="vi">Lịch trình hôm nay</span></h2>
+      <p><span class="ja">10:30 入館 → 屋内（銅鼓館）→ 休憩 → 屋外の家屋園 → 東南アジア館（凧館）→ 13:30 解散。下のバーに「いま／次」が表示されます。</span><span class="vi">10:30 vào cửa → toà Trống Đồng → nghỉ → vườn kiến trúc → toà Cánh Diều (Đông Nam Á) → 13:30 kết thúc. Thanh dưới cùng hiển thị “Bây giờ / Tiếp theo”.</span></p>
+    </div>
+  </div>
+
+  <ol class="tl">
+    <!-- 0 -->
+    <li class="tl-item" data-kind="car" data-start="10:00" data-end="10:30"
+        data-ja="ホテル → 民族学博物館（車 約15〜20分）" data-vi="Khách sạn → Bảo tàng Dân tộc học (xe ~15–20 phút)" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">
+      <div class="tl-icon">🚗</div>
+      <div class="tl-time">10:00 – 10:30<span class="tl-dur"><span class="ja">10:05頃出発</span><span class="vi">xuất phát ~10:05</span></span></div>
+      <h3><span class="ja">ホテル → 博物館</span><span class="vi">Khách sạn → Bảo tàng</span></h3>
+      <div class="card">
+        <div class="facts"><span>🚗 Liễu Giai → Đào Tấn → Nguyễn Khánh Toàn → Nguyễn Văn Huyên</span><span>~4 km · 12–20′</span></div>
+        <p class="ja">日曜の朝は比較的空いています。Grab でも行けます（行き先「Bảo tàng Dân tộc học Việt Nam」）。</p>
+        <p class="vi">Sáng Chủ nhật đường khá thoáng. Có thể đi Grab (điểm đến “Bảo tàng Dân tộc học Việt Nam”).</p>
+        <div class="feel"><b>💭 <span class="ja">車内でひとこと</span><span class="vi">TRÊN XE</span></b><span class="ja">昨日のニンビンで出会ったのは「キン族（ベト族）」の歴史。今日はその他の53民族に会いに行きます。</span><span class="vi">Hôm qua ở Ninh Bình là lịch sử người Kinh. Hôm nay đi gặp 53 dân tộc còn lại.</span></div>
+        <div class="btns-row"><a class="btn" data-from="Grandiose Hotel & Spa, 11 Liễu Giai, Ba Đình, Hà Nội" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">📍 <span class="ja">ルート</span><span class="vi">Chỉ đường</span></a></div>
+      </div>
+    </li>
+
+    <!-- 1 -->
+    <li class="tl-item" data-kind="meet" data-start="10:30" data-end="10:45"
+        data-ja="到着・チケット購入・トイレ" data-vi="Đến nơi · mua vé · vệ sinh" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">
+      <div class="tl-icon">🎫</div>
+      <div class="tl-time">10:30 – 10:45<span class="tl-dur">15<span class="ja">分</span><span class="vi"> phút</span></span></div>
+      <h3><span class="ja">到着・チケット</span><span class="vi">Đến nơi · mua vé</span></h3>
+      <div class="card">
+        <p class="ja">入口でチケットを購入。館内図をもらい、集合場所（銅鼓館の前）と13:30の解散時刻を確認します。</p>
+        <p class="vi">Mua vé ở cổng, lấy sơ đồ, thống nhất điểm hẹn (trước toà Trống Đồng) và giờ kết thúc 13:30.</p>
+        <div class="leader"><b>🚩 <span class="ja">引率メモ</span><span class="vi">GHI CHÚ DẪN ĐOÀN</span></b>
+          <ul class="vi" id="leader-tickets">
+            <li>Mua vé cả đoàn ở cổng.</li><li>Thuyết minh (45–60 phút/khu): tiếng Việt 200.000₫/đoàn, tiếng nước ngoài 300.000₫/đoàn; bảo tàng có hướng dẫn viên tiếng Việt và tiếng Anh, tối đa 30 người/hướng dẫn. Nên gọi đăng ký trước: <a href="tel:+842437562193">024 3756 2193</a> (máy lẻ 100/101).</li>
+            <li>Chia sẻ link trang này cho cả đoàn; bật mục <a href="#hunt">Nhiệm vụ khám phá</a>.</li>
+          </ul>
+          <ul class="ja">
+            <li>入口で全員分のチケットを購入。</li><li>館内ガイド（1エリア45〜60分）：ベトナム語 200,000₫／団体、外国語 300,000₫／団体。ガイドはベトナム語と英語（日本語なし）→ このページで解説。事前予約推奨：024 3756 2193（内線100/101）。</li>
+            <li>このページのリンクを共有し、<a href="#hunt">探検ミッション</a>を開いてもらう。</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+
+    <!-- 2 -->
+    <li class="tl-item" data-kind="hike" data-start="10:45" data-end="11:50"
+        data-ja="銅鼓館（屋内展示）— 54民族を言語グループ順に" data-vi="Toà Trống Đồng — 54 dân tộc theo nhóm ngôn ngữ" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">
+      <div class="tl-icon">🥁</div>
+      <div class="tl-time">10:45 – 11:50<span class="tl-dur"><span class="ja">約65分</span><span class="vi">~65 phút</span></span></div>
+      <h3><span class="ja">銅鼓館 — 54民族の常設展</span><span class="vi">Toà Trống Đồng — trưng bày 54 dân tộc</span></h3>
+      <div class="card">
+        <div class="facts"><span>🏛 <span class="ja">屋内・2階建て</span><span class="vi">trong nhà · 2 tầng</span></span><span>❄️ <span class="ja">冷房あり</span><span class="vi">có điều hoà</span></span></div>
+        <p class="ja">ドンソン銅鼓をかたどった建物。展示は<b>言語グループごと</b>に並んでいます。下の「<a href="#families">8つの言語グループ</a>」の順に回ると、隣の部屋が「親戚」どうしだと分かります。</p>
+        <p class="vi">Toà nhà mô phỏng trống đồng Đông Sơn. Trưng bày xếp <b>theo nhóm ngôn ngữ</b> — đi theo thứ tự “<a href="#families">8 nhóm ngôn ngữ</a>” bên dưới sẽ thấy các phòng cạnh nhau là “họ hàng”.</p>
+        <ol class="stops" id="tl-drum-stops">
+          <li class="land"><span class="ja">導入：54民族の分布地図・ドンソン銅鼓</span><span class="vi">Mở đầu: bản đồ phân bố 54 dân tộc, trống đồng</span></li>
+          <li><span class="ja">ベト（キン）・ムオン・トー・チュット — 稲作、水上人形、ムオンの銅鑼</span><span class="vi">Việt (Kinh), Mường, Thổ, Chứt — lúa nước, rối nước, cồng Mường</span></li>
+          <li><span class="ja">タイー・タイ・ヌン・ザイ…＋カダイ — 高床の家、藍染め、機織り</span><span class="vi">Tày, Thái, Nùng, Giáy… + Ka Đai — nhà sàn, nhuộm chàm, khung cửi</span></li>
+          <li><span class="ja">モン・ザオ — 蝋染め、銀細工、刺繍、ケーン（笙）</span><span class="vi">Mông, Dao — vẽ sáp ong, bạc, thêu, khèn</span></li>
+          <li><span class="ja">チベット・ビルマ系・漢系 — ハニの棚田、ロロの銅鼓、ホア族の商い</span><span class="vi">Tạng–Miến, Hán — ruộng bậc thang Hà Nhì, trống đồng Lô Lô, người Hoa</span></li>
+          <li><span class="ja">チュオンソン・中部高原 — ゴング、墓像、壺酒</span><span class="vi">Trường Sơn–Tây Nguyên — cồng chiêng, tượng nhà mồ, rượu cần</span></li>
+          <li class="land"><span class="ja">チャム・クメール（南部）— 寺院、陶器、上座部仏教</span><span class="vi">Chăm, Khmer Nam Bộ — tháp, gốm, Phật giáo Nam tông</span></li>
+        </ol>
+        <p style="font-size:13px;color:var(--muc-2)"><span class="ja">※2階建て・展示面積2,000㎡、順路は9つのパート。解説はベトナム語・フランス語・英語。設計はタイー族の建築家ハー・ドゥック・リン、1997年11月開館（シラク仏大統領が出席）。上の順番は言語グループ別の目安で、実際の順路は現地の案内に従ってください。</span><span class="vi">※ 2 tầng, 2.000 m², lộ trình 9 phần, chú thích 3 thứ tiếng Việt–Pháp–Anh. KTS Hà Đức Lịnh (người Tày) thiết kế, khai trương 11/1997 (có Tổng thống Pháp Jacques Chirac). Thứ tự trên là gợi ý theo nhóm ngôn ngữ — đi theo lộ trình thực tế tại chỗ.</span></p>
+        <div class="mini-img">
+          <figure><img src="assets/wm-trongdong.jpg" alt="Trống đồng Đông Sơn" loading="lazy"><figcaption><span class="ja">ドンソン銅鼓（参考写真）</span><span class="vi">Trống đồng Đông Sơn (ảnh minh hoạ)</span></figcaption></figure>
+          <figure><img src="assets/wm-congchieng.jpg" alt="Cồng chiêng Tây Nguyên" loading="lazy"><figcaption><span class="ja">中部高原のゴング</span><span class="vi">Cồng chiêng Tây Nguyên</span></figcaption></figure>
+        </div>
+        <div class="see"><b>👀 <span class="ja">見どころ</span><span class="vi">ĐIỂM NHẤN</span></b>
+          <span class="ja">衣装の「藍」と「刺繍」の違い、ゴングのセット、婚礼や葬送の展示。気になる民族は<a href="#peoples">54民族図鑑</a>でチェック ✓。</span>
+          <span class="vi">So sánh màu chàm và hoa văn thêu giữa các dân tộc, bộ cồng chiêng, nghi lễ cưới & tang. Gặp dân tộc nào thì đánh dấu ✓ trong <a href="#peoples">54 dân tộc</a>.</span>
+        </div>
+      </div>
+    </li>
+
+    <!-- 3 -->
+    <li class="tl-item" data-kind="food" data-start="11:50" data-end="12:10"
+        data-ja="休憩（カフェ・水分補給）" data-vi="Nghỉ giải lao (café · uống nước)" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">
+      <div class="tl-icon">☕</div>
+      <div class="tl-time">11:50 – 12:10<span class="tl-dur">20<span class="ja">分</span><span class="vi"> phút</span></span></div>
+      <h3><span class="ja">ひと休み</span><span class="vi">Nghỉ chân</span></h3>
+      <div class="card" id="tl-break">
+        <div class="mini-img"><figure><img src="assets/wm-vme-exterior.jpg" alt="VME" loading="lazy"><figcaption><span class="ja">博物館の外観</span><span class="vi">Ngoại cảnh bảo tàng</span></figcaption></figure></div>
+        <p class="ja">敷地内のカフェで休憩。軽食で昼までつなぎます（昼食は見学後を推奨）。</p>
+        <p class="vi">Nghỉ ở quán café trong khuôn viên, ăn nhẹ (bữa trưa sau khi tham quan). </p>
+      </div>
+    </li>
+
+    <!-- 4 -->
+    <li class="tl-item" data-kind="hike" data-start="12:10" data-end="13:00"
+        data-ja="屋外の建築園 — 実物大の民族家屋" data-vi="Vườn kiến trúc ngoài trời — nhà thật các dân tộc" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">
+      <div class="tl-icon">🛖</div>
+      <div class="tl-time">12:10 – 13:00<span class="tl-dur"><span class="ja">約50分</span><span class="vi">~50 phút</span></span></div>
+      <h3><span class="ja">屋外建築園 — 本物の家に上がる</span><span class="vi">Vườn kiến trúc — bước vào nhà thật</span></h3>
+      <div class="card">
+        <p class="ja">各地から移築・復元された実物大の10棟。高床の家には靴を脱いで上がれるものもあります。</p>
+        <p class="vi">10 công trình thật được di dời/phục dựng từ các vùng. Một số nhà sàn có thể cởi giày để lên.</p>
+        <ol class="stops" id="tl-garden-stops">
+          <li><span class="ja">バナ族の共同家屋「ロン」— 天を突く高い屋根</span><span class="vi">Nhà rông Ba Na — mái cao vút</span></li>
+          <li><span class="ja">エデ族のロングハウス — 母系社会の「長い家」</span><span class="vi">Nhà dài Ê Đê — ngôi nhà của chế độ mẫu hệ</span></li>
+          <li><span class="ja">ザライ族の墓の家 — 木彫りの墓像</span><span class="vi">Nhà mồ Gia Rai — tượng gỗ nhà mồ</span></li>
+          <li><span class="ja">コートゥ族の墓の家 — 色鮮やかな彫刻</span><span class="vi">Nhà mồ Cơ Tu — chạm khắc nhiều màu</span></li>
+          <li class="land"><span class="ja">チャム族の家・キン族の家（北部農村、瓦屋根）</span><span class="vi">Nhà Chăm · nhà Việt (nông thôn Bắc Bộ)</span></li>
+          <li class="land"><span class="ja">タイー族の高床・ザオ族の家・モン族の家・ハニ族の土壁の家（版築）</span><span class="vi">Nhà sàn Tày · nhà Dao · nhà Mông · nhà trình tường Hà Nhì</span></li>
+        </ol>
+        <div class="mini-img">
+          <figure><img src="assets/wm-bahnar-nharong.jpg" alt="Nhà rông Ba Na" loading="lazy"><figcaption><span class="ja">バナ族のロン</span><span class="vi">Nhà rông Ba Na</span></figcaption></figure>
+          <figure><img src="assets/wm-ede-nhadai.jpg" alt="Nhà dài Ê Đê" loading="lazy"><figcaption><span class="ja">エデ族のロングハウス</span><span class="vi">Nhà dài Ê Đê</span></figcaption></figure>
+          <figure><img src="assets/wm-giarai-nhamo.jpg" alt="Nhà mồ Gia Rai" loading="lazy"><figcaption><span class="ja">ザライ族の墓の家</span><span class="vi">Nhà mồ Gia Rai</span></figcaption></figure>
+          <figure><img src="assets/wm-hani-nhatrinh.jpg" alt="Nhà trình tường Hà Nhì" loading="lazy"><figcaption><span class="ja">ハニ族の土壁の家</span><span class="vi">Nhà trình tường Hà Nhì</span></figcaption></figure>
+        </div>
+        <div class="btns-row"><a class="btn" href="#garden">🛖 <span class="ja">10棟の解説を読む</span><span class="vi">Đọc giới thiệu 10 công trình</span></a></div>
+        <div class="see"><b>🤔 <span class="ja">考えてみよう</span><span class="vi">THỬ NGHĨ</span></b>
+          <span class="ja">高床の家は日本の弥生時代の高床倉庫や伊勢神宮の様式と似ています。湿気・洪水・獣への対策——稲作の暮らしが生んだ共通の知恵でしょうか？</span>
+          <span class="vi">Nhà sàn giống kho thóc thời Yayoi và kiến trúc đền Ise ở Nhật. Chống ẩm, lũ, thú dữ — phải chăng là trí tuệ chung của cư dân lúa nước?</span>
+        </div>
+      </div>
+    </li>
+
+    <!-- 5 -->
+    <li class="tl-item" data-kind="hike" data-start="13:00" data-end="13:25"
+        data-ja="凧館 — 東南アジア展示で「親戚」探し" data-vi="Toà Cánh Diều — tìm “họ hàng” ở khu Đông Nam Á" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">
+      <div class="tl-icon">🪁</div>
+      <div class="tl-time">13:00 – 13:25<span class="tl-dur">25<span class="ja">分</span><span class="vi"> phút</span></span></div>
+      <h3><span class="ja">凧館 — 東南アジアの人々</span><span class="vi">Toà Cánh Diều — các dân tộc Đông Nam Á</span></h3>
+      <div class="card" id="tl-kite">
+        <p class="ja">凧の形をした新館。4階建て（4階は収蔵庫）。常設展は「東南アジアの文化」「インドネシアのガラス絵」「アジアをちらり」「世界一周」の4つ、ほかに企画展スペース。さっき見たベトナムの民族と、国境の向こうの「親戚」を見比べましょう（<a href="#region">国境を越える親戚</a>）。</p>
+        <p class="vi">Toà nhà hình cánh diều, 4 tầng (tầng 4 là kho). 4 trưng bày thường xuyên: Văn hoá Đông Nam Á, Tranh kính Indonesia, Một thoáng châu Á, Vòng quanh thế giới; cùng không gian trưng bày nhất thời. So sánh các dân tộc Việt Nam vừa xem với “họ hàng” bên kia biên giới (<a href="#region">Họ hàng xuyên biên giới</a>).</p>
+      </div>
+    </li>
+
+    <!-- 6 -->
+    <li class="tl-item" data-kind="meet" data-start="13:25" data-end="13:30"
+        data-ja="ショップ・集合写真・解散" data-vi="Cửa hàng · chụp ảnh nhóm · kết thúc" data-dir="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội">
+      <div class="tl-icon">📸</div>
+      <div class="tl-time">13:25 – 13:30<span class="tl-dur">5<span class="ja">分</span><span class="vi"> phút</span></span></div>
+      <h3><span class="ja">集合写真・解散</span><span class="vi">Chụp ảnh nhóm · kết thúc</span></h3>
+      <div class="card">
+        <p class="ja">銅鼓館の前で集合写真。ミュージアムショップには少数民族の織物や小物があります。その後は昼食へ。</p>
+        <p class="vi">Chụp ảnh trước toà Trống Đồng. Cửa hàng lưu niệm có thổ cẩm, đồ thủ công. Sau đó đi ăn trưa.</p>
+        <div class="feel"><b>💭 <span class="ja">ふりかえり</span><span class="vi">NHÌN LẠI</span></b><span class="ja">今日いちばん印象に残った民族は？　その民族の「親戚」はどの国にいましたか？</span><span class="vi">Dân tộc nào ấn tượng nhất hôm nay? “Họ hàng” của họ sống ở nước nào?</span></div>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- ================= MUSEUM ================= -->
+<section id="museum" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">弐</div>
+    <div>
+      <h2><span class="ja">館内マップ — 3つのエリア</span><span class="vi">Sơ đồ bảo tàng — 3 khu</span></h2>
+      <p><span class="ja">1997年開館。フランスの建築家と協力し、民族の「生きた文化」を見せる博物館として知られています。</span><span class="vi">Khánh thành năm 1997, nổi tiếng là bảo tàng trưng bày “văn hoá sống” của các dân tộc.</span></p>
+    </div>
+  </div>
+  <div class="grid c3" id="museum-zones">
+    <div class="card zone" style="--zc:var(--son)">
+      <h3>🥁 <span class="ja">銅鼓館（屋内）</span><span class="vi">Toà Trống Đồng</span></h3>
+      <p class="ja">ベトナム54民族の常設展。2階建て・2,000㎡・9パート。所要60〜75分。</p>
+      <p class="vi">Trưng bày thường xuyên 54 dân tộc Việt Nam. 2 tầng, 2.000 m², 9 phần. 60–75 phút.</p>
+    </div>
+    <div class="card zone" style="--zc:var(--reu)">
+      <h3>🛖 <span class="ja">建築園（屋外）</span><span class="vi">Vườn kiến trúc</span></h3>
+      <p class="ja">チャム・キン・バナ・エデ・ザライ（墓）・コートゥ（墓）・タイー・ザオ・モン・ハニの10棟と水上人形劇の池。所要45〜60分。</p>
+      <p class="vi">10 công trình: nhà Chăm, Việt, rông Ba Na, dài Ê Đê, mồ Gia Rai, mồ Cơ Tu, sàn Tày, Dao, Mông, trình tường Hà Nhì + thuỷ đình rối nước. 45–60 phút.</p>
+    </div>
+    <div class="card zone" style="--zc:var(--dong)">
+      <h3>🪁 <span class="ja">凧館（屋内）</span><span class="vi">Toà Cánh Diều</span></h3>
+      <p class="ja">東南アジアの文化・インドネシアのガラス絵・アジア・世界一周＋企画展。所要20〜40分。</p>
+      <p class="vi">Văn hoá Đông Nam Á · Tranh kính Indonesia · Một thoáng châu Á · Vòng quanh thế giới + trưng bày nhất thời. 20–40 phút.</p>
+    </div>
+  </div>
+  <h3 class="sub-h"><span class="ja">🏛 エリア別ガイド</span><span class="vi">🏛 Giới thiệu từng khu</span></h3>
+  <div class="arch" id="arch-zones"></div>
+  <h3 class="sub-h" id="garden"><span class="ja">🛖 建築園の10棟 — 詳しく読む</span><span class="vi">🛖 10 công trình ở Vườn kiến trúc — đọc thêm</span></h3>
+  <p style="font-size:14px;color:var(--muc-2);margin-top:0"><span class="ja">内容は博物館公式サイトによる。「もっと読む」で詳細、民族名をタップすると54民族図鑑へ。</span><span class="vi">Nội dung theo trang chính thức của bảo tàng. Bấm “Đọc thêm” để xem chi tiết, bấm tên dân tộc để mở thẻ trong mục 54 dân tộc.</span></p>
+  <div class="arch" id="arch-houses"></div>
+</section>
+
+<!-- ================= FAMILIES ================= -->
+<section id="families" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">参</div>
+    <div>
+      <h2><span class="ja">8つの言語グループ</span><span class="vi">8 nhóm ngôn ngữ</span></h2>
+      <p><span class="ja">民族は「話す言葉」で8グループ・5語族に分けられます。タップすると下の図鑑が絞り込まれます。</span><span class="vi">54 dân tộc chia thành 8 nhóm ngôn ngữ thuộc 5 ngữ hệ. Chạm để lọc danh sách bên dưới.</span></p>
+    </div>
+  </div>
+  <div class="fam" id="fam"></div>
+  <figure style="margin-top:14px"><img src="assets/wm-hmong-trangphuc.jpg" alt="Phụ nữ H'Mông" loading="lazy" style="aspect-ratio:16/9"><figcaption><span class="ja">モン族の女性の衣装（ラオカイ省バックハー）— 中国のミャオ族、ラオス・タイのモン族と同じルーツ</span><span class="vi">Trang phục phụ nữ H'Mông (Bắc Hà, Lào Cai) — cùng nguồn với người Miêu (TQ), Hmong ở Lào, Thái Lan</span></figcaption></figure>
+  <div class="callout" style="margin-top:14px">
+    <span class="ja">💡 <b>5つの語族</b>：オーストロアジア（ベト・ムオン、モン・クメール）／タイ・カダイ（タイー・タイ、カダイ）／モン・ミエン（モン・ザオ）／オーストロネシア（南島）／シナ・チベット（漢、チベット・ビルマ）。キン族の言葉（ベトナム語）は漢語の語彙が多いですが、系統的にはクメール語の遠い親戚です。</span>
+    <span class="vi">💡 <b>5 ngữ hệ</b>: Nam Á (Việt–Mường, Môn–Khmer) · Kra–Dai (Tày–Thái, Ka Đai) · Hmông–Miền (Mông–Dao) · Nam Đảo · Hán–Tạng (Hán, Tạng–Miến). Tiếng Việt vay nhiều từ Hán nhưng về nguồn gốc là “họ hàng xa” của tiếng Khmer.</span>
+  </div>
+</section>
+
+<!-- ================= PEOPLES ================= -->
+<section id="peoples" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">肆</div>
+    <div>
+      <h2><span class="ja">54民族図鑑</span><span class="vi">54 dân tộc Việt Nam</span></h2>
+      <p><span class="ja">人口は2019年国勢調査。旗は国境の外の「親戚」がいる国。展示で出会ったら ✓ を。</span><span class="vi">Dân số theo Tổng điều tra 2019. Cờ = nước có “họ hàng” của dân tộc đó. Gặp ở bảo tàng thì đánh dấu ✓.</span></p>
+    </div>
+  </div>
+  <div class="filters">
+    <input id="q" type="search" placeholder="🔍 Tày, モン, Hmong…" aria-label="search">
+    <select id="fc" aria-label="country"></select>
+    <span class="count" id="cnt"></span>
+  </div>
+  <div class="seen-bar"><span id="seen-n">0/54</span><div class="bar"><i id="seen-bar"></i></div><span class="ja">出会った民族</span><span class="vi">dân tộc đã gặp</span></div>
+  <div class="eth" id="eth"></div>
+</section>
+
+<!-- ================= REGION ================= -->
+<section id="region" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">伍</div>
+    <div>
+      <h2><span class="ja">国境を越える親戚 — 東南アジアと中国</span><span class="vi">Họ hàng xuyên biên giới — Đông Nam Á & Trung Quốc</span></h2>
+      <p><span class="ja">国境線は19〜20世紀に引かれたもの。山地の民族は、何百年も前から雲南・広西・ラオス・タイの山々を行き来してきました。</span><span class="vi">Đường biên giới được vạch vào thế kỷ 19–20. Cư dân vùng cao đã qua lại giữa Vân Nam, Quảng Tây, Lào, Thái Lan hàng trăm năm trước đó.</span></p>
+    </div>
+  </div>
+  <p style="font-size:14px"><span class="ja">表：各言語グループのうち、その国に「親戚」がいる民族の数（数字をタップで図鑑を絞り込み）。</span><span class="vi">Bảng: số dân tộc trong mỗi nhóm có “họ hàng” ở nước đó (chạm số để lọc).</span></p>
+  <div class="mx-wrap"><table class="mx" id="mx"></table></div>
+  <div class="grid c2" style="margin-top:16px">
+    <div class="card">
+      <h3 style="font-size:17px;color:var(--son)">🇨🇳 <span class="ja">中国南部とのつながり</span><span class="vi">Với miền Nam Trung Quốc</span></h3>
+      <ul class="clean">
+        <li><span class="ja">タイー・ヌン ↔ チワン族（壮族、中国最大の少数民族）、プイ族（布依族）</span><span class="vi">Tày, Nùng ↔ Choang 壮族 (dân tộc thiểu số đông nhất TQ), Bố Y 布依族</span></li>
+        <li><span class="ja">モン ↔ ミャオ族（苗族）、ザオ ↔ ヤオ族（瑶族）</span><span class="vi">Mông ↔ Miêu 苗族, Dao ↔ Dao 瑶族</span></li>
+        <li><span class="ja">ロロ・プーラ ↔ イ族（彝族）、ハニ ↔ ハニ族（哈尼族）、ラフ ↔ ラフ族（拉祜族）</span><span class="vi">Lô Lô, Phù Lá ↔ Di 彝族; Hà Nhì ↔ 哈尼族; La Hủ ↔ 拉祜族</span></li>
+        <li><span class="ja">コーラオ ↔ コーラオ族（仡佬族）／ キン族 ↔ 中国の「京族」（広西・東興）</span><span class="vi">Cờ Lao ↔ Ngật Lão 仡佬族 · Kinh ↔ 京族 ở Đông Hưng, Quảng Tây</span></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="font-size:17px;color:var(--son)">🌏 <span class="ja">東南アジアとのつながり</span><span class="vi">Với Đông Nam Á</span></h3>
+      <ul class="clean">
+        <li><span class="ja">タイ・ラオ・ルー ↔ ラオス人、タイ人、シャン族（ミャンマー）</span><span class="vi">Thái, Lào, Lự ↔ người Lào, người Thái Lan, Shan (Myanmar)</span></li>
+        <li><span class="ja">クメール ↔ カンボジア。クム、カトゥ、ブル ↔ ラオスの山地民</span><span class="vi">Khmer ↔ Campuchia; Khơ Mú, Cơ Tu, Bru ↔ các dân tộc vùng núi Lào</span></li>
+        <li><span class="ja">チャム、エデ、ザライ ↔ マレー語・インドネシア語の仲間（オーストロネシア）、カンボジアのチャム族</span><span class="vi">Chăm, Ê Đê, Gia Rai ↔ cùng ngữ hệ với tiếng Mã Lai, Indonesia (Nam Đảo); người Chăm ở Campuchia</span></li>
+        <li><span class="ja">ハニ ↔ アカ族（タイ北部・ラオス・ミャンマー）、モン ↔ ラオス・タイのモン族、米国のモン系移民</span><span class="vi">Hà Nhì ↔ Akha (Bắc Thái, Lào, Myanmar); Mông ↔ Hmong ở Lào, Thái, cộng đồng ở Mỹ</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid c2" style="margin-top:14px">
+    <div class="card">
+      <h3 style="font-size:17px;color:var(--son)">🇲🇲 <span class="ja">ミャンマーとのつながり</span><span class="vi">Với Myanmar</span></h3>
+      <ul class="clean">
+        <li><span class="ja">ハニ ↔ アカ族（約20万人）、ラフ ↔ ラフ族（約15万人）、ルー ↔ タイ・ルー族（約6万人）— いずれもシャン州</span><span class="vi">Hà Nhì ↔ Akha (~200.000), La Hủ ↔ Lahu (~150.000), Lự ↔ Tai Lue (~60.000) — đều ở bang Shan</span></li>
+        <li><span class="ja">ターイ（黒タイ）↔ シャン族：民族・言語的に近い</span><span class="vi">Thái (Thái Đen) ↔ người Shan: gần gũi dân tộc–ngôn ngữ</span></li>
+        <li><span class="ja">ホア族 ↔ ミャンマー華人（約164万人、福建・広東・客家・雲南系、コーカン）</span><span class="vi">Hoa ↔ Hoa kiều Myanmar (~1,64 triệu: Phúc Kiến, Quảng Đông, Hakka, Vân Nam, Kokang)</span></li>
+        <li><span class="ja">モン族（約3,000人）、ザオ（ユーミエン）、クムもミャンマーに少数居住</span><span class="vi">Mông (~3.000), Dao (Iu Mien), Khơ Mú cũng có cộng đồng nhỏ ở Myanmar</span></li>
+        <li><span class="ja">語族レベル：モン族・パラウン族・ワ族はモン・クメール系の遠い親戚</span><span class="vi">Mức ngữ hệ: người Môn, Palaung, Wa ở Myanmar là họ hàng xa của nhóm Môn–Khmer</span></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="font-size:17px;color:var(--son)">🌐 <span class="ja">さらに遠いつながり</span><span class="vi">Các nước liên quan xa hơn</span></h3>
+      <ul class="clean">
+        <li><span class="ja">オーストロアジア語族：インド・バングラデシュのムンダ系、マレーシアのセノイ系もモン・クメールの遠縁</span><span class="vi">Ngữ hệ Nam Á: nhóm Munda ở Ấn Độ, Bangladesh và Senoi ở Malaysia là họ hàng xa của Môn–Khmer</span></li>
+        <li><span class="ja">オーストロネシア語族：台湾の先住民から広がり、フィリピン・インドネシア・マレーシア、遠くはマダガスカルまで同じ語族</span><span class="vi">Ngữ hệ Nam Đảo: lan ra từ Đài Loan đến Philippines, Indonesia, Malaysia, xa tới Madagascar</span></li>
+        <li><span class="ja">移民コミュニティ：アメリカ（モン、ユーミエン、ラオ、クム、クメール・クロム、チャム）、フランス（ラオ、モン、チャム）、カナダ、オーストラリア</span><span class="vi">Cộng đồng di cư: Mỹ (Mông, Iu Mien, Lào, Khơ Mú, Khmer Krom, Chăm), Pháp (Lào, Mông, Chăm), Canada, Úc</span></li>
+      </ul>
+      <p style="font-size:12px;color:var(--muc-2);margin:4px 0 0"><span class="ja">人数は英語版Wikipediaの各民族の記事による概数。</span><span class="vi">Số người là ước tính, theo bài Wikipedia tiếng Anh của từng dân tộc.</span></p>
+    </div>
+  </div>
+  <div class="callout green" style="margin-top:14px">
+    <span class="ja">🇯🇵 <b>日本とのつながり？</b> もち米・なれずし・高床倉庫・藍染め・お歯黒・ビンロウ（キンマ）——照葉樹林文化論では、雲南からベトナム北部、西日本までを一続きの文化圏とみる説もあります（あくまで一説）。</span>
+    <span class="vi">🇯🇵 <b>Liên hệ với Nhật Bản?</b> Xôi nếp, cá ủ chua, kho thóc nhà sàn, nhuộm chàm, nhuộm răng đen, ăn trầu — thuyết “văn hoá rừng lá bóng” (照葉樹林文化) coi Vân Nam – Bắc Việt Nam – Tây Nhật Bản là một vành đai văn hoá (chỉ là một giả thuyết).</span>
+  </div>
+</section>
+
+<!-- ================= DEMOGRAPHY ================= -->
+<section id="demography" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">陸</div>
+    <div>
+      <h2><span class="ja">人口と年齢 — ベトナム・中国・日本</span><span class="vi">Dân số & tuổi — Việt Nam · Trung Quốc · Nhật Bản</span></h2>
+      <p><span class="ja">国連「世界人口推計2024」。2023年までは推計値（実線）、2024年以降は中位推計（点線）。</span><span class="vi">Liên Hợp Quốc, World Population Prospects 2024. Đến 2023 là số ước tính (nét liền), từ 2024 là dự báo phương án trung bình (nét đứt).</span></p>
+    </div>
+  </div>
+
+  <div class="tiles" id="demo-tiles"></div>
+  <p style="font-size:12px;color:var(--muc-2);margin:-6px 0 14px"><span class="ja">※タイルは国連の2026年推計。ベトナム統計局の公式値は2025年平均 1億230万人（2026年は約1億300万人の見込み）。</span><span class="vi">※ Số trong ô là dự báo 2026 của LHQ. Số chính thức của Cục Thống kê: dân số trung bình 2025 là 102,3 triệu (2026 ước khoảng 103 triệu).</span></p>
+
+  <div class="card chart-card">
+    <h3><span class="ja">人口の伸び（1950年＝100）</span><span class="vi">Tăng dân số (chỉ số 1950 = 100)</span></h3>
+    <p class="chart-sub"><span class="ja">人口の規模が10倍以上違うため、1950年を100とした指数で比べます。なぞると実数が出ます。</span><span class="vi">Quy mô dân số chênh nhau hơn 10 lần nên so bằng chỉ số (1950 = 100). Chạm/di chuột để xem số thật.</span></p>
+    <div class="chart" id="chart-pop" role="img" aria-label="Population index 1950-2100: Vietnam, China, Japan"></div>
+    <div class="legend" id="legend-pop"></div>
+  </div>
+
+  <div class="card chart-card" style="margin-top:14px">
+    <h3><span class="ja">年齢の中央値（歳）</span><span class="vi">Tuổi trung vị (năm)</span></h3>
+    <p class="chart-sub"><span class="ja">国民を年齢順に並べたとき、ちょうど真ん中の人の年齢。</span><span class="vi">Tuổi của người đứng chính giữa khi xếp toàn bộ dân số theo tuổi.</span></p>
+    <div class="chart" id="chart-age" role="img" aria-label="Median age 1950-2100: Vietnam, China, Japan"></div>
+    <div class="legend" id="legend-age"></div>
+  </div>
+
+  <div class="grid c2" style="margin-top:14px">
+    <div class="callout">
+      <span class="ja">📈 <b>ベトナムは今も増加中</b>：1950年の約4倍。国勢調査では2009年 85,846,997人 → 2019年 96,208,984人（年平均＋約1.1%）。2025年の平均人口は<b>1億230万人</b>（統計局）で、2023年に1億人を突破。国連推計では<b>2049年頃に約1.1億人でピーク</b>。日本のピークは2009年、中国は2021年でした。</span>
+      <span class="vi">📈 <b>Việt Nam vẫn đang tăng</b>: gấp ~4 lần năm 1950. Tổng điều tra: 85.846.997 (2009) → 96.208.984 (2019), tăng ~1,1%/năm. Dân số trung bình 2025: <b>102,3 triệu</b> (Cục Thống kê), đã vượt mốc 100 triệu từ 2023. LHQ dự báo <b>đạt đỉnh ~110 triệu vào khoảng 2049</b>. Nhật Bản đạt đỉnh năm 2009, Trung Quốc năm 2021.</span>
+    </div>
+    <div class="callout green">
+      <span class="ja">⏳ <b>ベトナムの2050年 ≈ 日本の2000年</b>：中央値は約40歳。いまのベトナム（約34歳）は日本より16歳若いが、人口ボーナス期は<b>2036年頃に終了</b>の見込み。少数民族（2019年に約1,412万人・14.7%）は出生率が高く、より若い傾向があります。</span>
+      <span class="vi">⏳ <b>Việt Nam 2050 ≈ Nhật Bản 2000</b>: tuổi trung vị ~40. Hiện nay Việt Nam (~34 tuổi) trẻ hơn Nhật 16 tuổi, nhưng thời kỳ dân số vàng dự kiến <b>kết thúc khoảng 2036</b>. Các dân tộc thiểu số (~14,12 triệu người, 14,7% năm 2019) có mức sinh cao hơn, cơ cấu trẻ hơn.</span>
+    </div>
+  </div>
+
+
+  <div class="card" style="margin-top:14px">
+    <h3 style="font-size:17px;color:var(--son)">⏳ <span class="ja">「人口ボーナス期」は2036年頃に終わる</span><span class="vi">Thời kỳ “dân số vàng” kết thúc khoảng năm 2036</span></h3>
+    <p class="chart-sub"><span class="ja">人口ボーナス（黄金人口構造）＝働く世代（15〜64歳）が子どもと高齢者の合計の2倍以上ある時期。統計局がUNFPAと作成した「2024–2074年人口予測」による。</span><span class="vi">Cơ cấu dân số vàng: số người trong độ tuổi lao động (15–64) gấp đôi trở lên số trẻ em và người già cộng lại. Theo “Dự báo dân số Việt Nam 2024–2074” của Cục Thống kê, phối hợp UNFPA.</span></p>
+    <ol class="ms">
+      <li><b>2007</b><span><span class="ja">人口ボーナス期に入る</span><span class="vi">Bắt đầu thời kỳ dân số vàng</span></span></li>
+      <li><b>2023</b><span><span class="ja">人口1億人を突破</span><span class="vi">Vượt mốc 100 triệu dân</span></span></li>
+      <li><b>2025</b><span><span class="ja">平均人口 1億230万人（前年比 約＋1%）</span><span class="vi">Dân số trung bình 102,3 triệu (tăng ~1%)</span></span></li>
+      <li class="hl"><b>2034</b><span><span class="ja">「高齢社会」へ：65歳以上が14%に</span><span class="vi">Bước vào thời kỳ dân số già: người 65+ chiếm 14%</span></span></li>
+      <li class="hl"><b>2036</b><span><span class="ja">人口ボーナス期が終わる（2019年の予測より3年早まる）</span><span class="vi">Kết thúc dân số vàng (sớm hơn 3 năm so với dự báo 2019)</span></span></li>
+      <li><b>2038</b><span><span class="ja">生産年齢人口がピーク：約6,950万人</span><span class="vi">Dân số trong độ tuổi lao động đạt đỉnh ~69,5 triệu</span></span></li>
+      <li><b>2074</b><span><span class="ja">中位予測で約1億1,420万人</span><span class="vi">Phương án trung bình: ~114,2 triệu người</span></span></li>
+    </ol>
+    <p style="font-size:12px;color:var(--muc-2);margin:4px 0 0"><span class="ja">※統計局の予測（2074年に1億1,420万人）と国連推計（2049年頃に約1.1億人でピーク）は前提が異なり、数字が一致しません。</span><span class="vi">※ Dự báo của Cục Thống kê (114,2 triệu năm 2074) và của LHQ (đỉnh ~110 triệu khoảng 2049) dùng giả định khác nhau nên số không trùng.</span>
+    · <a href="https://tuoitre.vn/viet-nam-buoc-vao-thoi-ky-dan-so-gia-trong-it-nam-toi-20260126171300799.htm">Tuổi Trẻ 26/01/2026</a> · <a href="https://nhandan.vn/dan-so-va-lao-dong-viec-lam-tiep-tuc-on-dinh-nam-2025-tao-da-cho-2026-post946357.html">Nhân Dân</a></p>
+  </div>
+  <details class="card tbl-view" style="margin-top:14px">
+    <summary><span class="ja">📋 数値の表を見る</span><span class="vi">📋 Xem bảng số liệu</span></summary>
+    <div class="mx-wrap"><table class="mx" id="demo-table"></table></div>
+    <p style="font-size:12px;color:var(--muc-2)"><span class="ja">出典：</span><span class="vi">Nguồn: </span><a href="https://population.un.org/wpp/">UN World Population Prospects 2024</a> (via <a href="https://ourworldindata.org/grapher/population-with-un-projections">Our World in Data</a>) · <span class="ja">ベトナム国勢調査：統計総局</span><span class="vi">Tổng điều tra: Tổng cục Thống kê</span> (<a href="https://www.nso.gov.vn/du-lieu-va-so-lieu-thong-ke/2020/11/ket-qua-toan-bo-tong-dieu-tra-dan-so-va-nha-o-nam-2019/">2019</a>, <a href="https://www.nso.gov.vn/su-kien/2019/03/thong-cao-bao-chi-tong-dieu-tra-dan-so-va-nha-o-nam-2009-cong-bo-ket-qua-dieu-tra-toan-bo/">2009</a>, <a href="https://nhandan.vn/dan-so-va-lao-dong-viec-lam-tiep-tuc-on-dinh-nam-2025-tao-da-cho-2026-post946357.html">2025</a>)</p>
+  </details>
+</section>
+
+<!-- ================= HUNT ================= -->
+<section id="hunt" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">漆</div>
+    <div>
+      <h2><span class="ja">探検ミッション</span><span class="vi">Nhiệm vụ khám phá</span></h2>
+      <p><span class="ja">見つけたらチェック。チェックはこのスマホにだけ保存されます。</span><span class="vi">Tìm thấy thì đánh dấu. Dữ liệu chỉ lưu trên điện thoại này.</span></p>
+    </div>
+  </div>
+  <ul class="hunt" id="hunt-list">
+    <li><label><input type="checkbox" data-k="h1"><span><span class="ja">ドンソン銅鼓の「星」の模様を見つける</span><span class="vi">Tìm ngôi sao giữa mặt trống đồng</span><small><span class="ja">銅鼓館</span><span class="vi">Toà Trống Đồng</span></small></span></label></li>
+    <li><label><input type="checkbox" data-k="h2"><span><span class="ja">藍で染めた衣装を3つの民族で見比べる</span><span class="vi">So sánh trang phục nhuộm chàm của 3 dân tộc</span><small>Tày · Nùng · Dao · Mông…</small></span></label></li>
+    <li><label><input type="checkbox" data-k="h3"><span><span class="ja">ケーン（モンの笙）を見つける — 日本の笙と比べて</span><span class="vi">Tìm cây khèn Mông — so với đàn shō của Nhật</span><small><span class="ja">モン・ザオの展示</span><span class="vi">Khu Mông–Dao</span></small></span></label></li>
+    <li><label><input type="checkbox" data-k="h4"><span><span class="ja">ゴング（銅鑼）のセットを見つけ、いくつあるか数える</span><span class="vi">Tìm một bộ cồng chiêng, đếm có bao nhiêu chiếc</span><small><span class="ja">中部高原</span><span class="vi">Tây Nguyên</span></small></span></label></li>
+    <li><label><input type="checkbox" data-k="h5"><span><span class="ja">バナ族のロンハウスの屋根の高さを見上げる</span><span class="vi">Đứng dưới mái nhà rông Ba Na</span><small><span class="ja">屋外</span><span class="vi">Ngoài trời</span></small></span></label></li>
+    <li><label><input type="checkbox" data-k="h6"><span><span class="ja">エデ族のロングハウスの「女性の階段」（乳房の彫刻）を探す</span><span class="vi">Tìm cầu thang “ngực” ở nhà dài Ê Đê</span><small><span class="ja">母系社会の象徴</span><span class="vi">Biểu tượng mẫu hệ</span></small></span></label></li>
+    <li><label><input type="checkbox" data-k="h7"><span><span class="ja">ザライ族とコートゥ族の「墓の家」を見比べる</span><span class="vi">So sánh nhà mồ Gia Rai và nhà mồ Cơ Tu</span><small><span class="ja">屋外</span><span class="vi">Ngoài trời</span></small></span></label></li>
+    <li><label><input type="checkbox" data-k="h8"><span><span class="ja">凧館で、ベトナムの民族とそっくりな衣装を見つける</span><span class="vi">Ở toà Cánh Diều, tìm trang phục giống một dân tộc Việt Nam</span><small><span class="ja">東南アジア展示</span><span class="vi">Khu Đông Nam Á</span></small></span></label></li>
+  </ul>
+</section>
+
+<!-- ================= PREP ================= -->
+<section id="prep" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">捌</div>
+    <div>
+      <h2><span class="ja">持ち物・マナー・ひとこと</span><span class="vi">Đồ mang theo · ứng xử · câu nói</span></h2>
+    </div>
+  </div>
+  <div class="grid c2">
+    <div class="card">
+      <b>🎒 <span class="ja">持ち物</span><span class="vi">Mang theo</span></b>
+      <ul class="check" style="margin-top:6px">
+        <li><span class="ja">現金（チケット・カフェ）</span><span class="vi">Tiền mặt (vé, café)</span></li>
+        <li><span class="ja">帽子・日焼け止め</span><span class="vi">Mũ, kem chống nắng</span></li>
+        <li><span class="ja">水</span><span class="vi">Nước uống</span></li>
+        <li><span class="ja">脱ぎやすい靴（高床の家）</span><span class="vi">Giày dễ cởi (lên nhà sàn)</span></li>
+        <li><span class="ja">カメラ撮影料 200,000₫／台</span><span class="vi">Phí chụp ảnh 200.000₫/máy</span></li>
+        <li><span class="ja">学生証（学生 20,000₫）</span><span class="vi">Thẻ sinh viên (20.000₫)</span></li>
+        <li><span class="ja">スマホの充電</span><span class="vi">Sạc điện thoại</span></li>
+      </ul>
+    </div>
+    <div class="card">
+      <b>🙏 <span class="ja">マナー</span><span class="vi">Ứng xử</span></b>
+      <ul class="clean">
+        <li><span class="ja">高床の家に上がるときは靴を脱ぐ（表示に従う）。</span><span class="vi">Cởi giày khi lên nhà sàn (theo biển báo).</span></li>
+        <li><span class="ja">墓の家（ザライ・コートゥ）は信仰の場。像に触れたり登ったりしない。</span><span class="vi">Nhà mồ là không gian tâm linh — không chạm, trèo lên tượng.</span></li>
+        <li><span class="ja">「少数民族」より「〇〇族の人々」と名前で呼ぶのが丁寧。</span><span class="vi">Gọi đúng tên dân tộc thay vì “người dân tộc” chung chung.</span></li>
+      </ul>
+      <table class="phr" style="margin-top:8px">
+        <tr><td>Xin chào</td><td><span class="ja">こんにちは（ベトナム語）</span><span class="vi">(tiếng Việt)</span></td></tr>
+        <tr><td>Dân tộc</td><td><span class="ja">民族（ザン・トック）＝漢字「民族」</span><span class="vi">= chữ Hán 民族</span></td></tr>
+        <tr><td>Bảo tàng</td><td><span class="ja">博物館（バオ・ターン）＝「宝蔵」</span><span class="vi">= 寶藏</span></td></tr>
+        <tr><td>Nhà sàn</td><td><span class="ja">高床の家</span><span class="vi">nhà sàn</span></td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LINKS ================= -->
+<section id="links" class="wrap">
+  <div class="sec-h">
+    <div class="sec-no">玖</div>
+    <div><h2><span class="ja">便利リンク</span><span class="vi">Liên kết hữu ích</span></h2>
+    <p><span class="ja">すべて新しいタブで開きます</span><span class="vi">Tất cả mở trong tab mới</span></p></div>
+  </div>
+  <div class="grid c2">
+    <div class="card links">
+      <b>🗺 <span class="ja">地図</span><span class="vi">Bản đồ</span></b>
+      <a data-q="Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội"><span class="ja">ベトナム民族学博物館</span><span class="vi">Bảo tàng Dân tộc học Việt Nam</span></a>
+      <a data-q="Grandiose Hotel & Spa, 11 Liễu Giai, Ba Đình, Hà Nội">Grandiose Hotel &amp; Spa</a>
+    </div>
+    <div class="card links">
+      <b>📚 <span class="ja">もっと知る</span><span class="vi">Tìm hiểu thêm</span></b>
+      <a href="https://www.vme.org.vn/"><span class="ja">民族学博物館 公式サイト</span><span class="vi">Trang chính thức VME</span></a>
+      <a href="https://vme.vass.gov.vn/ve-va-le-phi"><span class="ja">入場料・各種料金（公式）</span><span class="vi">Vé và lệ phí (chính thức)</span></a>
+      <a href="https://vme.vass.gov.vn/vuon-kien-truc"><span class="ja">建築園（公式）</span><span class="vi">Vườn kiến trúc (chính thức)</span></a>
+      <a href="https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_D%C3%A2n_t%E1%BB%99c_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam">Wikipedia：Bảo tàng Dân tộc học Việt Nam</a>
+      <a href="https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E6%B0%91%E6%97%8F%E5%AD%A6%E5%8D%9A%E7%89%A9%E9%A4%A8">Wikipedia：<span class="ja">ベトナム民族学博物館</span><span class="vi">(JA)</span></a>
+      <a href="https://vi.wikipedia.org/wiki/C%C3%A1c_d%C3%A2n_t%E1%BB%99c_t%E1%BA%A1i_Vi%E1%BB%87t_Nam">Wikipedia：Các dân tộc tại Việt Nam</a>
+      <a href="https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E3%81%AE%E6%B0%91%E6%97%8F%E4%B8%80%E8%A6%A7">Wikipedia：<span class="ja">ベトナムの民族一覧</span><span class="vi">Danh sách dân tộc (JA)</span></a>
+      <a href="https://unesco.org/en/intangible-heritage/space-gong-culture-00120">UNESCO – Space of Gong Culture in the Central Highlands</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h4>Khám phá Việt Nam · Bảo tàng Dân tộc học 11.10.2026</h4>
+    <p><span class="ja">開館時間・料金・展示は博物館公式サイト（vme.vass.gov.vn、2026年10月11日確認）による。人口は統計総局「2019年人口住宅センサス全数結果」表2。民族データは <code>.claude/skills/dan-toc-viet-nam</code> から生成。</span><span class="vi">Giờ mở cửa, giá vé, trưng bày theo trang chính thức vme.vass.gov.vn (kiểm tra 11/10/2026). Dân số: Biểu 2, “Kết quả toàn bộ Tổng điều tra dân số và nhà ở 2019” (Tổng cục Thống kê). Dữ liệu dân tộc sinh từ <code>.claude/skills/dan-toc-viet-nam</code>.</span></p>
+    <h4 style="margin-top:16px"><span class="ja">写真クレジット</span><span class="vi">Nguồn ảnh</span></h4>
+    <h4 style="margin-top:6px"><span class="ja">民族衣装の写真（Wikimedia Commons）</span><span class="vi">Ảnh trang phục (Wikimedia Commons)</span></h4>
+    <div class="credits"><!--COSTUME-CREDITS--><div>Kinh: <a href="https://commons.wikimedia.org/wiki/File:Cinq_sœurs_à_Hanoï,_1950s.jpg">kinh.jpg</a> — Unknown author, Public domain</div><div>Mường: <a href="https://commons.wikimedia.org/wiki/File:Muong_people_hoa_binh.jpg">muong.jpg</a> — Chienol, CC BY-SA 4.0</div><div>Thổ: <a href="https://commons.wikimedia.org/wiki/File:Costume,_Tho,_Nghe_An,_1956,_cotton_with_woven_silk_patterns_-_Vietnamese_Women&#x27;s_Museum_-_Hanoi,_Vietnam_-_DSC03880.JPG">tho.jpg</a> — Daderot, CC0</div><div>Tày: <a href="https://commons.wikimedia.org/wiki/File:Tay_Women.jpg">tay.jpg</a> — DXLINH, CC BY-SA 3.0</div><div>Thái: <a href="https://commons.wikimedia.org/wiki/File:Trang_phuc_Thai_trang.jpg">thai.jpg</a> — Viethavvh at vi.wikipedia, Public domain</div><div>Nùng: <a href="https://commons.wikimedia.org/wiki/File:Woman&#x27;s_outfit,_Nung_(Nung_Inh)_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02835.JPG">nung.jpg</a> — Daderot, CC0</div><div>Sán Chay: <a href="https://commons.wikimedia.org/wiki/File:高欄人婦女.jpg">san-chay.jpg</a> — June Owen, CC BY-SA 4.0</div><div>Giáy: <a href="https://commons.wikimedia.org/wiki/File:Tả_Van的Giáy婦女.jpg">giay.jpg</a> — June Owen, CC BY-SA 4.0</div><div>Lào: <a href="https://commons.wikimedia.org/wiki/File:Trang_phục_phụ_nữ_Lào_ở_Lai_Châu.jpg">lao.jpg</a> — Nguyễn Thanh Quang, CC BY-SA 3.0</div><div>Lự: <a href="https://commons.wikimedia.org/wiki/File:Người_Lự_ở_Lai_Châu.jpg">lu.jpg</a> — Nguyễn Thanh Quang, CC BY-SA 3.0</div><div>Mông: <a href="https://commons.wikimedia.org/wiki/File:FlowerHmong_Vietnam_(pixinn.net).jpg">mong.jpg</a> — Christophe Meneboeuf, CC BY-SA 3.0</div><div>Dao: <a href="https://commons.wikimedia.org/wiki/File:Zao_woman_(Sapa_Vietnam).jpg">dao.jpg</a> — Viethavvh, Public domain</div><div>Pà Thẻn: <a href="https://commons.wikimedia.org/wiki/File:Pa_Then.JPG">pa-then.jpg</a> — Viethavvh, Public domain</div><div>Cờ Lao: <a href="https://commons.wikimedia.org/wiki/File:Woman&#x27;s_tunic,_Co_Lao_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02955.JPG">co-lao.jpg</a> — Daderot, CC0</div><div>Pu Péo: <a href="https://commons.wikimedia.org/wiki/File:Trang_phuc_Pu_Peo.jpg">pu-peo.jpg</a> — Viethavvh at Vietnamese Wikipedia, Public domain</div><div>Hoa: <a href="https://commons.wikimedia.org/wiki/File:LaoKay_famille_chinoise.jpg">hoa.jpg</a> — Unknown (postcard), Public domain</div><div>Ngái: <a href="https://commons.wikimedia.org/wiki/File:Ngái_Siblings_from_Thái_Nguyên_Wearing_Modern_Front-Opening_Tunics.jpg">ngai.jpg</a> — June Owen, CC BY 4.0</div><div>Hà Nhì: <a href="https://commons.wikimedia.org/wiki/File:Woman&#x27;s_costume,_Ha_Nhi,_Muong_Te,_Lai_Chau,_1980_-_Vietnamese_Women&#x27;s_Museum_-_Hanoi,_Vietnam_-_DSC04302.JPG">ha-nhi.jpg</a> — Daderot, CC0</div><div>Phù Lá: <a href="https://commons.wikimedia.org/wiki/File:Trang_phuc_Phu_La.jpg">phu-la.jpg</a> — Viethavvh at Vietnamese Wikipedia, Public domain</div><div>La Hủ: <a href="https://commons.wikimedia.org/wiki/File:Woman&#x27;s_outfit,_La_Hu_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03127.JPG">la-hu.jpg</a> — Daderot, CC0</div><div>Lô Lô: <a href="https://commons.wikimedia.org/wiki/File:Trang_phuc_Lo_Lo.jpg">lo-lo.jpg</a> — Viethavvh at Vietnamese Wikipedia, Public domain</div><div>Si La: <a href="https://commons.wikimedia.org/wiki/File:Si_La_people.jpg">si-la.jpg</a> — Saigon punkid at Vietnamese Wikipedia, CC BY-SA 3.0</div><!--/COSTUME-CREDITS--></div>
+    <h4 style="margin-top:12px"><span class="ja">その他</span><span class="vi">Ảnh khác</span></h4>
+    <div class="credits" id="credits">
+      <div><a href="https://commons.wikimedia.org/wiki/File:Tr%E1%BB%91ng_%C4%90%E1%BB%93ng_building,_Vietnam_Museum_of_Ethnology.jpg">Trống Đồng building</a> — Nam Hy Hoàng Phong, CC BY 3.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Vietnam_Museum_of_Ethnology_(26286953736).jpg">Vietnam Museum of Ethnology</a> — katiebordner, CC BY 2.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Bahnar_Communal_House,_Museum_of_Ethnology,_Hanoi_(1)_(38463517682).jpg">Bahnar Communal House</a>, <a href="https://commons.wikimedia.org/wiki/File:Giarai_tomb,_Museum_of_Ethnology,_Hanoi_(2)_(38439476326).jpg">Giarai tomb</a>, <a href="https://commons.wikimedia.org/wiki/File:Cotu_tomb,_Museum_of_Ethnology,_Hanoi_(2)_(38495337181).jpg">Cotu tomb</a> — Richard Mortel, CC BY 2.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:E_De_house,_view_1_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03409.JPG">E De house</a>, <a href="https://commons.wikimedia.org/wiki/File:Hani_House_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03440.JPG">Hani House</a> — Daderot, CC0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Stilt_house_interior_with_loom,_Black_Thai_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02858.JPG">Black Thai stilt house</a>, <a href="https://commons.wikimedia.org/wiki/File:Initiation_of_the_Red_Yao_from_Yen_Bai_province_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03024.JPG">Red Yao initiation</a>, <a href="https://commons.wikimedia.org/wiki/File:Lau_then_ceremony,_Tay_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02767.JPG">Lau then ceremony</a>, <a href="https://commons.wikimedia.org/wiki/File:Woman%27s_outfit,_Hmong_(Hmong_Hoa)_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03073.JPG">Hmong Hoa outfit</a>, <a href="https://commons.wikimedia.org/wiki/File:Water_puppet_show_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03405.JPG">Water puppet pavilion</a> — Daderot, CC0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Traditional_Hanoi_dwelling,_Museum_of_Ethnology,_Hanoi_(1)_(38497797791).jpg">Traditional Hanoi dwelling</a> — Richard Mortel, CC BY 2.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Nh%C3%A0_ng%C6%B0%E1%BB%9Di_T%C3%A0y_(%C4%90%E1%BB%8Bnh_H%C3%B3a_-_Th%C3%A1i_Nguy%C3%AAn).jpg">Nhà người Tày</a>, <a href="https://commons.wikimedia.org/wiki/File:Nh%C3%A0_ng%C6%B0%E1%BB%9Di_Dao.jpg">Nhà người Dao</a> — Nam Hy Hoàng Phong, CC BY-SA 3.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Museum_of_Ethnoly_Open_luchtmuseum_(28812).jpg">Open luchtmuseum 28812</a>, <a href="https://commons.wikimedia.org/wiki/File:Museum_of_Ethnoly_Open_luchtmuseum_(62869).jpg">62869</a>, <a href="https://commons.wikimedia.org/wiki/File:Museum_of_Ethnoly_Open_luchtmuseum_(48534).jpg">48534</a> — Andre Hospers, CC BY 4.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Hmong_women_with_traditional_costume.jpg">Hmong women</a> — DTH-BD-NVT, CC BY-SA 4.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Tay_Nguyen_gongs.JPG">Tay Nguyen gongs</a> — Đỗ Tuấn Hưng, CC BY-SA 3.0</div>
+      <div><a href="https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_(9980530256).jpg">Dong Son Bronze Drum</a> — Gary Todd, CC0</div>
+    </div>
+  </div>
+</footer>
+
+<script id="arch-data" type="application/json">
+[{"id":"trong-dong","kind":"zone","vi":"Tòa Trống đồng","ja":"ブロンズドラム館（銅鼓館）","ethnic":null,"origin_vi":"Thiết kế bởi KTS Hà Đức Lịnh (người Tày) theo hình trống đồng Đông Sơn; khai trương 11/1997.","origin_ja":"タイー族の建築家ハー・ドゥック・リンがドンソン銅鼓を模して設計。1997年11月開館。","summary_vi":"Tòa trưng bày 2 tầng (2.000 m²), chủ yếu dành cho trưng bày thường xuyên về 54 dân tộc Việt Nam, song ngữ ba thứ tiếng Việt–Pháp–Anh.","summary_ja":"2階建て・展示面積2,000㎡の展示棟。大部分がベトナム54民族の常設展で、解説はベトナム語・フランス語・英語の3言語。","facts_vi":["Khai trương bởi Phó Chủ tịch nước Nguyễn Thị Bình và Tổng thống Pháp Jacques Chirac (11/1997)","Hợp tác với Chính phủ Pháp; Christine Hemmet và KTS Véronique Dollfus tham gia","Lộ trình 12 không gian: Giới thiệu chung, Việt, Mường-Thổ-Chứt, Tày-Thái, Kađai, Hmông-Dao, Tạng-Miến, Môn-Khơ-me (Bắc; Trường Sơn-Tây Nguyên), Nam Đảo, Chăm-Hoa-Khơ-me, Giao lưu văn hóa","Có 2 không gian trưng bày nhất thời và Phòng Khám phá dành cho trẻ em"],"facts_ja":["1997年11月、グエン・ティ・ビン国家副主席とフランスのシラク大統領が開館","フランス政府の協力で制作。民族学者クリスティーヌ・エメ、建築家ヴェロニク・ドルフュスが参加","12の展示空間：導入、ベト（キン）、ムオン・トー・チュット、タイー・タイ、カダイ、モン・ザオ、チベット・ビルマ、北部モン・クメール、チュオンソン・中部高原モン・クメール、オーストロネシア、チャム・ホア・クメール、文化交流","企画展示室2室と子ども向け「発見の部屋」もある"],"look_vi":"Quan sát hình dáng trống đồng của tòa nhà; đi theo lộ trình 12 không gian từ người Việt đến Nam Đảo, chú ý đồ vải, đồ đan, nhạc cụ tre và hiện vật nghi lễ.","look_ja":"建物そのものの銅鼓形に注目。12の展示空間を順にたどり、織物・編み細工・竹の楽器・儀礼具を見比べたい。","url_vi":"https://vme.vass.gov.vn/toa-trong-dong","url_en":"https://vme-en.vass.gov.vn/bronze-drum-building","img":[{"f":"wm-hero.jpg","vi":"Toà Trống Đồng","ja":"銅鼓館"},{"f":"wm-vme-in-1.jpg","vi":"Nội thất nhà sàn Thái Đen có khung cửi (trong toà Trống Đồng)","ja":"黒タイ族の高床住居の内部と機織り機（銅鼓館）"},{"f":"wm-vme-in-2.jpg","vi":"Tái hiện lễ cấp sắc của người Dao Đỏ (Yên Bái)","ja":"赤ザオ族の成人儀礼「カップサック」の再現"},{"f":"wm-vme-in-3.jpg","vi":"Tái hiện nghi lễ Lẩu then của người Tày","ja":"タイー族の儀礼「ラウテン」の再現"},{"f":"wm-vme-in-4.jpg","vi":"Trang phục phụ nữ Hmông Hoa","ja":"花モン族の女性の衣装"}]},{"id":"vuon","kind":"zone","vi":"Vườn Kiến trúc","ja":"建築庭園（野外展示）","ethnic":null,"origin_vi":"Khu trưng bày ngoài trời của bảo tàng với 10 công trình kiến trúc dân gian.","origin_ja":"10棟の民家・墓屋を移築・再建した博物館の野外展示エリア。","summary_vi":"Khu vườn nhiều cây xanh, có suối nhân tạo chảy về hồ thủy đình (nơi diễn rối nước) và lối nhỏ dẫn tới 10 công trình kiến trúc dân gian.","summary_ja":"緑豊かな庭園に人工の小川と水上人形劇の水亭池があり、小道で10棟の民家・墓屋を巡る。","facts_vi":["10 công trình: Chăm, Việt, nhà rông Ba-na, nhà dài Ê-đê, nhà mồ Gia-rai, nhà mồ Cơ-tu, Tày, Dao, Hmông, Hà Nhì","Có ghe Ngo của người Khơ-me và cối giã gạo bằng sức nước của người Dao","Rối nước biểu diễn trước nhà Việt vào thứ Bảy, Chủ nhật","“Mỗi ngôi nhà đều có lai lịch và đời sống của nó.”"],"facts_ja":["10棟：チャム、ベト、バナの共同家屋、エデのロングハウス、ザライ墓屋、コートゥ墓屋、タイー、ザオ、モン、ハニ","クメールのゴー舟、ザオの水力米つき臼も展示","土・日曜にはベト族の家の前で水上人形劇","「どの家にもそれぞれの来歴と暮らしがある」（公式サイト）"],"look_vi":"Đi vòng theo các lối nhỏ; so sánh nhà sàn, nhà trệt, nhà trình tường và nhà mồ; cuối tuần xem rối nước bên hồ trước nhà Việt.","look_ja":"小道を一周し、高床・土間・版築・墓屋の違いを比較。週末は池の水上人形劇も。","url_vi":"https://vme.vass.gov.vn/vuon-kien-truc","url_en":"https://vme-en.vass.gov.vn/architectural-garden","img":[{"f":"wm-vme-exterior.jpg","vi":"Khuôn viên bảo tàng","ja":"博物館の敷地"},{"f":"wm-vme-thuydinh.jpg","vi":"Thuỷ đình múa rối nước trong vườn","ja":"庭園の水上人形劇の舞台"}]},{"id":"canh-dieu","kind":"zone","vi":"Tòa Cánh diều","ja":"凧館（東南アジア館）","ethnic":null,"origin_vi":"Khởi công năm 2006; do KTS Đại học Xây dựng Hà Nội thiết kế mô phỏng hình cánh diều.","origin_ja":"2006年着工。ハノイ建設大学の建築家が凧の形を模して設計。","summary_vi":"Tòa nhà 4 tầng “Đông Nam Á”, có 4 trưng bày thường xuyên về văn hóa ngoài Việt Nam, cùng không gian trưng bày nhất thời, giáo dục, chiếu phim và đa phương tiện.","summary_ja":"4階建ての「東南アジア」館。ベトナム国外の文化を扱う常設展4つのほか、企画展・教育・映画・マルチメディア室を備える。","facts_vi":["Tầng 4 dùng bảo quản hiện vật","Văn hóa Đông Nam Á (tầng 1): đồ vải, đời sống hàng ngày, đời sống xã hội, nghệ thuật biểu diễn, tôn giáo","Tranh kính Indonesia: 68 bức do O’ong Maryono và Rosalia Sciortino tặng năm 2006","Một thoáng châu Á: 560 hiện vật GS. Kaneko Kazushige tặng năm 2005","Vòng quanh thế giới: gần 200 tác phẩm từ sưu tập GS. Lê Thành Khôi, theo 4 châu lục"],"facts_ja":["4階は収蔵庫","「東南アジアの文化」（1階）：織物・日常生活・社会生活・芸能・宗教","「インドネシアのガラス絵」：マリョノ夫妻が2006年に寄贈した68点","「アジアの一瞥」：日本の金子量重教授が2005年に寄贈した560点","「世界一周」：レー・タイン・コイ教授コレクションから約200点、4大陸別"],"look_vi":"Ở tầng 2 tìm trưng bày “Một thoáng châu Á” với gốm Nhật Bản do GS. Kaneko tặng; xem tranh kính Indonesia vẽ ngược trên kính.","look_ja":"2階「アジアの一瞥」では金子教授寄贈の日本の陶器も。裏から描くインドネシアのガラス絵も必見。","url_vi":"https://vme.vass.gov.vn/toa-canh-dieu","url_en":"https://vme-en.vass.gov.vn/kite-building","img":[]},{"id":"cham","kind":"house","vi":"Khuôn viên nhà Chăm","ja":"チャム族の屋敷","ethnic":"cham","origin_vi":"Khuôn viên của một gia đình quý tộc Chăm Bà La Môn ở Ninh Thuận (trang không nêu năm dựng tại bảo tàng).","origin_ja":"ニントゥアンのバラモン系チャム族貴族の屋敷（博物館での建設年は公式ページに記載なし）。","summary_vi":"Khuôn viên gồm 5 ngôi nhà bố trí theo tập tục truyền thống; trong xã hội Chăm, khuôn viên thể hiện rõ đẳng cấp của gia chủ.","summary_ja":"伝統的な配置に従う5棟からなる屋敷。チャム社会では屋敷構えが家の身分をはっきり示す。","facts_vi":["5 nhà: Sang lâm (nhà lẫm), Sang Ye (nhà tục), Sang mayau (nhà kề), Sang ton (nhà cao), Sang ging (nhà bếp)","Bố trí theo truyền thống, trừ hướng nhà bị đổi do thế đất của bảo tàng","Được gọi là “nhà sàn thấp của người Chăm”"],"facts_ja":["5棟：サン・ラム（倉）、サン・イェ（俗の家）、サン・マヤウ（付属屋）、サン・トン（高い家）、サン・ギン（台所）","配置は伝統どおりだが、敷地の都合で向きだけ変更","公式には「チャム族の低い高床住居」と紹介"],"look_vi":"Tìm đủ 5 ngôi nhà và quan sát cách sắp xếp chúng trong khuôn viên.","look_ja":"5棟すべてを見つけ、屋敷内での並び方を観察しよう。","url_vi":"https://vme.vass.gov.vn/nha-nguoi-cham/nha-nguoi-cham-557585","url_en":"https://vme-en.vass.gov.vn/cham-house/cham-house-559656","img":[]},{"id":"viet","kind":"house","vi":"Nhà Việt (khuôn viên nhà bà Cố Hợi)","ja":"ベト（キン）族の家（コー・ホイ夫人の屋敷）","ethnic":"kinh","origin_vi":"Nhà bà Cố Hợi, gia đình khá giả ở xã Thọ Lộc, huyện Thọ Xuân, Thanh Hóa; nhà chính dựng 1906 (trang không nêu năm dựng tại bảo tàng).","origin_ja":"タインホア省トースアン県トーロック村の裕福なコー・ホイ夫人の家。母屋は1906年築（博物館での再建年は記載なし）。","summary_vi":"Khuôn viên nhà ngói của một gia đình khá giả nửa đầu thế kỷ XX, gồm nhà chính, nhà học, nhà ngang, bếp, giếng và bể nước mưa.","summary_ja":"20世紀前半の裕福な家の瓦葺き屋敷。母屋・学問所・横屋・台所・井戸・雨水槽からなる。","facts_vi":["Nhà chính 5 gian (1906) để thờ tự, tiếp khách và ở","Năm 1933 nối thêm 5 gian để dạy học; năm 1937 dựng nhà ngang","Ba gian thờ có nhiều chạm khắc gỗ và 11 bức đại tự chữ Hán","Nhà thấp vì tục không được cao hơn đình và vì vùng Thanh Hóa hay có bão","Ở làng nhà quay hướng nam, tại bảo tàng phải đổi hướng"],"facts_ja":["母屋5間（1906年）は祖先祭祀・接客・居住を兼ねる","1933年に学問所5間を増築、1937年に横屋を建設","祭祀の3間には木彫と漢字の扁額11枚","村の亭（ディン）より高くしない慣習と台風のため屋根が低い","村では南向きだったが、博物館では向きを変更"],"look_vi":"Vào gian thờ xem 11 bức đại tự chữ Hán và chạm khắc; để ý mái thấp, giếng và bể nước mưa; cuối tuần xem rối nước trước nhà.","look_ja":"祭祀の間の扁額11枚と木彫、低い屋根、井戸と雨水槽に注目。週末は家の前で水上人形劇。","url_vi":"https://vme.vass.gov.vn/nha-nguoi-viet/nha-nguoi-viet-557586","url_en":"https://vme-en.vass.gov.vn/viet-house/viet-house-559657","img":[{"f":"wm-vme-viet.jpg","vi":"Nhà ngói người Việt (Bắc Bộ)","ja":"キン族（北部）の瓦屋根の家"}]},{"id":"bana","kind":"house","vi":"Nhà rông Ba-na","ja":"バナ族の共同家屋（ニャー・ロン）","ethnic":"ba-na","origin_vi":"Theo mẫu nhà rông làng Kon Rbàng (xã Vinh Quang, TP Kon Tum, Kon Tum; nay xã Ngọk Bạy, Quảng Ngãi); dựng tại bảo tàng năm 2003.","origin_ja":"コントゥム市ヴィンクアン村（現クアンガイ省ゴックバイ村）のコンルバン村の共同家屋がモデル。2003年に博物館で建設。","summary_vi":"Nhà rông cao gần 19 m, mái cong cao vút, là “bộ mặt của làng” và không gian sinh hoạt xã hội, nghi lễ của đàn ông Ba-na.","summary_ja":"高さ約19mの反り屋根の共同家屋。「村の顔」であり、バナ族男性の社交と儀礼の場。","facts_vi":["Cao gần 19 m (kể cả dải hoa văn trên nóc), sàn cao gần 3 m, diện tích trong nhà hơn 90 m²","40 người làng Kon Rbàng dựng, công cụ chính là rìu","8 cột lớn, 4 cột đường kính gần 60 cm; xà dọc, đòn tay dài 14–15 m","Treo đầu trâu hiến sinh và đầu thú săn; cất giữ vật thiêng của làng; ngày thường phụ nữ không lên nhà rông","Năm 2025, người già và thanh niên Ba-na cùng lợp lại mái"],"facts_ja":["高さ約19m（棟飾り含む）、床高約3m、床面積90㎡超","コンルバン村の40人が斧を主な道具に建設","大柱8本（うち4本は直径約60cm）、桁・母屋材は長さ14〜15m","生贄の水牛や狩りの獲物の頭を掛け、村の聖物を保管。普段女性は上がらない","2025年、長老と若者が一緒に屋根を葺き替えた"],"look_vi":"Ngắm mái cong phồng ở phần dưới; tìm 4 cột lớn, hệ xà ngang–đứng–xiên, cột dựa ché rượu cần, trống và bếp.","look_ja":"下部が膨らむ反り屋根、太い4本柱、縦横斜めに組んだ梁、酒甕を立てかける柱、太鼓と炉を探そう。","url_vi":"https://vme.vass.gov.vn/nha-rong-ba-na/nha-rong-bana-557587","url_en":"https://vme-en.vass.gov.vn/bahnar-communal-house/the-bahnar-communal-house-559658","img":[{"f":"wm-bahnar-nharong.jpg","vi":"","ja":""},{"f":"wm-vme-bana-2.jpg","vi":"Nhà rông Ba Na nhìn nghiêng, cầu thang lên nhà","ja":"バナ族のロンを横から：入口の階段"}]},{"id":"ede","kind":"house","vi":"Nhà dài Ê-đê","ja":"エデ族のロングハウス","ethnic":"e-de","origin_vi":"Theo nhà gia đình bà H’Đách Êban (Ê-đê Kpạ) làm năm 1967 ở buôn Ky, Buôn Ma Thuột, Đắk Lắk; bản EN ghi dựng lại tại bảo tàng năm 2000.","origin_ja":"ダクラク省バンメトート市キー村、エデ・クパ人のフダック・エバン家の家（1967年築）が原型。英語版では2000年に再建。","summary_vi":"Nhà sàn dài 42,5 m của một đại gia đình mẫu hệ giàu có, giữ hướng bắc–nam theo tập quán Ê-đê, trưng bày gần 300 hiện vật.","summary_ja":"裕福な母系大家族の長さ42.5mの高床式ロングハウス。エデの慣習どおり南北向きで、約300点を展示。","facts_vi":["Dài 42,5 m, rộng 6 m, sàn cao 1,10 m","Nhà càng đông người càng dài; xưa có nhà dài khoảng 200 m","Đầu nhà phía bắc có cửa chính và sân sàn; đầu hồi phía nam là cuối nhà","Cột, xà lớn chạm khắc cầu kỳ; cầu thang đầu nhà xưa rộng hơn 1 m","Có ghế Kpan, chiêng, trống, ché rượu cần, cột khách, cột chiêng, cột chủ"],"facts_ja":["長さ42.5m、幅6m、床高1.10m","住む人が増えるほど家は長くなり、昔は約200mの家もあった","北側が正面で入口と高床の前庭、南側の妻側が奥","大きな柱と梁に精巧な彫刻。かつての正面階段は幅1m以上","クパン椅子、ゴング、太鼓、酒甕、客の柱・ゴングの柱・主人の柱がある"],"look_vi":"Đứng ở sân sàn đầu nhà phía bắc nhìn dọc nhà; tìm ghế Kpan dài, các cột có tên riêng và ché rượu cần.","look_ja":"北側の高床前庭から家の奥行きを眺め、長いクパン椅子、名前のある柱、酒甕を探そう。","url_vi":"https://vme.vass.gov.vn/nha-nguoi-e-de/nha-nguoi-e-de-557588","url_en":"https://vme-en.vass.gov.vn/ede-house/ede-house-559659","img":[{"f":"wm-ede-nhadai.jpg","vi":"","ja":""},{"f":"wm-vme-ede-2.jpg","vi":"Bên trong nhà dài Ê Đê: bếp, ghế dài, ché","ja":"エデ族ロングハウスの内部：炉・長椅子・甕"}]},{"id":"giarai","kind":"house","vi":"Nhà mồ Gia-rai","ja":"ザライ族の墓屋","ethnic":"gia-rai","origin_vi":"Do 5 người đàn ông Gia-rai Aráp ở làng Mrông Ngọ (huyện Chư Pah, Gia Lai) dựng năm 1998.","origin_ja":"ザライ省チューパー県ムロンゴ村のザライ・アラップ人男性5人が1998年に建設。","summary_vi":"Nhà mồ tập thể (ở làng chôn được khoảng 30 người), bao quanh bởi hàng rào tượng gỗ, làm đẹp chỉ để phục vụ lễ bỏ mả.","summary_ja":"村では約30人を葬る共同墓屋。木彫像の柵で囲まれ、墓放棄祭のためだけに美しく造られる。","facts_vi":["Tượng đẽo bằng rìu, đục, dao; có tượng trai gái giao hoan và phụ nữ mang thai, tượng trưng sự sinh sôi","Mái lợp gỗ ván, phủ phên nan tre vẽ phẩm đỏ tự chế","Hình tạc trên nóc tả lễ bỏ mả","Bên trong đặt ché, bát, đĩa, chai, chén và mô hình nông cụ cho người chết","Sau lễ (vài ba ngày), nhà mồ bị bỏ hoang"],"facts_ja":["斧・鑿・刀で彫った像。交わる男女や妊婦の像は豊穣・生殖の象徴","板葺き屋根を手製の赤い顔料で文様を描いた竹編みで覆う","屋根上の彫刻は墓放棄祭の様子","内部には甕・椀・皿・瓶・杯と農具の模型を死者のために置く","数日間の儀礼の後、墓屋は放置され朽ちていく"],"look_vi":"Đi quanh hàng rào tượng để xem các tượng sinh sôi; ngước nhìn phên mái vẽ đỏ và hình tạc trên nóc.","look_ja":"像の柵を一周して豊穣の像を観察し、赤い文様の屋根と棟の彫刻を見上げよう。","url_vi":"https://vme.vass.gov.vn/nha-mo-gia-rai/nha-mo-gia-rai-557589","url_en":"https://vme-en.vass.gov.vn/giarai-tomb-house/giarai-tomb-house-559660","img":[{"f":"wm-giarai-nhamo.jpg","vi":"","ja":""}]},{"id":"cotu","kind":"house","vi":"Nhà mồ Cơ-tu","ja":"コートゥ族の墓屋","ethnic":"co-tu","origin_vi":"Do anh Bríu Nga (36 tuổi) làm tại thôn Aliêng, Quảng Nam, theo mẫu nhà mồ làm cho bố vợ năm 1996; dựng tại bảo tàng 12/2005.","origin_ja":"クアンナム省アリエン村でブリウ・ガー氏（36歳）が1996年に義父のために造った墓屋を手本に製作。2005年12月に博物館で建設。","summary_vi":"Nhà mồ của người giàu có, uy tín, làm cho tang lễ lần thứ hai, khi quan tài hài cốt được đặt vào cỗ quách lớn chạm khắc công phu.","summary_ja":"富と威信のある人のための墓屋。第二次葬で遺骨の棺を精巧な彫刻の大きな外棺に納める。","facts_vi":["Hình đầu trâu cho thấy tang lễ có hiến tế trâu, đồng thời là biểu tượng của cải","Các họa tiết: kỳ đà, rồng, chim tring, ngọn rau dớn, lá cây móc, người ngồi rầu rĩ","Trưng bày cáng khiêng người chết và giá cúng cơm","Được gọi là “nhà mồ cá nhân”"],"facts_ja":["水牛の頭の彫刻は葬儀での水牛供犠を示し、富の象徴でもある","モチーフ：オオトカゲ、竜、トリン鳥、シダの若芽、モック椰子の葉、悲しげに座る人","遺体を運ぶ担架と供え飯の棚も展示","公式には「個人の墓屋」と紹介"],"look_vi":"Tìm cỗ quách chạm khắc, các đầu trâu, hình người ngồi rầu rĩ; xem chiếc cáng và giá cúng cơm.","look_ja":"彫刻された外棺、水牛の頭、悲しげに座る人の像を探し、担架と供え飯の棚も見よう。","url_vi":"https://vme.vass.gov.vn/nha-mo-co-tu/nha-mo-co-tu-557590","url_en":"https://vme-en.vass.gov.vn/cotu-tomb-house/cotu-tomb-house-559661","img":[{"f":"wm-cotu-nhamo.jpg","vi":"","ja":""}]},{"id":"tay","kind":"house","vi":"Nhà sàn Tày","ja":"タイー族の高床住居","ethnic":"tay","origin_vi":"Nhà ông Đào Thế Diện làm năm 1967 ở bản Thẩm Rộc, xã Bình Yên, huyện Định Hóa, Thái Nguyên; 12 người Tày dựng lại tại bảo tàng năm 1999 trong hai tuần.","origin_ja":"タイグエン省ディンホア県ビンイエン村タムロック集落、ダオ・テー・ジエン氏の家（1967年築）。1999年に同郷のタイー族12人が2週間で再建。","summary_vi":"Nhà sàn cao 1,8 m, rộng hơn 100 m², mái lá cọ; người ở trên sàn, gầm sàn dành cho vật nuôi và việc nhà.","summary_ja":"床高1.8m・100㎡超のヤシ葺き高床住居。人は床上に住み、床下は家畜と作業の場。","facts_vi":["Mái lợp khoảng 6.000 tàu lá cọ","Gỗ, tre, nứa ngâm nước và bùn 3–6 tháng trở lên để chống mọt","Nan vách nhuộm đen bằng nhọ nồi trộn củ nâu, đan hoa văn giống thổ cẩm và đồ đan Tày","Gầm sàn: trâu, bò, lợn, gà, củi, nông cụ, xay thóc, giã gạo, giã cốm","Trong cổng có chòi nhỏ là miếu thờ thổ công"],"facts_ja":["屋根はヤシの葉約6,000枚","木・竹は虫害を防ぐため水と泥に3〜6か月以上浸す","壁の竹ひごは煤と薯莨で黒く染めて編み、タイーの織物や編み細工と同じ文様に","床下は牛・豚・鶏、薪、農具、籾すりや米・青米つきの場","門の内側に家の土地神を祀る小さな祠"],"look_vi":"Xem vách đan hoa văn nan đen, mái lá cọ, gầm sàn với cối xay, cối giã và miếu thổ công ở cổng.","look_ja":"黒い文様の編み壁、ヤシ葺き屋根、床下の臼、門の土地神の祠に注目。","url_vi":"https://vme.vass.gov.vn/nha-nguoi-tay/nha-nguoi-tay-557591","url_en":"https://vme-en.vass.gov.vn/tay-house/tay-house-559662","img":[{"f":"wm-vme-tay.jpg","vi":"Nhà sàn Tày (mẫu Định Hoá, Thái Nguyên)","ja":"タイー族の高床住居（タイグエン省ディンホア）"}]},{"id":"dao","kind":"house","vi":"Nhà Dao (nửa sàn nửa đất)","ja":"ザオ族の半高床・半土間の家","ethnic":"dao","origin_vi":"Theo mẫu nhà ông Bàn Văn Sấm, thôn Khe Mụ, xã Sơn Hà, huyện Bảo Thắng, Lào Cai; ông cùng 7 người Dao Họ dựng tại bảo tàng năm 1999 trong 23 ngày.","origin_ja":"ラオカイ省バオタン県ソンハー村ケームー集落のバン・ヴァン・サム氏の家がモデル。1999年、氏とザオ・ホ人7人が23日で建設。","summary_vi":"Nhà nửa sàn nửa đất thích ứng với sườn núi dốc; việc làm nhà theo truyền thống với nhiều kiêng kỵ.","summary_ja":"急斜面に適応した半高床・半土間の家。建築は伝統に従い多くの禁忌を伴う。","facts_vi":["12 cột chính bằng lõi gỗ thọ không mối mọt, đã dùng 60–70 năm; 4 gia đình nhượng lại cho bảo tàng","Kiêng lấy cây đổ, cây bị dây leo quấn hoặc cụt ngọn","Chỉ chủ nhà được phủ nóc: vỗ 3 cái xuống mái hỏi “đã tối chưa?”, mọi người đáp “tối rồi”","Mái thường lợp lại sau 5–6 năm","Sàn lộ thiên để tắm, giặt, phơi, ngâm chàm, nhuộm vải; kho nhỏ trữ lúa, ngô, đậu"],"facts_ja":["主柱12本は虫に強いトー材の芯材で60〜70年使用。4家族が博物館に譲った","倒木、蔓の巻いた木、梢の折れた木は使わない","棟を葺くのは家長のみ。屋根を3回叩き「暗くなったか？」と問い、皆が「暗くなった」と答える","屋根は5〜6年ごとに葺き替える","露天の床は沐浴・洗濯・藍染めの場、脇の小屋に米・トウモロコシ・豆を貯蔵"],"look_vi":"Quan sát chỗ chuyển từ phần sàn sang phần đất, 12 cột gỗ thọ, sàn ngâm chàm và kho lúa; gần đó có cối giã gạo bằng sức nước.","look_ja":"高床と土間の境目、トー材の12本柱、藍染めの露天床と穀物小屋を観察。近くに水力の米つき臼も。","url_vi":"https://vme.vass.gov.vn/nha-nguoi-dao/nha-nguoi-dao-557592","url_en":"https://vme-en.vass.gov.vn/yao-house/yao-house-559663","img":[{"f":"wm-vme-dao.jpg","vi":"Nhà người Dao: nền kè đá, vách nứa","ja":"ザオ族の家：石積みの基礎と竹の壁"}]},{"id":"hmong","kind":"house","vi":"Nhà Hmông (nhà trệt lợp ván pơmu)","ja":"モン族の家（ポムー材の板葺き土間住居）","ethnic":"mong","origin_vi":"Ông Thào Nụ Thào làm năm 1984 ở bản Đề Chờ Chua A, xã Púng Luông, huyện Mù Cang Chải, Yên Bái; 7 người Hmông Hoa dựng lại tại bảo tàng năm 1999 trong 6 ngày.","origin_ja":"イエンバイ省ムーカンチャイ県プンルオン村デーチョーチュアA集落、タオ・ヌ・タオ氏が1984年に建築。1999年に花モン7人が6日で再建。","summary_vi":"Nhà trệt hoàn toàn bằng gỗ pơmu, mái lợp khoảng 600 tấm ván; khuôn viên có chuồng ngựa và lò rèn.","summary_ja":"すべてポムー材で造られた土間住居。屋根は板約600枚で葺かれ、敷地に馬小屋と鍛冶場がある。","facts_vi":["Cột, kèo, xà, vách, mái đều bằng gỗ pơmu","Mái khoảng 600 tấm ván, mỗi tấm dài 1,2 m, rộng 0,3–0,4 m","Dụng cụ: búa, dao, đục do thợ rèn Hmông làm","Có thể gạt lệch tấm ván mái để lấy sáng cho chỗ dệt vải","Trong nhà có giường khách, cối xay gỗ, chỗ thờ cúng, cột ma nhà, buồng chủ nhà"],"facts_ja":["柱・梁・壁・屋根すべてポムー材","屋根板約600枚、1枚長さ1.2m・幅0.3〜0.4m","道具はモンの鍛冶が作った斧・刀・鑿","屋根板を棒でずらして機織り場に光を入れられる","客用寝台、木の挽き臼、祭壇、家の霊の柱、主人の部屋がある"],"look_vi":"Tìm tấm ván mái có thể gạt để lấy sáng, cột ma nhà, cối xay gỗ; ra sau xem lò rèn và chuồng ngựa.","look_ja":"光を入れるためにずらせる屋根板、家の霊の柱、木の挽き臼を探し、鍛冶場と馬小屋も見よう。","url_vi":"https://vme.vass.gov.vn/nha-nguoi-hmong/nha-nguoi-hmong-557593","url_en":"https://vme-en.vass.gov.vn/hmong-house/hmong-house-559664","img":[{"f":"wm-vme-hmong.jpg","vi":"Nhà người Hmông: vách ván, mái lợp ván gỗ","ja":"モン族の家：板壁と板葺き屋根"}]},{"id":"hani","kind":"house","vi":"Nhà trình tường Hà Nhì","ja":"ハニ族の版築土壁の家","ethnic":"ha-nhi","origin_vi":"Theo mẫu nhà ông Tráng A Lù, thôn Lao Chải 1, xã Y Tý, huyện Bát Xát, Lào Cai; 20 người Hà Nhì dựng tại bảo tàng năm 2004 trong 56 ngày.","origin_ja":"ラオカイ省バットサット県イーティー村ラオチャイ1集落、チャン・ア・ルー氏の家がモデル。2004年にハニ族20人が56日で建設。","summary_vi":"Nhà rộng hơn 80 m², tường đất trình dày 45 cm, cao 4 m, mái cỏ tranh dày; bên cạnh có nhà phụ làm chuồng trâu, ngựa.","summary_ja":"80㎡超、厚さ45cm・高さ4mの版築土壁と厚い茅葺き屋根の家。隣の付属屋は水牛と馬の小屋。","facts_vi":["Tường bằng đất sét lẫn sỏi, đá nhỏ, đổ khuôn ván và giã bằng chày gỗ; đặt tre tươi, đá hộc cho chắc","Mỗi khuôn 6 người: 2 đổ đất, 2 giã, 1 cho tre và đá, 1 làm phẳng mặt","Tường dùng hết 150 m³ đất và 14 m³ đá","Mái 1.500 bó cỏ tranh (hơn 10 tấn), dày 45 cm khi mới lợp","Lợp gốc cỏ quay xuống, ngọn hướng lên nóc, khác nhiều dân tộc khác"],"facts_ja":["小石混じりの粘土を板枠に入れ木の杵で突き固め、青竹と石を入れて補強","1枠6人：土入れ2、突き2、竹・石入れ1、壁面仕上げ1","壁に土150㎥と石14㎥を使用","屋根は茅1,500束（10トン超）、葺き立て時の厚さ45cm","茅の根元を下、穂先を棟に向けて葺く点が他民族と異なる"],"look_vi":"Đứng ở cửa để cảm nhận độ dày tường đất; nhìn kỹ mép mái để thấy gốc cỏ tranh quay xuống; xem nhà phụ chuồng trâu ngựa.","look_ja":"入口で土壁の厚みを実感し、軒先で茅の根元が下を向いているか確かめよう。付属の家畜小屋も。","url_vi":"https://vme.vass.gov.vn/nha-nguoi-ha-nhi/nha-nguoi-ha-nhi-557595","url_en":"https://vme-en.vass.gov.vn/hanhi-house/hani-house-559666","img":[{"f":"wm-hani-nhatrinh.jpg","vi":"","ja":""}]}]
+</script>
+<script id="demo-data" type="application/json">
+{"source":"UN, World Population Prospects 2024 (estimates 1950–2023, medium variant 2024–2100), via Our World in Data","source_url":"https://population.un.org/wpp/","last_estimate_year":2023,"years":[1950,1955,1960,1965,1970,1975,1980,1985,1990,1995,2000,2005,2010,2015,2020,2023,2025,2026,2030,2035,2040,2045,2050,2055,2060,2065,2070,2075,2080,2085,2090,2095,2100],"pop":{"VNM":[25100732,28166451,32531929,37129660,41475227,46482905,52490098,59060622,65504551,72049945,77154016,81088309,87455148,92823254,98079196,100352189,101598530,102177434,104254900,106530670,108437633,109685396,110008911,109478381,108396977,106969668,105260843,103266529,101038820,98712642,96406983,94117722,91705113],"CHN":[544044355,603547014,654802068,723415737,823308964,916116796,983163540,1059807818,1153582725,1220133929,1269581174,1310027135,1351561505,1396134171,1426106093,1422584930,1416096093,1412914090,1398153829,1373427526,1342816657,1306113781,1260289089,1202342470,1135127187,1065632522,998784320,934466657,870252336,806115053,744902835,687724077,633368105],"JPN":[86443278,92425476,96399755,100916018,106712370,113321197,118358761,120832158,123399767,125672659,127027794,127913331,128185273,127275868,126304533,124370947,123103480,122427730,119584120,115876151,112158303,108551993,105123163,101721354,98103216,94324174,90611760,87352848,84729968,82570772,80634402,78747735,76845989]},"median_age":{"VNM":[23.1,22.0,20.2,17.7,17.2,17.6,18.4,18.9,19.5,20.6,22.7,24.8,27.2,29.2,31.0,32.4,33.4,33.9,35.7,37.4,38.2,39.0,40.2,41.8,43.6,44.8,45.6,46.0,46.3,47.0,47.9,48.7,49.3],"CHN":[22.2,20.7,19.9,18.5,18.0,19.1,20.9,21.7,23.7,26.1,29.0,31.8,34.1,35.7,37.5,39.1,40.1,40.6,42.9,45.8,48.6,50.6,52.1,53.4,54.7,56.1,57.7,59.6,61.4,62.2,61.4,60.9,60.7],"JPN":[21.3,22.7,24.7,26.6,28.3,29.7,31.7,34.5,36.9,39.0,40.8,42.6,44.2,45.8,47.7,49.0,49.8,50.2,51.5,52.5,53.1,53.0,52.8,52.8,53.1,53.5,53.6,53.3,52.7,52.3,52.4,52.7,53.0]},"vn_census":{"source":"Tổng cục Thống kê (nso.gov.vn): Thông cáo báo chí TĐTDS 2009; Kết quả toàn bộ TĐTDS 2019, Biểu 2","years":[2009,2019],"pop":[85846997,96208984],"ethnic_minority_2019":14119256,"kinh_2019":82085826},"peak":{"CHN":{"year":2021,"pop":1426437269},"JPN":{"year":2009,"pop":128192471},"VNM":{"year":2049,"pop":110018017}},"vn_milestones":{"source":"Cục Thống kê & UNFPA, Dự báo dân số Việt Nam 2024–2074 (Tuổi Trẻ 26/01/2026); Cục Thống kê, thông cáo dân số 2025","golden_start":2007,"golden_end":2036,"aged_society":2034,"working_age_peak":{"year":2038,"pop":69500000},"pop_2025_avg":102300000,"pop_2074_medium":114200000}}
+</script>
+<script id="ethnic-data" type="application/json">
+[{"id":"kinh","vi":"Kinh","ja":"キン族（ベト族）","alt":"Việt","group":"viet-muong","pop":82085826,"region_vi":"Khắp cả nước, chủ yếu đồng bằng và đô thị","region_ja":"全国各地。主に平野部と都市","hi_vi":"Làng có đình, chùa, lũy tre; thờ cúng tổ tiên; Tết Nguyên đán; nghề gốm, tranh Đông Hồ, múa rối nước.","hi_ja":"村には亭（ディン）・寺・竹垣があり、祖先祭祀を重視。旧正月テト、陶磁器、ドンホー版画、水上人形劇で知られる。","kin":[{"c":"CN","vi":"Kinh (京族) Quảng Tây","ja":"キン族（京族）・広西"},{"c":"JP","vi":"Cộng đồng người Việt tại Nhật","ja":"在日ベトナム人コミュニティ"},{"c":"US","vi":"Cộng đồng người Việt tại Mỹ","ja":"在米ベトナム系住民"},{"c":"FR","vi":"Cộng đồng người Việt tại Pháp","ja":"在仏ベトナム系住民"},{"c":"KH","vi":"Người Việt ở Campuchia","ja":"カンボジアのベトナム系住民"}],"vme_vi":"Khu người Việt trong nhà Trống Đồng; nhà Việt và sân khấu múa rối nước ở vườn ngoài trời.","vme_ja":"本館「銅鼓館」のキン族展示、屋外展示場のキン族の家と水上人形劇の舞台。","photo":{"file":"costume/kinh.jpg","page":"https://commons.wikimedia.org/wiki/File:Cinq_sœurs_à_Hanoï,_1950s.jpg","author":"Unknown author","license":"Public domain","desc_vi":"Năm chị em người Kinh mặc áo dài ở Hà Nội, thập niên 1950","desc_ja":"1950年代ハノイ、アオザイ姿のキン族の五姉妹"}},{"id":"muong","vi":"Mường","ja":"ムオン族","alt":"Mol, Mual","group":"viet-muong","pop":1452095,"region_vi":"Hoà Bình, Thanh Hoá, Phú Thọ, Sơn La","region_ja":"ホアビン省、タインホア省、フート省、ソンラ省","hi_vi":"Nhà sàn; cạp váy dệt hoa văn tinh xảo; cồng chiêng; sử thi Mo Mường 'Đẻ đất đẻ nước' trong tang lễ.","hi_ja":"高床式住居。精巧な織り柄のスカート帯、銅鑼（ゴング）、葬儀で語られる叙事詩「モ・ムオン」が有名。","kin":[{"c":"LA","vi":"Các nhóm Việt nhỏ (Thavung, Maleng)","ja":"ヴィエト系少数集団（タヴン、マレン）"}],"vme_vi":"Khu Việt–Mường: cồng chiêng, cạp váy Mường, hiện vật lễ tang.","vme_ja":"ヴィエト・ムオン語群の展示：ゴング、ムオン族のスカート帯、葬儀関連の資料。","photo":{"file":"costume/muong.jpg","page":"https://commons.wikimedia.org/wiki/File:Muong_people_hoa_binh.jpg","author":"Chienol","license":"CC BY-SA 4.0","desc_vi":"Phụ nữ Mường mặc áo pắn, váy đen, Hòa Bình","desc_ja":"ホアビン省、伝統衣装のムオン族女性"}},{"id":"tho","vi":"Thổ","ja":"トー族","alt":"Kẹo, Mọn, Cuối, Đan Lai","group":"viet-muong","pop":91430,"region_vi":"Miền tây Nghệ An, Thanh Hoá","region_ja":"ゲアン省西部、タインホア省","hi_vi":"Hợp thành từ nhiều nhóm địa phương; ngôn ngữ gần tiếng Mường; nghề đan lát, dệt võng, chiếu sợi gai.","hi_ja":"複数の地域集団から成り、言葉はムオン語に近い。竹細工や麻のハンモック・ござ作りが伝統工芸。","kin":[{"c":"LA","vi":"Các nhóm Việt nhỏ (gần gũi ngôn ngữ)","ja":"ヴィエト系少数集団（言語的に近縁）"}],"vme_vi":"Tìm trong khu trưng bày nhóm Việt–Mường: đồ đan lát, nông cụ.","vme_ja":"ヴィエト・ムオン語群の展示内で、竹細工や農具を探してみよう。","photo":{"file":"costume/tho.jpg","page":"https://commons.wikimedia.org/wiki/File:Costume,_Tho,_Nghe_An,_1956,_cotton_with_woven_silk_patterns_-_Vietnamese_Women's_Museum_-_Hanoi,_Vietnam_-_DSC03880.JPG","author":"Daderot","license":"CC0","desc_vi":"Trang phục nữ người Thổ (Nghệ An, 1956), Bảo tàng Phụ nữ Việt Nam","desc_ja":"トー族女性の衣装（ゲアン省、1956年）、ベトナム女性博物館"}},{"id":"chut","vi":"Chứt","ja":"チュット族","alt":"Sách, Mày, Rục, Arem, Mã Liềng","group":"viet-muong","pop":7513,"region_vi":"Quảng Bình (Minh Hoá, Tuyên Hoá, Bố Trạch)","region_ja":"クアンビン省の山間部","hi_vi":"Một số nhóm (Rục, Arem) đến giữa thế kỷ 20 còn sống trong hang đá, hái lượm, săn bắt; giỏi đan lát mây tre.","hi_ja":"ルック、アレムなど一部の集団は20世紀半ばまで岩陰で採集・狩猟生活を送っていた。籐や竹の編み物が得意。","kin":[{"c":"LA","vi":"Maleng, Thavung (nhánh Việt)","ja":"マレン、タヴン（ヴィエト系）"}],"vme_vi":"Tìm trong khu Việt–Mường: đồ đan lát, dụng cụ săn bắt, ảnh cuộc sống mái đá.","vme_ja":"ヴィエト・ムオン語群の展示：編み籠、狩猟具、岩陰生活の写真など。"},{"id":"tay","vi":"Tày","ja":"タイー族","alt":"Thổ (tên cũ), Ngạn, Phén","group":"tay-thai","pop":1845492,"region_vi":"Cao Bằng, Lạng Sơn, Bắc Kạn, Hà Giang, Tuyên Quang, Thái Nguyên","region_ja":"カオバン、ランソン、バッカン、ハザン、トゥエンクアン、タイグエン","hi_vi":"Dân tộc thiểu số đông nhất; nhà sàn; hát Then với đàn tính (UNESCO 2019); lễ Lồng tồng; áo chàm giản dị.","hi_ja":"ベトナム最大の少数民族。高床式住居、弦楽器ティンを伴う「テン」の歌（ユネスコ無形文化遺産）、田植え祭りロントン。","kin":[{"c":"CN","vi":"Choang (壮族)","ja":"チワン族（壮族）"}],"vme_vi":"Nhà sàn Tày ở vườn ngoài trời; đàn tính, đồ nghề thầy Then trong nhà Trống Đồng.","vme_ja":"屋外展示場のタイー族の高床式住居。館内ではティン（弦楽器）やテン儀礼の道具。","photo":{"file":"costume/tay.jpg","page":"https://commons.wikimedia.org/wiki/File:Tay_Women.jpg","author":"DXLINH","license":"CC BY-SA 3.0","desc_vi":"Phụ nữ Tày mặc áo chàm, đội khăn","desc_ja":"藍染の上着と頭巾を着けたタイー族女性"}},{"id":"thai","vi":"Thái","ja":"ターイ族","alt":"Tày Đăm (Thái Đen), Tày Khao (Thái Trắng)","group":"tay-thai","pop":1820950,"region_vi":"Sơn La, Điện Biên, Lai Châu, Yên Bái, Hoà Bình, Thanh Hoá, Nghệ An","region_ja":"ソンラ、ディエンビエン、ライチャウ、イエンバイ、ホアビン、タインホア、ゲアン","hi_vi":"Nhà sàn mái mai rùa có khau cút; áo cóm khuy bạc, khăn piêu; múa Xòe (UNESCO 2021); có chữ Thái cổ.","hi_ja":"亀の甲羅形の屋根の高床式住居、銀ボタンの上着と刺繍頭巾ピエウ。ソエ踊り（ユネスコ無形文化遺産）や独自の古文字がある。","kin":[{"c":"LA","vi":"Tai Dam, Tai Dón (cùng tộc); Lào","ja":"タイ・ダム、タイ・ドン（同一民族）、ラオ人"},{"c":"TH","vi":"Tai Dam (Lao Song), Thai","ja":"タイ・ダム（ラオ・ソン）、タイ人"},{"c":"CN","vi":"Thái (傣族)","ja":"タイ族（傣族）"},{"c":"US","vi":"Tai Dam ở Iowa","ja":"アイオワ州のタイ・ダム"},{"c":"MM","vi":"Shan (bang Shan, Myanmar) — gần gũi dân tộc–ngôn ngữ với Thái Đen","ja":"シャン族（ミャンマー・シャン州）— 黒タイ族と民族・言語的に近い"}],"vme_vi":"Khu Tày–Thái: trang phục Thái Đen, khăn piêu, khung cửi, ếp xôi, văn bản chữ Thái cổ.","vme_ja":"タイー・ターイ語群の展示：黒ターイの衣装、ピエウ、織機、おこわ入れ、古ターイ文字の文書。","photo":{"file":"costume/thai.jpg","page":"https://commons.wikimedia.org/wiki/File:Trang_phuc_Thai_trang.jpg","author":"Viethavvh at vi.wikipedia","license":"Public domain","desc_vi":"Trang phục Thái Trắng trưng bày tại Bảo tàng Dân tộc học Việt Nam","desc_ja":"白タイ族の衣装（ベトナム民族学博物館の展示）"}},{"id":"nung","vi":"Nùng","ja":"ヌン族","alt":"Nùng Giang, Nùng An, Nùng Phàn Slình, Nùng Inh…","group":"tay-thai","pop":1083298,"region_vi":"Lạng Sơn, Cao Bằng, Bắc Giang, Thái Nguyên, Hà Giang; Tây Nguyên","region_ja":"ランソン、カオバン、バクザン、タイグエン、ハザン、中部高原","hi_vi":"Gần với Tày về ngôn ngữ, văn hoá; hát đối đáp Sli; trồng hồi; nhiều tên nhóm lấy theo địa danh gốc ở Quảng Tây.","hi_ja":"言語・文化はタイー族に近い。男女の掛け合い歌「スリ」、八角の栽培で知られ、集団名の多くは広西の故地の地名に由来。","kin":[{"c":"CN","vi":"Choang (壮族)","ja":"チワン族（壮族）"},{"c":"US","vi":"Cộng đồng người Nùng di cư","ja":"移住したヌン族コミュニティ"}],"vme_vi":"Tìm trong khu Tày–Thái: trang phục chàm Nùng, đồ hát Then/Sli.","vme_ja":"タイー・ターイ語群の展示で、ヌン族の藍染め衣装や儀礼の道具を探そう。","photo":{"file":"costume/nung.jpg","page":"https://commons.wikimedia.org/wiki/File:Woman's_outfit,_Nung_(Nung_Inh)_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02835.JPG","author":"Daderot","license":"CC0","desc_vi":"Trang phục nữ Nùng Inh, Bảo tàng Dân tộc học Việt Nam","desc_ja":"ヌン族（ヌン・イン）女性の衣装、ベトナム民族学博物館"}},{"id":"san-chay","vi":"Sán Chay","ja":"サンチャイ族","alt":"Cao Lan, Sán Chỉ","group":"tay-thai","pop":201398,"region_vi":"Tuyên Quang, Thái Nguyên, Bắc Giang, Quảng Ninh, Phú Thọ","region_ja":"トゥエンクアン、タイグエン、バクザン、クアンニン、フート","hi_vi":"Hai nhóm: Cao Lan nói tiếng Tai, Sán Chỉ nói phương ngữ Hán; hát Sình ca; múa Tắc xình trong lễ cầu mùa.","hi_ja":"タイ系言語を話すカオラン人と、漢語方言を話すサンチー人の二集団から成る。掛け合い歌シンカ、豊作祈願の踊りタクシン。","kin":[{"c":"CN","vi":"Choang (壮族) – gần gũi ngôn ngữ (Cao Lan)","ja":"チワン族（壮族）—カオラン人と言語的に近縁"}],"vme_vi":"Tìm trong khu Tày–Thái: tranh thờ, đồ lễ cấp sắc, nhạc cụ múa Tắc xình.","vme_ja":"タイー・ターイ語群の展示：祭祀画、成人儀礼の道具、タクシン踊りの楽器。","photo":{"file":"costume/san-chay.jpg","page":"https://commons.wikimedia.org/wiki/File:高欄人婦女.jpg","author":"June Owen","license":"CC BY-SA 4.0","desc_vi":"Phụ nữ Cao Lan (Sán Chay) ở Thái Nguyên","desc_ja":"タイグエン省のカオラン（サンチャイ族）女性"}},{"id":"giay","vi":"Giáy","ja":"ザイ族","alt":"Nhắng, Dẩng, Pầu Thìn, Pu Nà","group":"tay-thai","pop":67858,"region_vi":"Lào Cai, Hà Giang, Lai Châu","region_ja":"ラオカイ、ハザン、ライチャウ","hi_vi":"Giỏi làm ruộng bậc thang (có ở Sa Pa); lễ xuống đồng Roóng poọc; áo cổ xẻ chéo màu sặc sỡ.","hi_ja":"棚田耕作に長け、サパにも暮らす。田植え前の祭り「ロンポック」、色鮮やかな斜め合わせの上着が特徴。","kin":[{"c":"CN","vi":"Bố Y (布依族)","ja":"プイ族（布依族）"}],"vme_vi":"Tìm trong khu trưng bày nhóm Tày–Thái.","vme_ja":"タイー・ターイ語群の展示内で探してみよう。","photo":{"file":"costume/giay.jpg","page":"https://commons.wikimedia.org/wiki/File:Tả_Van的Giáy婦女.jpg","author":"June Owen","license":"CC BY-SA 4.0","desc_vi":"Phụ nữ Giáy ở Tả Van, Sa Pa, Lào Cai","desc_ja":"ラオカイ省サパ・タヴァン村のザイ族女性"}},{"id":"lao","vi":"Lào","ja":"ラオ族","alt":"Lào Bốc, Lào Nọi","group":"tay-thai","pop":17532,"region_vi":"Điện Biên, Sơn La, Lai Châu, Thanh Hoá, Nghệ An","region_ja":"ディエンビエン、ソンラ、ライチャウ、タインホア、ゲアン","hi_vi":"Theo Phật giáo Theravada kết hợp thờ phi; Tết té nước Bun Pi May; lễ buộc chỉ cổ tay; dệt thổ cẩm.","hi_ja":"上座部仏教と精霊信仰が共存。水かけ正月ブン・ピーマイ、手首に糸を結ぶバーシー儀礼、織物が有名。","kin":[{"c":"LA","vi":"Lao (dân tộc chính)","ja":"ラオ人（ラオスの主要民族）"},{"c":"TH","vi":"Lào Isan","ja":"イサーンのラオ人"},{"c":"FR","vi":"Người Lào ở Pháp (~200.000)","ja":"フランスのラオ人（約20万人）"},{"c":"US","vi":"Người Lào ở Mỹ (~200.000, 2015)","ja":"アメリカのラオ人（約20万人・2015年）"},{"c":"CA","vi":"Người Lào ở Canada (~24.600)","ja":"カナダのラオ人（約2万4,600人）"},{"c":"KH","vi":"Người Lào ở Campuchia (~23.400)","ja":"カンボジアのラオ人（約2万3,400人）"}],"vme_vi":"Tìm trong khu Tày–Thái: thổ cẩm, đồ lễ Phật giáo.","vme_ja":"タイー・ターイ語群の展示：織物や仏教儀礼の品々。","photo":{"file":"costume/lao.jpg","page":"https://commons.wikimedia.org/wiki/File:Trang_phục_phụ_nữ_Lào_ở_Lai_Châu.jpg","author":"Nguyễn Thanh Quang","license":"CC BY-SA 3.0","desc_vi":"Trang phục phụ nữ Lào ở Tam Đường, Lai Châu","desc_ja":"ライチャウ省タムドゥオンのラオ族女性の衣装"}},{"id":"lu","vi":"Lự","ja":"ルー族","alt":"Lừ, Nhuồn, Duồn (Tai Lue)","group":"tay-thai","pop":6757,"region_vi":"Lai Châu (Tam Đường, Sìn Hồ, Phong Thổ), Điện Biên","region_ja":"ライチャウ省、ディエンビエン省","hi_vi":"Gốc từ Sipsongpanna (Vân Nam); nhà sàn mái dốc; váy dệt hoa văn, khăn quấn nhiều vòng; Phật giáo và thờ phi.","hi_ja":"雲南シーサンパンナに起源をもつ。急勾配屋根の高床式住居、文様織りのスカートと何重にも巻く頭巾。仏教と精霊信仰。","kin":[{"c":"CN","vi":"Thái Lặc (傣泐) thuộc 傣族","ja":"タイ・ルー（傣泐、傣族の一部）"},{"c":"LA","vi":"Lue","ja":"ルー人"},{"c":"TH","vi":"Tai Lue (Nan, Chiang Rai)","ja":"タイ・ルー（ナーン、チェンライ）"},{"c":"MM","vi":"Tai Lue (bang Shan)","ja":"タイ・ルー（シャン州）"},{"c":"US","vi":"Tai Lue ở Mỹ (~4.000, 1998)","ja":"アメリカのタイ・ルー族（約4,000人・1998年）"}],"vme_vi":"Tìm trong khu Tày–Thái: trang phục và vải dệt Lự.","vme_ja":"タイー・ターイ語群の展示で、ルー族の衣装や織物を探そう。","photo":{"file":"costume/lu.jpg","page":"https://commons.wikimedia.org/wiki/File:Người_Lự_ở_Lai_Châu.jpg","author":"Nguyễn Thanh Quang","license":"CC BY-SA 3.0","desc_vi":"Trang phục phụ nữ Lự ở Lai Châu","desc_ja":"ライチャウ省のルー族女性の衣装"}},{"id":"bo-y","vi":"Bố Y","ja":"ボーイ族（プイ族）","alt":"Chủng Chá, Tu Dí","group":"tay-thai","pop":3232,"region_vi":"Lào Cai (Mường Khương), Hà Giang, Tuyên Quang","region_ja":"ラオカイ省ムオンクオン、ハザン、トゥエンクアン","hi_vi":"Di cư từ Quý Châu khoảng 150–200 năm trước; nhà trình tường; áo năm thân; ảnh hưởng văn hoá Hán rõ.","hi_ja":"約150〜200年前に貴州から移住。土壁の家、五つ身の長い上着を着用し、漢文化の影響が強い。","kin":[{"c":"CN","vi":"Bố Y (布依族)","ja":"プイ族（布依族）"}],"vme_vi":"Tìm trong khu trưng bày nhóm Tày–Thái.","vme_ja":"タイー・ターイ語群の展示内で探してみよう。"},{"id":"mong","vi":"Mông","ja":"モン族（フモン族）","alt":"Hmông, H'Mông, Mèo (tên cũ)","group":"hmong-dao","pop":1393547,"region_vi":"Hà Giang, Lào Cai, Lai Châu, Điện Biên, Sơn La, Yên Bái","region_ja":"ハザン、ラオカイ、ライチャウ、ディエンビエン、ソンラ、イエンバイ","hi_vi":"Nhà trình tường; váy lanh vẽ sáp ong nhuộm chàm; khèn Mông; chợ tình Khâu Vai; món thắng cố, mèn mén.","hi_ja":"土壁の家。麻布にろうけつ染めを施したスカート、笙に似た楽器ケン、カウヴァイの「愛の市」、料理タンコーで知られる。","kin":[{"c":"CN","vi":"Miêu (苗族)","ja":"ミャオ族（苗族）"},{"c":"LA","vi":"Hmong","ja":"モン族"},{"c":"TH","vi":"Hmong (Meo)","ja":"モン族（メオ）"},{"c":"US","vi":"Hmong Mỹ (Minnesota, California)","ja":"アメリカのモン系住民（ミネソタ、カリフォルニア）"},{"c":"FR","vi":"Hmong ở Pháp","ja":"フランスのモン族"},{"c":"MM","vi":"Hmong ở Myanmar (~3.000, 2010) — cùng tộc, số nhỏ","ja":"ミャンマーのモン族（約3,000人・2010年）— 同じ民族、少数"},{"c":"AU","vi":"Hmong ở Úc (~3.400, 2011)","ja":"オーストラリアのモン族（約3,400人・2011年）"}],"vme_vi":"Nhà Mông ở vườn ngoài trời; khu Mông–Dao: trang phục lanh vẽ sáp, khèn, khung dệt lanh, đồ bạc.","vme_ja":"屋外展示場のモン族の家。館内ではろうけつ染めの麻衣装、ケン、麻織りの道具、銀細工。","photo":{"file":"costume/mong.jpg","page":"https://commons.wikimedia.org/wiki/File:FlowerHmong_Vietnam_(pixinn.net).jpg","author":"Christophe Meneboeuf","license":"CC BY-SA 3.0","desc_vi":"Chân dung phụ nữ Mông Hoa (Hmông Hoa) ở Việt Nam","desc_ja":"ベトナムの花モン族女性の肖像"}},{"id":"dao","vi":"Dao","ja":"ザオ族（ヤオ族）","alt":"Mán (tên cũ), Kìm Miền, Kìm Mùn, Dao Đỏ, Dao Tiền…","group":"hmong-dao","pop":891151,"region_vi":"Hà Giang, Tuyên Quang, Lào Cai, Yên Bái, Cao Bằng, Quảng Ninh…","region_ja":"ハザン、トゥエンクアン、ラオカイ、イエンバイ、カオバン、クアンニンなど","hi_vi":"Lễ cấp sắc cho nam giới; thờ Bàn Vương; tranh thờ và chữ Nôm Dao, ảnh hưởng Đạo giáo; trang phục thêu công phu.","hi_ja":"男性の成人儀礼「カップサック」、始祖盤王の祭祀、道教の影響を受けた祭祀画と漢字系文字。刺繍の衣装が見事。","kin":[{"c":"CN","vi":"Dao (瑶族)","ja":"ヤオ族（瑶族）"},{"c":"LA","vi":"Iu Mien, Lanten","ja":"ユーミエン、ランテン"},{"c":"TH","vi":"Mien (Yao)","ja":"ミエン（ヤオ）"},{"c":"US","vi":"Iu Mien (California, Oregon)","ja":"ユーミエン（カリフォルニア、オレゴン）"},{"c":"MM","vi":"Iu Mien ở Myanmar — có mặt, chưa rõ số lượng","ja":"ミャンマーのユーミエン — 居住あり（人数不明）"},{"c":"FR","vi":"Iu Mien ở Pháp (~2.000)","ja":"フランスのユーミエン（約2,000人）"}],"vme_vi":"Nhà Dao ở vườn ngoài trời; tranh thờ, mặt nạ, đồ lễ cấp sắc, trang phục Dao Đỏ trong khu Mông–Dao.","vme_ja":"屋外展示場のザオ族の家。館内では祭祀画、仮面、成人儀礼の道具、赤ザオ族の衣装。","photo":{"file":"costume/dao.jpg","page":"https://commons.wikimedia.org/wiki/File:Zao_woman_(Sapa_Vietnam).jpg","author":"Viethavvh","license":"Public domain","desc_vi":"Phụ nữ Dao ở Sa Pa, Lào Cai","desc_ja":"ラオカイ省サパのザオ族女性"}},{"id":"pa-then","vi":"Pà Thẻn","ja":"パテン族","alt":"Pà Hưng, Tống (Pa-Hng)","group":"hmong-dao","pop":8248,"region_vi":"Hà Giang (Bắc Quang, Quang Bình), Tuyên Quang (Lâm Bình, Chiêm Hoá)","region_ja":"ハザン省、トゥエンクアン省","hi_vi":"Trang phục màu đỏ rực, thêu hoa văn cầu kỳ; lễ nhảy lửa chân trần trên than hồng dịp đầu năm.","hi_ja":"真っ赤な刺繍衣装が特徴。新年に素足で燃える炭の上を踊る「火渡りの儀式」で有名。","kin":[{"c":"CN","vi":"Pa-Hng (巴哼), xếp vào 瑶族/苗族","ja":"パーフン（巴哼）—瑶族または苗族に分類"}],"vme_vi":"Tìm trong khu Mông–Dao: trang phục đỏ, tư liệu lễ nhảy lửa.","vme_ja":"モン・ザオ語群の展示で、赤い衣装や火渡り儀式の資料を探そう。","photo":{"file":"costume/pa-then.jpg","page":"https://commons.wikimedia.org/wiki/File:Pa_Then.JPG","author":"Viethavvh","license":"Public domain","desc_vi":"Phụ nữ Pà Thẻn trong trang phục truyền thống","desc_ja":"伝統衣装のパテン族女性"}},{"id":"la-chi","vi":"La Chí","ja":"ラチ族","alt":"Cù Tê, Thổ Đen","group":"kadai","pop":15126,"region_vi":"Hà Giang (Hoàng Su Phì, Xín Mần), Lào Cai (Bắc Hà)","region_ja":"ハザン省（ホアンスーフィ、シンマン）、ラオカイ省","hi_vi":"Nhà nửa sàn nửa đất; giỏi ruộng bậc thang; tự trồng bông, dệt vải chàm; Tết tháng Bảy là lễ lớn.","hi_ja":"半高床・半土間の家に住み、棚田耕作に長ける。綿を育てて藍染めの布を織り、旧暦7月の正月が大切な祭り。","kin":[{"c":"CN","vi":"Lachi (拉基人), Vân Nam","ja":"ラチ人（拉基人）・雲南"}],"vme_vi":"Tìm trong khu trưng bày nhóm Kadai (Ka Đai): trang phục chàm, dụng cụ dệt.","vme_ja":"カダイ語群の展示で、藍染め衣装や織りの道具を探そう。"},{"id":"la-ha","vi":"La Ha","ja":"ラハ族","alt":"Xá Khao, Khlá Phlạo","group":"kadai","pop":10157,"region_vi":"Sơn La (Thuận Châu, Mường La), Lào Cai (Văn Bàn)","region_ja":"ソンラ省、ラオカイ省","hi_vi":"Cư dân cổ ở Tây Bắc, chịu ảnh hưởng mạnh văn hoá Thái (nhà sàn, trang phục, xôi); làm nương rẫy, đánh cá sông Đà.","hi_ja":"西北部の古い住民で、ターイ族文化の影響が強い（高床式住居・衣装・おこわ）。焼畑やダー川での漁労を営む。","kin":[{"c":"CN","vi":"Các nhóm nói tiếng Kra (gần gũi ngôn ngữ)","ja":"クラ語系の諸集団（言語的に近縁）"}],"vme_vi":"Tìm trong khu Kadai (Ka Đai); so sánh với hiện vật Thái ở khu Tày–Thái.","vme_ja":"カダイ語群の展示で探し、タイー・ターイ語群のターイ族資料と比べてみよう。"},{"id":"co-lao","vi":"Cờ Lao","ja":"コーラオ族","alt":"Ke Lao, Tống; Cờ Lao Xanh/Trắng/Đỏ","group":"kadai","pop":4003,"region_vi":"Hà Giang (Đồng Văn, Hoàng Su Phì, Yên Minh)","region_ja":"ハザン省（ドンヴァン、ホアンスーフィ、イエンミン）","hi_vi":"Trồng ngô trong hốc đá trên cao nguyên đá Đồng Văn; nghề đan lát tre nổi tiếng; thờ tổ tiên, thổ thần.","hi_ja":"ドンヴァン石灰岩高原の岩のくぼみでトウモロコシを育てる。竹細工で知られ、祖先と土地神を祀る。","kin":[{"c":"CN","vi":"Ngật Lão (仡佬族), Quý Châu","ja":"コーラオ族（仡佬族）・貴州"}],"vme_vi":"Tìm trong khu Kadai (Ka Đai): đồ đan lát, trang phục.","vme_ja":"カダイ語群の展示で、竹細工や衣装を探そう。","photo":{"file":"costume/co-lao.jpg","page":"https://commons.wikimedia.org/wiki/File:Woman's_tunic,_Co_Lao_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC02955.JPG","author":"Daderot","license":"CC0","desc_vi":"Áo nữ người Cờ Lao, Bảo tàng Dân tộc học Việt Nam","desc_ja":"コーラオ族女性の上着、ベトナム民族学博物館"}},{"id":"pu-peo","vi":"Pu Péo","ja":"プペオ族","alt":"Ka Pèo, Pen Ti Lô Lô","group":"kadai","pop":903,"region_vi":"Hà Giang (Đồng Văn, Mèo Vạc, Yên Minh)","region_ja":"ハザン省（ドンヴァン、メオヴァク、イエンミン）","hi_vi":"Một trong những dân tộc ít người nhất; giữ trống đồng (cặp trống đực – cái) dùng trong tang lễ, lễ cầu mùa.","hi_ja":"ベトナムで最も人口の少ない民族の一つ。雌雄一対の銅鼓を伝え、葬儀や豊作祈願の儀礼で用いる。","kin":[{"c":"CN","vi":"Qabiao (普标人), Vân Nam","ja":"プーピャオ人（普标人）・雲南"}],"vme_vi":"Tìm trong khu Kadai (Ka Đai): hiện vật/ảnh trống đồng của người Pu Péo nếu có.","vme_ja":"カダイ語群の展示で、プペオ族の銅鼓に関する資料があれば注目。","photo":{"file":"costume/pu-peo.jpg","page":"https://commons.wikimedia.org/wiki/File:Trang_phuc_Pu_Peo.jpg","author":"Viethavvh at Vietnamese Wikipedia","license":"Public domain","desc_vi":"Trang phục truyền thống người Pu Péo, Bảo tàng Dân tộc học Việt Nam","desc_ja":"プペオ族の伝統衣装、ベトナム民族学博物館"}},{"id":"khmer","vi":"Khmer","ja":"クメール族","alt":"Khơ-me, Khmer Nam Bộ, Khmer Krom","group":"mon-khmer","pop":1319652,"region_vi":"Đồng bằng sông Cửu Long: Sóc Trăng, Trà Vinh, Kiên Giang, An Giang, Bạc Liêu, Cà Mau","region_ja":"メコンデルタ（ソクチャン、チャビン、キエンザン、アンザン、バクリエウ、カマウ）","hi_vi":"Phật giáo Nam tông, ngôi chùa là trung tâm cộng đồng và nơi học chữ Khmer. Lễ Ók Om Bók với đua ghe ngo, Tết Chôl Chnăm Thmây tháng 4.","hi_ja":"上座部仏教を信仰し、寺院が共同体と文字教育の中心。月を祀るオックオムボック祭のゴー舟競漕や、4月の正月チョルチュナムトメイが有名。","kin":[{"c":"KH","vi":"Người Khmer Campuchia — cùng ngôn ngữ, tôn giáo, chữ viết","ja":"カンボジアのクメール人（言語・宗教・文字が同じ）"},{"c":"TH","vi":"Khmer Bắc ở Surin, Buriram, Sisaket","ja":"タイ東北部スリン・ブリーラムの北部クメール人"},{"c":"US","vi":"Khmer Krom ở Mỹ (~30.000, 1999)","ja":"アメリカのクメール・クロム（約3万人・1999年）"},{"c":"FR","vi":"Khmer Krom ở Pháp (~3.000, 1999)","ja":"フランスのクメール・クロム（約3,000人・1999年）"},{"c":"AU","vi":"Khmer Krom ở Úc (~1.000, 1999)","ja":"オーストラリアのクメール・クロム（約1,000人・1999年）"}],"vme_vi":"Khu trưng bày trong nhà, phần Nam Bộ: ghe ngo, dàn nhạc ngũ âm, đồ thờ Phật, trang phục.","vme_ja":"屋内展示の南部コーナー：ゴー舟、五音楽器、仏具、民族衣装。"},{"id":"ba-na","vi":"Ba Na","ja":"バナ族","alt":"Bahnar, Tơ Lô, Giơ Lâng, Rơ Ngao, Krem, Roh, Kon Kđe, Ala Công","group":"mon-khmer","pop":286910,"region_vi":"Gia Lai, Kon Tum, Bình Định, Phú Yên","region_ja":"ザライ省、コントゥム省、ビンディン省、フーイエン省","hi_vi":"Nhà rông mái cao hình lưỡi rìu là biểu tượng của làng. Cồng chiêng, đàn t'rưng, sử thi và tượng nhà mồ trong lễ bỏ mả.","hi_ja":"斧の刃形の高い屋根をもつ共同家屋「ニャーロン」が村の象徴。ゴング（銅鑼）文化、竹琴トルン、叙事詩、墓放棄祭の墓像で知られる。","kin":[{"c":"LA","vi":"Các tộc nhánh Bahnar ở Nam Lào (Alak, Oi, Laven) — họ hàng ngôn ngữ","ja":"南ラオスのバナール系諸族（アラック、オイ、ラヴェン）と言語的に近縁"},{"c":"KH","vi":"Tampuan, Brao ở Đông Bắc Campuchia — cùng nhánh Bahnar","ja":"カンボジア北東部のタンプオン族、ブラオ族（同じバナール語派）"}],"vme_vi":"Nhà rông Ba Na ở khu ngoài trời (mẫu Kon Tum, cao ~19 m) — công trình cao nhất; trong nhà: cồng chiêng, gùi.","vme_ja":"屋外展示のバナ族のニャーロン（コントゥム様式、高さ約19m）が最大の見どころ。屋内ではゴングや背負い籠。"},{"id":"xo-dang","vi":"Xơ Đăng","ja":"セダン族","alt":"Sedang, Xơ Teng, Tơ Đrá, Mơ Nâm, Ca Dong, Ha Lăng","group":"mon-khmer","pop":212277,"region_vi":"Kon Tum (đông nhất), Quảng Nam, Quảng Ngãi","region_ja":"コントゥム省（最多）、クアンナム省、クアンガイ省","hi_vi":"Làng có nhà rông, nổi tiếng nghề rèn; nhóm Mơ Nâm làm ruộng nước. Cồng chiêng, lễ mừng lúa mới, thổ cẩm nền đen hoa văn trắng đỏ.","hi_ja":"村にはニャーロンがあり、鍛冶技術で知られる。モナム支族は水田耕作を行う。ゴング、新米祭、黒地に赤白模様の織物。","kin":[{"c":"LA","vi":"Họ hàng ngôn ngữ với các tộc Bahnar ở Nam Lào","ja":"南ラオスのバナール系諸族と言語的に近縁"}],"vme_vi":"Khu trưng bày Trường Sơn–Tây Nguyên (trong nhà): cồng chiêng, trang phục, nông cụ.","vme_ja":"屋内のチュオンソン・中部高原コーナー：ゴング、衣装、農具。"},{"id":"hre","vi":"Hrê","ja":"フレ族","alt":"Chăm Rê, Thượng Ba Tơ","group":"mon-khmer","pop":149460,"region_vi":"Quảng Ngãi (Ba Tơ, Sơn Hà, Minh Long), Bình Định (An Lão)","region_ja":"クアンガイ省（バトー、ソンハー、ミンロン）、ビンディン省アンラオ","hi_vi":"Làm ruộng nước từ sớm bên cạnh nương rẫy. Nhạc cụ đàn ra-ngói, đàn brook, cồng chiêng; hát kể ka-lêu.","hi_ja":"焼畑に加え早くから水田稲作を営む。弦楽器ラーゴイやブロック、ゴングを奏で、語り歌カレウを伝える。","kin":[{"c":"VN","vi":"Chỉ ở Việt Nam; ngôn ngữ gần Ba Na, Xơ Đăng, Co","ja":"ベトナムのみに居住。言語はバナ族、セダン族、コー族に近い"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên: nhạc cụ, thổ cẩm.","vme_ja":"チュオンソン・中部高原コーナー：楽器、織物。"},{"id":"co-ho","vi":"Cơ Ho","ja":"コホー族","alt":"Koho, Xrê, Nốp, Cơ Don, Chil, Lạch, Trinh","group":"mon-khmer","pop":200800,"region_vi":"Lâm Đồng (chủ yếu), Bình Thuận, Ninh Thuận, Khánh Hoà","region_ja":"ラムドン省（中心）、ビントゥアン省、ニントゥアン省、カインホア省","hi_vi":"Xã hội mẫu hệ, con theo họ mẹ. Kèn bầu, cồng chiêng; truyền thuyết K'Lang – H'Biang gắn với núi Lang Biang (Đà Lạt).","hi_ja":"母系社会で子は母の姓を継ぐ。瓢箪笙やゴングを奏で、ダラットのランビアン山の伝説（クラン王子とビアン姫）で知られる。","kin":[{"c":"KH","vi":"Cùng nhánh Nam Bahnar với Bunong, Stieng ở Campuchia","ja":"カンボジアのプノン族、スティエン族と同じ南バナール語群"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên: kèn bầu, gùi, thổ cẩm.","vme_ja":"チュオンソン・中部高原コーナー：瓢箪笙、背負い籠、織物。"},{"id":"mnong","vi":"Mnông","ja":"ムノン族","alt":"M'nông, Bunong, Gar, Nông, Preh, Rlăm, Kuênh, Biat","group":"mon-khmer","pop":127334,"region_vi":"Đắk Nông, Đắk Lắk (Buôn Đôn, Lắk), Bình Phước, Lâm Đồng","region_ja":"ダクノン省、ダクラク省（ブオンドン、ラク）、ビンフオック省、ラムドン省","hi_vi":"Nổi tiếng săn bắt và thuần dưỡng voi ở Buôn Đôn. Mẫu hệ, sử thi Ót N'drong, cồng chiêng, ché quý, rượu cần.","hi_ja":"ブオンドンでの野生象の捕獲と調教で有名。母系社会で、叙事詩オットンドロン、ゴング、貴重な壺、竹ストローで飲む壺酒の文化をもつ。","kin":[{"c":"KH","vi":"Bunong ở Mondulkiri — cùng tộc, cùng ngôn ngữ","ja":"カンボジア・モンドルキリ州のプノン族（同一民族・同一言語）"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên: dụng cụ săn voi, ché, cồng chiêng.","vme_ja":"チュオンソン・中部高原コーナー：象狩りの道具、壺、ゴング。"},{"id":"xtieng","vi":"Xtiêng","ja":"スティエン族","alt":"Stiêng, Xa Điêng, Bù Lơ, Bù Đek, Bù Biêk","group":"mon-khmer","pop":100752,"region_vi":"Bình Phước (chủ yếu), Tây Ninh, Đồng Nai, Bình Dương","region_ja":"ビンフオック省（中心）、タイニン省、ドンナイ省、ビンズオン省","hi_vi":"Nhóm vùng cao làm rẫy, nhóm vùng thấp làm ruộng nước. Cồng chiêng, kèn bầu, dệt thổ cẩm, đan gùi.","hi_ja":"高地の支族は焼畑、低地の支族は水田を営む。ゴング、瓢箪笙、織物、背負い籠づくりが伝わる。","kin":[{"c":"KH","vi":"Stieng ở Kratié, Kampong Cham — cùng tộc","ja":"カンボジアのクラチエ州、コンポンチャム州のスティエン族（同一民族）"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên / Nam Bộ (trong nhà).","vme_ja":"屋内のチュオンソン・中部高原または南部コーナー。"},{"id":"bru-van-kieu","vi":"Bru-Vân Kiều","ja":"ブル・ヴァンキエウ族","alt":"Bru, Vân Kiều, Măng Coong, Tri, Khùa","group":"mon-khmer","pop":94598,"region_vi":"Quảng Trị (Hướng Hoá, Đakrông), Quảng Bình, Thừa Thiên Huế","region_ja":"クアンチ省（フオンホア、ダクロン）、クアンビン省、トゥアティエン・フエ","hi_vi":"Nhà sàn, khèn bè, đàn ta-lư, dân ca sim. Sống dọc đường mòn Hồ Chí Minh, gắn với lịch sử chiến tranh.","hi_ja":"高床式住居に住み、笙ケンやタール琴、恋歌シムを伝える。ホーチミン・ルート沿いに住み、戦争の歴史とも関わりが深い。","kin":[{"c":"LA","vi":"Bru/Makong, Tri, So ở Savannakhet, Khammouane — rất gần","ja":"ラオスのサワンナケート、カムアン県のブル（マコン）、トリ、ソー族と非常に近い"},{"c":"TH","vi":"Người So/Bru ở Sakon Nakhon, Nakhon Phanom","ja":"タイのサコンナコーン、ナコーンパノム県のソー族（ブル）"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên, phần Bắc Trường Sơn.","vme_ja":"チュオンソン・中部高原コーナーの北チュオンソン部分。"},{"id":"co-tu","vi":"Cơ Tu","ja":"コトゥ族","alt":"Katu, Ca Tu, Ka Tâu, Phương, Nal, Bhnoong","group":"mon-khmer","pop":74173,"region_vi":"Quảng Nam (Đông Giang, Tây Giang, Nam Giang), Thừa Thiên Huế (A Lưới, Nam Đông), Đà Nẵng","region_ja":"クアンナム省（ドンザン、タイザン、ナムザン）、フエ（アルオイ、ナムドン）、ダナン","hi_vi":"Làng hình tròn quanh nhà gươl chạm khắc; điêu khắc gỗ nhà mồ nổi tiếng. Múa tung tung – da dá, thổ cẩm đính hạt cườm.","hi_ja":"彫刻を施した集会所グオルを囲む円形の村。墓の木彫りが名高い。男女の踊りトゥントゥン・ザザー、ビーズを織り込んだ織物が特徴。","kin":[{"c":"LA","vi":"Katu ở Sekong, Salavan — cùng tộc","ja":"ラオスのセコン、サラワン県のカトゥ族（同一民族）"}],"vme_vi":"Khu ngoài trời có công trình Cơ Tu (nhà mồ/tượng gỗ — xem biển chỉ dẫn); trong nhà: thổ cẩm hạt cườm.","vme_ja":"屋外にコトゥ族の建造物（墓屋・木彫像、現地の案内板で確認）。屋内ではビーズ織物。"},{"id":"gie-trieng","vi":"Giẻ Triêng","ja":"ジェ・チエン族","alt":"Gié Triêng, Đgiéh, Tareb, Triêng, Ve, La Ve, Bnoong","group":"mon-khmer","pop":63322,"region_vi":"Kon Tum (Đắk Glei, Ngọc Hồi), Quảng Nam (Phước Sơn, Nam Giang)","region_ja":"コントゥム省（ダクレイ、ゴックホイ）、クアンナム省（フオックソン、ナムザン）","hi_vi":"Nhà rông và nhà dài nhiều thế hệ. Đàn klông pút thổi bằng hơi vỗ tay, đàn ống tre, cồng chiêng.","hi_ja":"ニャーロンと多世代のロングハウスに暮らす。手を打って空気を送る竹楽器クロンプット、竹琴、ゴングが特徴。","kin":[{"c":"LA","vi":"Triang (Talieng), Jeh, Ve ở Sekong, Attapeu — cùng ngôn ngữ","ja":"ラオスのセコン、アタプー県のタリエン族、ジェ族、ヴェ族（同系言語）"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên: nhạc cụ tre, gùi.","vme_ja":"チュオンソン・中部高原コーナー：竹の楽器、背負い籠。"},{"id":"ta-oi","vi":"Tà Ôi","ja":"タオイ族","alt":"Ta Oi, Tôi Ôi, Pa Cô, Pa Hi","group":"mon-khmer","pop":52356,"region_vi":"Thừa Thiên Huế (A Lưới), Quảng Trị (Đakrông, Hướng Hoá)","region_ja":"トゥアティエン・フエ（アルオイ）、クアンチ省（ダクロン、フオンホア）","hi_vi":"Nghề dệt Zèng đính hạt cườm — Di sản văn hoá phi vật thể quốc gia. Nhà sàn dài, dân ca cà lơi.","hi_ja":"ビーズを織り込むゼン織りが国の無形文化遺産に指定。高床式のロングハウスに住み、民謡カロイを伝える。","kin":[{"c":"LA","vi":"Ta Oi ở Salavan, Sekong — cùng tộc","ja":"ラオスのサラワン、セコン県のタオイ族（同一民族）"}],"vme_vi":"Tìm vải dệt Zèng ở khu Trường Sơn–Tây Nguyên.","vme_ja":"チュオンソン・中部高原コーナーでゼン織りを探そう。"},{"id":"ma","vi":"Mạ","ja":"マ族","alt":"Châu Mạ, Mạ Ngăn, Mạ Xốp, Mạ Tô, Mạ Krung","group":"mon-khmer","pop":50322,"region_vi":"Lâm Đồng (Bảo Lộc, Di Linh, Cát Tiên), Đồng Nai, Đắk Nông","region_ja":"ラムドン省（バオロック、ジリン、カッティエン）、ドンナイ省、ダクノン省","hi_vi":"Phụ nữ dệt vải hoa văn tinh xảo, đàn ông giỏi rèn. Cồng chiêng, kèn bầu, nhà sàn dài.","hi_ja":"女性は精緻な文様の織物、男性は鍛冶に優れる。ゴング、瓢箪笙、高床式ロングハウスが伝わる。","kin":[{"c":"VN","vi":"Chủ yếu ở Việt Nam; ngôn ngữ gần Cơ Ho, Xtiêng, Mnông","ja":"主にベトナムに居住。言語はコホー族、スティエン族、ムノン族に近い"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên: thổ cẩm, nhạc cụ.","vme_ja":"チュオンソン・中部高原コーナー：織物、楽器。"},{"id":"co","vi":"Co","ja":"コー族","alt":"Cor, Col, Cùa, Trầu","group":"mon-khmer","pop":40442,"region_vi":"Quảng Ngãi (Trà Bồng), Quảng Nam (Bắc Trà My, Nam Trà My)","region_ja":"クアンガイ省チャーボン、クアンナム省チャーミー","hi_vi":"Nổi tiếng trồng quế Trà Bồng, Trà My (xưa dùng để tiến vua). Nhà sàn dài, cồng chiêng, hát xà ru.","hi_ja":"かつて王朝に献上されたチャーボン・チャーミーの肉桂（シナモン）栽培で有名。高床式ロングハウス、ゴング、歌謡サールー。","kin":[{"c":"VN","vi":"Chỉ ở Việt Nam; ngôn ngữ gần Hrê, Xơ Đăng","ja":"ベトナムのみに居住。言語はフレ族、セダン族に近い"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên (trong nhà).","vme_ja":"屋内のチュオンソン・中部高原コーナー。"},{"id":"cho-ro","vi":"Chơ Ro","ja":"チョロ族","alt":"Châu Ro, Dơ Ro, Chro, Chrau","group":"mon-khmer","pop":29520,"region_vi":"Đồng Nai (Xuân Lộc, Định Quán), Bà Rịa–Vũng Tàu, Bình Thuận","region_ja":"ドンナイ省（スアンロック、ディンクアン）、バリア・ブンタウ、ビントゥアン省","hi_vi":"Cư dân bản địa lâu đời của Đông Nam Bộ. Lễ cúng thần lúa Sayangva, cồng chiêng; nay sống xen cư với người Việt.","hi_ja":"南部東部地方の古くからの先住民。稲の神を祀るサヤンヴァ祭やゴングを伝え、現在はキン族と混住している。","kin":[{"c":"VN","vi":"Chỉ ở Việt Nam; gần Mạ, Xtiêng, Cơ Ho","ja":"ベトナムのみに居住。マ族、スティエン族、コホー族に近い"}],"vme_vi":"Khu Nam Bộ / Trường Sơn–Tây Nguyên (trong nhà).","vme_ja":"屋内の南部またはチュオンソン・中部高原コーナー。"},{"id":"xinh-mun","vi":"Xinh Mun","ja":"シンムン族","alt":"Puộc, Pụa, Xá, Xinh Mun Dạ, Xinh Mun Nghẹt","group":"mon-khmer","pop":29503,"region_vi":"Sơn La (Yên Châu, Mai Sơn, Sông Mã), Điện Biên","region_ja":"ソンラ省（イエンチャウ、マイソン、ソンマー）、ディエンビエン省","hi_vi":"Nhà sàn mái mai rùa với khau cút ở đầu hồi; trang phục và tiếng nói chịu ảnh hưởng mạnh văn hoá Thái.","hi_ja":"亀甲形の屋根で妻飾り「カウクット」をもつ高床式住居。衣装や言葉はターイ族文化の影響を強く受けている。","kin":[{"c":"LA","vi":"Họ hàng ngôn ngữ với Khmu ở Bắc Lào","ja":"北ラオスのクムー族と言語的に近縁"}],"vme_vi":"Khu trưng bày Tây Bắc (trong nhà).","vme_ja":"屋内の西北部コーナー。"},{"id":"khang","vi":"Kháng","ja":"カン族","alt":"Xá Khao, Xá Xúa, Xá Dón, Xá Dẩng, Xá Hốc, Xá Ái, Quảng Lâm","group":"mon-khmer","pop":16180,"region_vi":"Sơn La (Quỳnh Nhai, Thuận Châu, Mường La), Điện Biên, Lai Châu","region_ja":"ソンラ省（クインニャイ、トゥアンチャウ、ムオンラ）、ディエンビエン省、ライチャウ省","hi_vi":"Giỏi đóng và đi thuyền đuôi én trên sông Đà, sông Mã; đan lát khéo. Múa vỗ ống tre, chịu ảnh hưởng văn hoá Thái.","hi_ja":"ダー川やマー川で燕尾形の舟を造り操る技術に長け、竹細工も巧み。竹筒を打つ踊りがあり、ターイ族文化の影響も受ける。","kin":[{"c":"LA","vi":"Họ hàng ngôn ngữ với Khmu ở Lào","ja":"ラオスのクムー族と言語的に近縁"}],"vme_vi":"Khu Tây Bắc: thuyền, đồ đan lát.","vme_ja":"西北部コーナー：舟、竹細工。"},{"id":"mang","vi":"Mảng","ja":"マン族","alt":"Mảng Ư, Xá Lá Vàng, Xá Mảng","group":"mon-khmer","pop":4650,"region_vi":"Lai Châu (Mường Tè, Nậm Nhùn, Sìn Hồ), Điện Biên","region_ja":"ライチャウ省（ムオンテー、ナムニュン、シンホー）、ディエンビエン省","hi_vi":"Trước đây du canh, săn bắt hái lượm. Phụ nữ có tục xăm cằm, đeo nhiều trang sức bạc, mặc váy đen.","hi_ja":"かつては移動耕作と狩猟採集で暮らした。女性は顎（口の周り）に入れ墨をし、多くの銀飾りと黒いスカートを身につける。","kin":[{"c":"CN","vi":"莽人 (Mang) ở huyện Kim Bình, Vân Nam; được xếp vào dân tộc Bố Lãng (布朗族) từ 2009","ja":"雲南省金平県の莽人（マン人）。2009年に布朗族（プーラン族）に編入"}],"vme_vi":"Khu trưng bày Tây Bắc (trong nhà).","vme_ja":"屋内の西北部コーナー。"},{"id":"kho-mu","vi":"Khơ Mú","ja":"クムー族","alt":"Khmu, Kmhmu, Xá Cẩu, Mứn Xen, Pu Thênh, Tày Hay","group":"mon-khmer","pop":90612,"region_vi":"Nghệ An (Kỳ Sơn, Tương Dương), Điện Biên, Sơn La, Lai Châu, Yên Bái, Thanh Hoá","region_ja":"ゲアン省（キーソン、トゥオンズオン）、ディエンビエン、ソンラ、ライチャウ、イエンバイ、タインホア","hi_vi":"Nổi tiếng đan lát tre mây (gùi, ếp, mâm). Nhà sàn, lễ cúng lúa, dân ca tơm.","hi_ja":"竹や籐の編み細工（背負い籠、米びつ、盆）が特に有名。高床式住居、稲の祭り、民謡トムを伝える。","kin":[{"c":"LA","vi":"Khmu — nhóm thiểu số lớn nhất Lào (~11% dân số)","ja":"ラオス最大の少数民族クムー族（人口の約11%）"},{"c":"TH","vi":"Khmu ở Nan, Chiang Rai","ja":"タイのナーン、チェンライ県のクムー族"},{"c":"CN","vi":"克木人 (Kemu) ở Mãnh Lạp, Tây Song Bản Nạp — chưa là dân tộc riêng","ja":"雲南省シーサンパンナ勐腊県の克木人（独立民族としては未認定）"},{"c":"MM","vi":"Khmu ở Myanmar — có mặt, chưa rõ số lượng","ja":"ミャンマーのクム族 — 居住あり（人数不明）"},{"c":"US","vi":"Khmu ở Mỹ (~20.000)","ja":"アメリカのクム族（約2万人）"}],"vme_vi":"Khu Tây Bắc: đồ đan lát tre mây.","vme_ja":"西北部コーナー：竹・籐の編み細工。"},{"id":"ro-mam","vi":"Rơ Măm","ja":"ロマム族","alt":"Romam","group":"mon-khmer","pop":639,"region_vi":"Làng Le, xã Mô Rai, huyện Sa Thầy, Kon Tum","region_ja":"コントゥム省サータイ県モーライ村レー集落","hi_vi":"Một trong những dân tộc ít người nhất. Trồng bông, dệt vải; nam đóng khố, nữ quấn váy; nhà sàn, nhà rông, cồng chiêng.","hi_ja":"ベトナムで最も人口の少ない民族の一つ。綿を栽培して布を織り、男性はふんどし、女性は巻きスカート。高床式住居とニャーロン、ゴング。","kin":[{"c":"VN","vi":"Chỉ ở Việt Nam; gần Ba Na, Xơ Đăng, Brâu","ja":"ベトナムのみに居住。バナ族、セダン族、ブラウ族に近い"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên (trong nhà).","vme_ja":"屋内のチュオンソン・中部高原コーナー。"},{"id":"brau","vi":"Brâu","ja":"ブラウ族","alt":"Brao, Brạu","group":"mon-khmer","pop":525,"region_vi":"Làng Đắk Mế, xã Bờ Y, huyện Ngọc Hồi, Kon Tum (gần ngã ba Đông Dương)","region_ja":"コントゥム省ゴックホイ県ボーイ村ダクメー集落（インドシナ三国国境付近）","hi_vi":"Bộ chiêng Tha (hai chiếc) quý nổi tiếng; trước đây có tục cà răng, căng tai. Nhà sàn, làm rẫy.","hi_ja":"2枚一組の貴重なゴング「チエン・ター」で知られる。かつては歯を削る風習や耳たぶを広げる習俗があった。高床式住居、焼畑。","kin":[{"c":"LA","vi":"Brao ở Attapeu — cùng tộc","ja":"ラオス・アタプー県のブラオ族（同一民族）"},{"c":"KH","vi":"Brao, Kreung ở Ratanakiri — cùng tộc","ja":"カンボジア・ラタナキリ州のブラオ族、クルン族（同一民族）"}],"vme_vi":"Khu Trường Sơn–Tây Nguyên: cồng chiêng.","vme_ja":"チュオンソン・中部高原コーナー：ゴング。"},{"id":"o-du","vi":"Ơ Đu","ja":"オドゥ族","alt":"Tày Hạt, Idu","group":"mon-khmer","pop":428,"region_vi":"Xã Nga My, huyện Tương Dương, Nghệ An","region_ja":"ゲアン省トゥオンズオン県ガーミー村","hi_vi":"Dân tộc ít người nhất Việt Nam; tiếng mẹ đẻ gần như mất. Giữ lễ đón tiếng sấm đầu năm độc đáo.","hi_ja":"ベトナムで最も人口の少ない民族で、固有の言語はほぼ失われた。年初の雷鳴を迎える独特の儀礼を守っている。","kin":[{"c":"LA","vi":"Họ hàng ngôn ngữ với Khmu ở Lào","ja":"ラオスのクムー族と言語的に近縁"}],"vme_vi":"Khu trưng bày Tây Bắc / miền núi Bắc Trung Bộ (trong nhà).","vme_ja":"屋内の西北部・北中部山地コーナー。"},{"id":"gia-rai","vi":"Gia Rai","ja":"ジャライ族","alt":"Jarai, Jơ Rai, Chơ Rai, Hơ Bau, Hdrung, Arap, Tơ Buăn","group":"nam-dao","pop":513930,"region_vi":"Gia Lai (chủ yếu), Kon Tum, Đắk Lắk, Phú Yên","region_ja":"ザライ省を中心に、コントゥム省・ダクラク省・フーイエン省","hi_vi":"Mẫu hệ; nổi tiếng với nhà mồ và tượng gỗ dựng cho lễ bỏ mả (Pơ thi), cồng chiêng Tây Nguyên (UNESCO).","hi_ja":"母系社会。墓放棄祭（ポティ）のために建てる墓屋と木彫り像、そしてユネスコ無形文化遺産の中部高原ゴング文化で知られる。","kin":[{"c":"KH","vi":"Jarai ở Ratanakiri – cùng tộc, sống hai bên biên giới","ja":"ラタナキリ州のジャライ人。国境をまたいで暮らす同じ民族"},{"c":"MY","vi":"Quan hệ ngôn ngữ Nam Đảo (xa) với tiếng Mã Lai","ja":"マレー語とは同じオーストロネシア語族（遠い親戚関係）"}],"vme_vi":"Nhà mồ Gia Rai với tượng gỗ ở khu ngoài trời; cồng chiêng, gùi ở khu Tây Nguyên trong nhà.","vme_ja":"屋外展示の木彫り像付きジャライ族の墓屋は必見。館内の中部高原コーナーではゴングや背負い籠も。"},{"id":"e-de","vi":"Ê Đê","ja":"エデ族","alt":"Ra-đê (Rhade), Anăk Ê Đê, Kpă, Adham, Mđhur, Bih","group":"nam-dao","pop":398671,"region_vi":"Đắk Lắk (quanh Buôn Ma Thuột), Đắk Nông, Phú Yên, Khánh Hòa","region_ja":"ダクラク省（バンメトート周辺）、ダクノン省、フーイエン省、カインホア省","hi_vi":"Nhà dài trên sàn của đại gia đình mẫu hệ, cầu thang khắc đôi bầu ngực, ghế kpan; sử thi Đam San.","hi_ja":"母系大家族が暮らす高床式ロングハウス。乳房を彫った階段や一本木の長椅子コパンが象徴的。叙事詩『ダムサン』も有名。","kin":[{"c":"ID","vi":"Cùng nhánh Chamic, họ hàng ngôn ngữ với tiếng Aceh, Mã Lai","ja":"チャム語派に属し、アチェ語・マレー語と言語的な親戚"},{"c":"MY","vi":"Quan hệ ngôn ngữ Nam Đảo (xa)","ja":"オーストロネシア語族としての遠い言語関係"}],"vme_vi":"Nhà dài Ê Đê ở khu ngoài trời: xem cầu thang khắc ngực, ghế kpan, bếp và gian khách.","vme_ja":"屋外のエデ族ロングハウス。乳房の彫刻がある階段、長椅子コパン、炉や客間を見てみよう。"},{"id":"cham","vi":"Chăm","ja":"チャム族","alt":"Chàm, Chiêm Thành, Hroi; Cam/Urang Cam; Chăm Bàlamôn, Chăm Bàni, Chăm Islam","group":"nam-dao","pop":178948,"region_vi":"Ninh Thuận, Bình Thuận; An Giang, TP.HCM, Tây Ninh (Chăm Hồi giáo); Phú Yên, Bình Định (Hroi)","region_ja":"ニントゥアン省・ビントゥアン省。イスラム教徒のチャムはアンザン省・ホーチミン市・タイニン省に住む","hi_vi":"Hậu duệ vương quốc Champa: tháp Chăm (Mỹ Sơn, Pô Nagar), lễ Katê, gốm Bàu Trúc nặn tay (UNESCO 2022), dệt Mỹ Nghiệp.","hi_ja":"チャンパ王国の末裔。チャム塔（ミーソン、ポーナガル）、カテ祭り、ろくろを使わないバウチュック焼（ユネスコ2022）が有名。","kin":[{"c":"KH","vi":"Cham Muslim (Kampong Cham…) – cùng tộc, quan hệ trực tiếp","ja":"コンポンチャム州などのイスラム教徒チャム人。直接つながる同じ民族"},{"c":"CN","vi":"Utsul (回辉人) ở Tam Á, Hải Nam – hậu duệ người Chăm di cư","ja":"海南島三亜の回輝人（ウツル）。移住したチャム人の子孫"},{"c":"MY","vi":"Cộng đồng Cham ở Kelantan, Terengganu – quan hệ Hồi giáo, tị nạn","ja":"クランタン州などのチャム人コミュニティ。イスラム信仰と難民の歴史でつながる"},{"c":"ID","vi":"Tiếng Chăm gần tiếng Aceh (Sumatra)","ja":"チャム語はスマトラのアチェ語に近い"},{"c":"TH","vi":"Chăm ở Thái Lan (1.000–4.000)","ja":"タイのチャム族（1,000〜4,000人）"},{"c":"US","vi":"Chăm ở Mỹ (~3.000)","ja":"アメリカのチャム族（約3,000人）"},{"c":"FR","vi":"Chăm ở Pháp (~1.000)","ja":"フランスのチャム族（約1,000人）"},{"c":"LA","vi":"Chăm ở Lào (~700)","ja":"ラオスのチャム族（約700人）"}],"vme_vi":"Nhà Chăm ở khu ngoài trời; khu Chăm trong nhà: gốm Bàu Trúc, trang phục, đồ nghi lễ.","vme_ja":"屋外のチャム族の家。館内のチャムコーナーではバウチュック焼、衣装、儀礼具が見られる。"},{"id":"raglai","vi":"Raglai","ja":"ラグライ族","alt":"Ra Glai, Ra-clây, Rai, La-oang, Noang","group":"nam-dao","pop":146613,"region_vi":"Khánh Hòa (Khánh Sơn, Khánh Vĩnh), Ninh Thuận (Bác Ái), Bình Thuận, Lâm Đồng","region_ja":"カインホア省（カインソン・カインヴィン）、ニントゥアン省、ビントゥアン省、ラムドン省","hi_vi":"Mẫu hệ; nổi tiếng với đàn đá Khánh Sơn, bộ mã la (chiêng không núm), đàn chapi ống tre và sử thi Akhàt Jucar.","hi_ja":"母系社会。カインソンの石琴、こぶのないゴング「マラ」、竹筒の琴チャピ、叙事詩アカット・ジュカールで知られる。","kin":[{"c":"MY","vi":"Quan hệ ngôn ngữ Nam Đảo (xa); không có tộc tương ứng ở nước ngoài","ja":"オーストロネシア語族として遠い関係。国外に対応する民族はない"}],"vme_vi":"Tìm nhạc cụ tre (đàn chapi), gùi ở khu Nam Trung Bộ/Tây Nguyên trong nhà Trống Đồng.","vme_ja":"本館（銅鼓館）の南中部・中部高原コーナーで竹の楽器チャピや背負い籠を探してみよう。"},{"id":"chu-ru","vi":"Chu Ru","ja":"チュル族","alt":"Chơ Ru, Chu, Cru","group":"nam-dao","pop":23242,"region_vi":"Lâm Đồng (Đơn Dương, Đức Trọng), một phần Ninh Thuận, Bình Thuận","region_ja":"ラムドン省（ドンズオン・ドゥックチョン）、一部ニントゥアン省・ビントゥアン省","hi_vi":"Tộc Tây Nguyên làm ruộng nước từ sớm, học kỹ thuật từ người Chăm; có nghề gốm, rèn; mẫu hệ.","hi_ja":"チャム人から技術を学び、早くから水田稲作を行ってきた高原の民族。土器づくりや鍛冶も行う母系社会。","kin":[{"c":"MY","vi":"Quan hệ ngôn ngữ Nam Đảo (xa); không có tộc tương ứng ở nước ngoài","ja":"オーストロネシア語族として遠い関係。国外に対応する民族はない"}],"vme_vi":"Tìm nông cụ ruộng nước, gốm ở khu Tây Nguyên/Nam Trung Bộ trong nhà Trống Đồng.","vme_ja":"本館の中部高原・南中部コーナーで水田用の農具や土器を探してみよう。"},{"id":"hoa","vi":"Hoa","ja":"ホア族（華人）","alt":"Người Hán, Minh Hương; Quảng Đông, Triều Châu, Phúc Kiến, Hải Nam, Hẹ (Khách Gia)","group":"han","pop":749466,"region_vi":"TP.HCM (Chợ Lớn), Đồng Nai, Sóc Trăng, Kiên Giang, Bạc Liêu, Cà Mau, Bình Dương","region_ja":"ホーチミン市（チョロン）を中心に、ドンナイ省、ソクチャン省、キエンザン省、バクリエウ省など","hi_vi":"Hội quán đồng hương (Tuệ Thành, Nghĩa An, Phúc Kiến Hội An), thờ Thiên Hậu (Mazu), Tết Nguyên Tiêu, thế mạnh thương mại và ẩm thực.","hi_ja":"同郷会館（チョロンの穂城会館、ホイアンの福建会館など）、天后（媽祖）信仰、元宵節で知られ、商業や食文化にも強い。","kin":[{"c":"CN","vi":"Quê gốc Quảng Đông, Phúc Kiến, Triều Châu, Hải Nam – quan hệ trực tiếp","ja":"広東・福建・潮州・海南がルーツ。直接つながる"},{"c":"TH","vi":"Hoa kiều Thái Lan (đa số Triều Châu) – cùng nguồn gốc","ja":"タイ華人（多くが潮州系）とは同じルーツ"},{"c":"MY","vi":"Hoa kiều Malaysia, Singapore (Phúc Kiến, Quảng Đông, Hakka)","ja":"マレーシア・シンガポールの華人（福建・広東・客家系）"},{"c":"TW","vi":"Thân nhân, quan hệ qua Phúc Kiến và Hakka","ja":"福建系・客家系を通じた親族関係がある"},{"c":"MM","vi":"Hoa kiều Myanmar (~1,64 triệu, 2012): Phúc Kiến, Quảng Đông, Hakka, Vân Nam, Kokang","ja":"ミャンマー華人（約164万人・2012年）：福建・広東・客家・雲南系、コーカン"}],"vme_vi":"Tìm khu nhóm Hán trong nhà Trống Đồng: đồ thờ, trang phục, vật dụng buôn bán.","vme_ja":"本館の漢語系コーナーで祭具、衣装、商売道具などを見てみよう。","photo":{"file":"costume/hoa.jpg","page":"https://commons.wikimedia.org/wiki/File:LaoKay_famille_chinoise.jpg","author":"Unknown (postcard)","license":"Public domain","desc_vi":"Gia đình người Hoa ở Lào Cai, bưu ảnh đầu thế kỷ 20","desc_ja":"20世紀初頭の絵葉書、ラオカイの華人（ホア族）家族"}},{"id":"ngai","vi":"Ngái","ja":"ガイ族","alt":"Ngái Hắc Cá, Ngái Lầu Mẫn, Hẹ, Đản, Xín, Lê, Khách Gia","group":"han","pop":1649,"region_vi":"Quảng Ninh, Bắc Giang, Thái Nguyên, Lạng Sơn, Hải Phòng; rải rác ở Đồng Nai, TP.HCM","region_ja":"クアンニン省、バクザン省、タイグエン省、ランソン省など。南部にも少数","hi_vi":"Nói tiếng Khách Gia (Hakka); làm ruộng nước, đánh cá ven biển; hát sơn ca đối đáp. Một trong những dân tộc ít người nhất.","hi_ja":"客家語を話し、水田稲作や沿岸漁業を営む。男女の掛け合い歌「山歌」が特徴。ベトナムで最も人口の少ない民族の一つ。","kin":[{"c":"CN","vi":"Người Khách Gia (客家人) ở Quảng Đông, Quảng Tây – quan hệ ngôn ngữ trực tiếp","ja":"広東・広西の客家人。言語・文化的に直接つながる（中国では漢族扱い）"},{"c":"MY","vi":"Cộng đồng Hakka ở Malaysia","ja":"マレーシアの客家系コミュニティ"},{"c":"TW","vi":"Cộng đồng Hakka ở Đài Loan","ja":"台湾の客家系コミュニティ"}],"vme_vi":"Tìm trong khu nhóm Hán ở nhà Trống Đồng (hiện vật có thể ít).","vme_ja":"本館の漢語系コーナーで探してみよう（展示品は少ないかもしれない）。","photo":{"file":"costume/ngai.jpg","page":"https://commons.wikimedia.org/wiki/File:Ngái_Siblings_from_Thái_Nguyên_Wearing_Modern_Front-Opening_Tunics.jpg","author":"June Owen","license":"CC BY 4.0","desc_vi":"Anh em người Ngái ở Thái Nguyên mặc áo xẻ nách kiểu đương đại","desc_ja":"タイグエン省のガイ族の兄妹、現代風の大襟の上着"}},{"id":"san-diu","vi":"Sán Dìu","ja":"サンジウ族","alt":"Sán Déo, Trại, Trại Đất, Mán Quần Cộc, Mán Váy Xẻ; tự gọi San Déo Nhín (山瑶人)","group":"han","pop":183004,"region_vi":"Thái Nguyên, Vĩnh Phúc, Bắc Giang, Quảng Ninh, Tuyên Quang, Phú Thọ","region_ja":"タイグエン省、ヴィンフック省、バクザン省、クアンニン省、トゥエンクアン省など","hi_vi":"Nói phương ngữ gần tiếng Quảng Đông nhưng phong tục gần người Dao; nổi tiếng hát đối đáp Soọng cô, trồng chè Thái Nguyên.","hi_ja":"広東語に近い方言を話すが、風習はザオ族に近い。男女の掛け合い歌「ソンコー」や茶づくりで知られる。","kin":[{"c":"CN","vi":"Quê gốc Quảng Đông – Quảng Tây; tên tự gọi gợi liên hệ với người Dao (瑤族)","ja":"広東・広西がルーツ。自称「山瑶人」はヤオ族とのつながりを示す"}],"vme_vi":"Tìm trong khu nhóm Hán ở nhà Trống Đồng: trang phục váy xẻ, đồ bạc, sách hát.","vme_ja":"本館の漢語系コーナーで、スリット入りスカートの衣装や銀飾り、歌の本を探してみよう。"},{"id":"ha-nhi","vi":"Hà Nhì","ja":"ハニ族","alt":"U Ni, Xá U Ni, Hà Nhì Già (đen), Hà Nhì Cồ Chồ, Hà Nhì La Mí","group":"tang-mien","pop":25539,"region_vi":"Lai Châu (Mường Tè), Điện Biên (Mường Nhé), Lào Cai (Bát Xát – Y Tý)","region_ja":"ライチャウ省（ムオンテー）、ディエンビエン省、ラオカイ省（バッサット県イーティー）","hi_vi":"Nhà trình tường đất nện dày, ruộng bậc thang trên núi cao, lễ Gạ Ma Thú cúng thần rừng; trang phục chàm đen gắn bạc.","hi_ja":"厚い版築の土壁の家、山の棚田、森の神を祀るガーマートゥー祭りで知られる。藍染めの黒い衣装に銀飾りをつける。","kin":[{"c":"CN","vi":"Hani (哈尼族) ở Vân Nam; ruộng bậc thang Hồng Hà – UNESCO 2013","ja":"雲南のハニ族。紅河ハニ棚田は2013年に世界遺産"},{"c":"TH","vi":"Akha ở Chiang Rai – cùng khối Hani-Akha","ja":"チェンライ県などのアカ族。ハニ・アカ系の同じグループ"},{"c":"LA","vi":"Akha ở Phongsaly, Luang Namtha","ja":"ポンサリー県、ルアンナムター県のアカ族"},{"c":"MM","vi":"Akha ở bang Shan","ja":"シャン州のアカ族"}],"vme_vi":"Nhà trình tường Hà Nhì ở khu ngoài trời: xem độ dày tường, gác lúa, bếp.","vme_ja":"屋外展示のハニ族の土壁の家。壁の厚さ、米を蓄える屋根裏、炉に注目。","photo":{"file":"costume/ha-nhi.jpg","page":"https://commons.wikimedia.org/wiki/File:Woman's_costume,_Ha_Nhi,_Muong_Te,_Lai_Chau,_1980_-_Vietnamese_Women's_Museum_-_Hanoi,_Vietnam_-_DSC04302.JPG","author":"Daderot","license":"CC0","desc_vi":"Trang phục nữ Hà Nhì (Mường Tè, Lai Châu, 1980), Bảo tàng Phụ nữ Việt Nam","desc_ja":"ハニ族女性の衣装（ライチャウ省ムオンテー、1980年）、ベトナム女性博物館"}},{"id":"phu-la","vi":"Phù Lá","ja":"プーラ族","alt":"Bồ Khô Pạ, Mu Di Pạ, Xá Phó, Phó, Phổ, Va Xơ","group":"tang-mien","pop":12471,"region_vi":"Lào Cai (Bắc Hà, Mường Khương, Bảo Thắng), Lai Châu, Sơn La, Điện Biên, Hà Giang","region_ja":"ラオカイ省（バックハー、ムオンクオン）、ライチャウ省、ソンラー省、ハザン省など","hi_vi":"Nương rẫy và ruộng bậc thang; phụ nữ giỏi dệt thêu, nổi tiếng túi đeo và áo thêu hoa văn sặc sỡ.","hi_ja":"焼畑や棚田で農耕を営む。女性は織物・刺繍が得意で、色鮮やかな刺繍の上着や肩掛け袋が有名。","kin":[{"c":"CN","vi":"Nhóm Phula (仆拉) ở Vân Nam, được xếp vào dân tộc Yi (彝族)","ja":"雲南のプーラ人。中国ではイ族（彝族）の一支系とされる"}],"vme_vi":"Tìm trang phục thêu và túi đeo ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.","vme_ja":"本館のチベット・ビルマ系／西北部コーナーで刺繍の衣装や肩掛け袋を探してみよう。","photo":{"file":"costume/phu-la.jpg","page":"https://commons.wikimedia.org/wiki/File:Trang_phuc_Phu_La.jpg","author":"Viethavvh at Vietnamese Wikipedia","license":"Public domain","desc_vi":"Trang phục truyền thống người Phù Lá, Bảo tàng Dân tộc học Việt Nam","desc_ja":"プーラ族の伝統衣装、ベトナム民族学博物館"}},{"id":"la-hu","vi":"La Hủ","ja":"ラフ族","alt":"Khù Xung, Cò Xung, Khả Quy; trước đây gọi Xá Lá Vàng","group":"tang-mien","pop":12113,"region_vi":"Lai Châu (Mường Tè, Phong Thổ, Sìn Hồ), một ít ở Điện Biên","region_ja":"ライチャウ省（ムオンテー、フォントー、シンホー）、一部ディエンビエン省","hi_vi":"Trước đây du canh, giỏi săn bắn – hái lượm, nay định cư; đan lát mây tre tinh xảo, khèn bầu, áo chàm đính bạc.","hi_ja":"かつては移動しながら狩猟採集を行い、現在は定住。精巧な籐・竹細工、ひょうたん笙、銀飾りの藍染め衣装が特徴。","kin":[{"c":"CN","vi":"Lahu (拉祜族) ở Vân Nam – cùng tộc","ja":"雲南のラフ族（拉祜族）。同じ民族"},{"c":"TH","vi":"Lahu (Musoe) – một trong các 'hill tribe' lớn","ja":"タイのラフ族（ムソー）。主要な山岳民族の一つ"},{"c":"MM","vi":"Lahu ở bang Shan","ja":"シャン州のラフ族"},{"c":"LA","vi":"Lahu ở miền Bắc Lào","ja":"ラオス北部のラフ族"},{"c":"US","vi":"Lahu ở Mỹ (~10.000)","ja":"アメリカのラフ族（約1万人）"}],"vme_vi":"Tìm đồ đan lát, khèn bầu, trang phục ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.","vme_ja":"本館のチベット・ビルマ系／西北部コーナーで籠細工、ひょうたん笙、衣装を探してみよう。","photo":{"file":"costume/la-hu.jpg","page":"https://commons.wikimedia.org/wiki/File:Woman's_outfit,_La_Hu_-_Vietnam_Museum_of_Ethnology_-_Hanoi,_Vietnam_-_DSC03127.JPG","author":"Daderot","license":"CC0","desc_vi":"Trang phục nữ La Hủ, Bảo tàng Dân tộc học Việt Nam","desc_ja":"ラフ族女性の衣装、ベトナム民族学博物館"}},{"id":"lo-lo","vi":"Lô Lô","ja":"ロロ族","alt":"Mùn Di, Ô Man, La La, Qua La, Màn Di; Lô Lô hoa, Lô Lô đen","group":"tang-mien","pop":4827,"region_vi":"Hà Giang (Mèo Vạc, Đồng Văn – Lô Lô Chải gần Lũng Cú), Cao Bằng (Bảo Lạc, Bảo Lâm), Lào Cai","region_ja":"ハザン省（メオヴァック、ドンヴァン、ルンクー近くのロロチャイ村）、カオバン省、ラオカイ省","hi_vi":"Một trong số ít tộc còn dùng trống đồng (cặp đực – cái) trong lễ tang; trang phục ghép vải nhiều màu rất cầu kỳ.","hi_ja":"葬儀で今も銅鼓（雄雌一対）を使う数少ない民族。色とりどりの布をはぎ合わせた手の込んだ衣装が有名。","kin":[{"c":"CN","vi":"Yi (彝族) ở Vân Nam, Tứ Xuyên, Quý Châu – cùng khối tộc người; tên cũ 倮倮 nay mang sắc thái miệt thị","ja":"雲南・四川・貴州のイ族（彝族）と同系。旧称「倮倮」は中国では蔑称とされる"}],"vme_vi":"Tìm trang phục ghép vải và trống đồng (nếu đang trưng bày) ở khu Tạng-Miến/Đông Bắc trong nhà Trống Đồng.","vme_ja":"本館のチベット・ビルマ系コーナーで、はぎ合わせ布の衣装や銅鼓（展示中なら）を探してみよう。","photo":{"file":"costume/lo-lo.jpg","page":"https://commons.wikimedia.org/wiki/File:Trang_phuc_Lo_Lo.jpg","author":"Viethavvh at Vietnamese Wikipedia","license":"Public domain","desc_vi":"Trang phục nữ Lô Lô (Hà Giang), Bảo tàng Dân tộc học Việt Nam","desc_ja":"ハザン省ロロ族女性の衣装、ベトナム民族学博物館"}},{"id":"cong","vi":"Cống","ja":"コン族","alt":"Xá Xeng, Phuy A, Xá Khao, Xá Xú, Mứng Nhé, Xá Cống; tự gọi Xám Khống","group":"tang-mien","pop":2729,"region_vi":"Điện Biên (Mường Nhé, Nậm Pồ), Lai Châu (Mường Tè, Nậm Nhùn), ven sông Đà","region_ja":"ディエンビエン省（ムオンニェー、ナムポー）、ライチャウ省（ムオンテー、ナムニュン）のダー川沿い","hi_vi":"Nhà sàn, lúa nương, săn bắn – hái lượm, đan lát giỏi; chịu ảnh hưởng văn hoá Thái, nhiều người song ngữ.","hi_ja":"高床式住居で陸稲を育て、狩猟採集や籠編みに優れる。ターイ族（Thái）の文化の影響が強く、バイリンガルが多い。","kin":[{"c":"LA","vi":"Gần các nhóm Phunoi/Singsili ở Phongsaly (quan hệ ngôn ngữ, chưa chắc)","ja":"ポンサリー県のプーノイ系集団と言語的に近い（詳細は不確か）"}],"vme_vi":"Tìm đồ đan lát, dụng cụ săn bắn ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.","vme_ja":"本館のチベット・ビルマ系／西北部コーナーで籠細工や狩猟道具を探してみよう。"},{"id":"si-la","vi":"Si La","ja":"シラ族","alt":"Cù Dề Xừ, Khả Pẻ","group":"tang-mien","pop":909,"region_vi":"Lai Châu (Mường Tè), Điện Biên (Mường Nhé, Nậm Pồ)","region_ja":"ライチャウ省（ムオンテー）、ディエンビエン省（ムオンニェー、ナムポー）","hi_vi":"Dân tộc ít người nhất nhóm; phụ nữ búi tóc, áo ngắn gắn nhiều đồng bạc; tục nhuộm răng đen.","hi_ja":"このグループで最も人口が少ない民族。既婚女性は髷を結い、銀貨を多数縫い付けた短い上着を着る。お歯黒の風習もあった。","kin":[{"c":"LA","vi":"Sila ở Phongsaly, Luang Namtha – cùng tộc/gần gũi","ja":"ポンサリー県、ルアンナムター県のシラ人。同じか近縁の民族"},{"c":"CN","vi":"Có thể được tính trong Hani (哈尼族) – chưa chắc","ja":"中国ではハニ族に含まれている可能性がある（不確か）"}],"vme_vi":"Tìm áo gắn đồng bạc ở khu Tạng-Miến/Tây Bắc trong nhà Trống Đồng.","vme_ja":"本館のチベット・ビルマ系／西北部コーナーで銀貨付きの上着を探してみよう。","photo":{"file":"costume/si-la.jpg","page":"https://commons.wikimedia.org/wiki/File:Si_La_people.jpg","author":"Saigon punkid at Vietnamese Wikipedia","license":"CC BY-SA 3.0","desc_vi":"Gia đình người Si La, phụ nữ mặc áo đính xu bạc truyền thống","desc_ja":"伝統衣装のシラ族の家族"}}]
+</script>
+<script>
+(function(){
+  var root=document.documentElement;
+  var DATA=[];try{DATA=JSON.parse(document.getElementById('ethnic-data').textContent)}catch(e){}
+  var GROUPS=[
+    {id:'viet-muong',vi:'Việt–Mường',ja:'ベト・ムオン',fam_vi:'Nam Á',fam_ja:'オーストロアジア語族'},
+    {id:'tay-thai',vi:'Tày–Thái',ja:'タイー・タイ',fam_vi:'Kra–Dai',fam_ja:'タイ・カダイ語族'},
+    {id:'hmong-dao',vi:'Mông–Dao',ja:'モン・ザオ',fam_vi:'Hmông–Miền',fam_ja:'モン・ミエン語族'},
+    {id:'kadai',vi:'Ka Đai',ja:'カダイ',fam_vi:'Kra–Dai',fam_ja:'タイ・カダイ語族'},
+    {id:'mon-khmer',vi:'Môn–Khmer',ja:'モン・クメール',fam_vi:'Nam Á',fam_ja:'オーストロアジア語族'},
+    {id:'nam-dao',vi:'Nam Đảo',ja:'南島（マレー・ポリネシア）',fam_vi:'Nam Đảo',fam_ja:'オーストロネシア語族'},
+    {id:'han',vi:'Hán',ja:'漢',fam_vi:'Hán–Tạng',fam_ja:'シナ・チベット語族'},
+    {id:'tang-mien',vi:'Tạng–Miến',ja:'チベット・ビルマ',fam_vi:'Hán–Tạng',fam_ja:'シナ・チベット語族'}
+  ];
+  var CC={CN:['🇨🇳','中国','Trung Quốc'],LA:['🇱🇦','ラオス','Lào'],TH:['🇹🇭','タイ','Thái Lan'],MM:['🇲🇲','ミャンマー','Myanmar'],
+    KH:['🇰🇭','カンボジア','Campuchia'],MY:['🇲🇾','マレーシア','Malaysia'],ID:['🇮🇩','インドネシア','Indonesia'],PH:['🇵🇭','フィリピン','Philippines'],
+    TW:['🇹🇼','台湾','Đài Loan'],US:['🇺🇸','アメリカ','Mỹ'],FR:['🇫🇷','フランス','Pháp'],IN:['🇮🇳','インド','Ấn Độ'],AU:['🇦🇺','オーストラリア','Úc'],
+    SG:['🇸🇬','シンガポール','Singapore'],BD:['🇧🇩','バングラデシュ','Bangladesh'],TL:['🇹🇱','東ティモール','Đông Timor'],BN:['🇧🇳','ブルネイ','Brunei'],
+    MG:['🇲🇬','マダガスカル','Madagascar'],VN:['🇻🇳','ベトナムのみ','chỉ ở Việt Nam'],CA:['🇨🇦','カナダ','Canada'],DE:['🇩🇪','ドイツ','Đức']};
+  var MX_COLS=['CN','LA','TH','MM','KH','MY','ID','US','FR'];
+  function isUi(l){return root.getAttribute('data-ui')===l}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function bi(ja,vi){return '<span class="ja">'+esc(ja)+'</span><span class="vi">'+esc(vi)+'</span>'}
+  function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||'null');localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
+
+  /* ---------- language ---------- */
+  function setLang(l){
+    if(['ja','vi','both'].indexOf(l)<0) l='ja';
+    root.setAttribute('data-ui',l);
+    root.setAttribute('lang',l==='vi'?'vi':'ja');
+    document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l)});
+    try{localStorage.setItem('dt-lang',l)}catch(e){}
+    renderCountrySelect();
+    if(window.__renderDemo) window.__renderDemo();
+    renderNow();
+  }
+  var params=new URLSearchParams(location.search);
+  var saved=null; try{saved=localStorage.getItem('dt-lang')}catch(e){}
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set)})});
+
+  /* ---------- 54 peoples ---------- */
+  var gIndex={};GROUPS.forEach(function(g,i){gIndex[g.id]=i});
+  DATA.sort(function(a,b){return (gIndex[a.group]-gIndex[b.group])||(b.pop-a.pop)});
+  var seen=store('dt-seen')||{};
+  var state={g:null,c:'',q:''};
+  var fam=document.getElementById('fam');
+  GROUPS.forEach(function(g){
+    var n=DATA.filter(function(d){return d.group===g.id}).length;
+    var b=document.createElement('button');b.type='button';b.className='g-'+g.id;b.dataset.g=g.id;b.setAttribute('aria-pressed','false');
+    b.innerHTML='<span class="n">'+n+'</span><b>'+bi(g.ja,g.vi)+'</b><small>'+bi(g.fam_ja,'Ngữ hệ '+g.fam_vi)+'</small><small>'+
+      esc(DATA.filter(function(d){return d.group===g.id}).map(function(d){return d.vi}).join(', '))+'</small>';
+    b.addEventListener('click',function(){state.g=state.g===g.id?null:g.id;renderList();document.getElementById('peoples').scrollIntoView()});
+    fam.appendChild(b);
+  });
+  function fmtPop(n){return n?Number(n).toLocaleString('vi-VN'):'—'}
+  var eth=document.getElementById('eth');
+  DATA.forEach(function(d,i){
+    var el=document.createElement('details');el.className='e g-'+d.group;el.id='e-'+d.id;
+    var flags=[];(d.kin||[]).forEach(function(k){if(k.c==='VN')return;var f=CC[k.c]?CC[k.c][0]:k.c;if(flags.indexOf(f)<0)flags.push(f)});
+    var kin=(d.kin||[]).map(function(k){var c=CC[k.c]||[k.c,k.c,k.c];return '<span>'+c[0]+' '+bi(k.ja,k.vi)+'</span>'}).join('');
+    var ph=d.photo;
+    el.innerHTML='<summary><span class="no"><span>'+(i+1)+'</span></span>'+(ph?'<img class="av" src="assets/'+esc(ph.file)+'" alt="" loading="lazy">':'')+'<span class="nm"><b>'+bi(d.ja,d.vi)+'</b><small>'+
+      esc(d.vi)+(d.alt?' · '+esc(d.alt):'')+' · '+fmtPop(d.pop)+'</small></span><span class="fl">'+flags.join('')+'</span></summary>'+
+      '<div class="body">'+(ph?'<figure class="pic"><img src="assets/'+esc(ph.file)+'" alt="'+esc(d.vi)+'" loading="lazy"><figcaption>👘 '+bi(ph.desc_ja||ph.desc_vi,ph.desc_vi)+' · <a href="'+esc(ph.page)+'" target="_blank" rel="noopener">'+esc(ph.author)+', '+esc(ph.license)+'</a></figcaption></figure>':'')+'<p><span class="lab">📍</span> '+bi(d.region_ja,d.region_vi)+'</p><p>'+bi(d.hi_ja,d.hi_vi)+'</p>'+
+      (kin?'<div class="lab">🌏 '+bi('国境の外の親戚','Họ hàng ngoài biên giới')+'</div><div class="kin">'+kin+'</div>':'')+
+      (d.vme_vi?'<p><span class="lab">🏛 '+bi('博物館で','Ở bảo tàng')+'</span> '+bi(d.vme_ja,d.vme_vi)+'</p>':'')+
+      '<label class="seen"><input type="checkbox"> '+bi('展示で見つけた！','Đã gặp ở bảo tàng!')+'</label></div>';
+    var cb=el.querySelector('.seen input');cb.checked=!!seen[d.id];el.classList.toggle('is-seen',cb.checked);
+    cb.addEventListener('change',function(){seen[d.id]=cb.checked;if(!cb.checked)delete seen[d.id];store('dt-seen',seen);el.classList.toggle('is-seen',cb.checked);renderSeen()});
+    el._d=d;eth.appendChild(el);
+  });
+  function renderSeen(){var n=Object.keys(seen).length;document.getElementById('seen-n').textContent=n+'/'+DATA.length;document.getElementById('seen-bar').style.width=(DATA.length?n/DATA.length*100:0)+'%'}
+  function match(d){
+    if(state.g&&d.group!==state.g) return false;
+    if(state.c&&!(d.kin||[]).some(function(k){return k.c===state.c})) return false;
+    if(state.q){var h=[d.vi,d.ja,d.alt,d.id,d.region_vi,d.region_ja].concat((d.kin||[]).map(function(k){return k.vi+' '+k.ja})).join(' ').toLowerCase();
+      if(h.indexOf(state.q)<0&&h.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d').indexOf(state.q.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d'))<0) return false}
+    return true;
+  }
+  function renderList(){
+    var n=0;[].forEach.call(eth.children,function(el){var ok=match(el._d);el.hidden=!ok;if(ok)n++});
+    fam.querySelectorAll('button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.g===state.g)});
+    document.getElementById('fc').value=state.c;
+    document.getElementById('cnt').innerHTML=n+' / '+DATA.length;
+  }
+  function renderCountrySelect(){
+    var sel=document.getElementById('fc'),used={};
+    DATA.forEach(function(d){var u={};(d.kin||[]).forEach(function(k){if(k.c!=='VN'&&!u[k.c]){u[k.c]=1;used[k.c]=(used[k.c]||0)+1}})});
+    var vi=isUi('vi');
+    sel.innerHTML='<option value="">'+(vi?'🌏 Tất cả các nước':'🌏 すべての国')+'</option>'+Object.keys(used).sort(function(a,b){return used[b]-used[a]}).map(function(c){
+      var x=CC[c]||[c,c,c];return '<option value="'+c+'">'+x[0]+' '+(vi?x[2]:x[1])+' ('+used[c]+')</option>'}).join('');
+    sel.value=state.c;
+  }
+  document.getElementById('fc').addEventListener('change',function(e){state.c=e.target.value;renderList()});
+  document.getElementById('q').addEventListener('input',function(e){state.q=e.target.value.trim().toLowerCase();renderList()});
+
+  /* ---------- matrix ---------- */
+  (function(){
+    var t=document.getElementById('mx');
+    var h='<tr><th>'+bi('言語グループ','Nhóm')+'</th>'+MX_COLS.map(function(c){return '<th>'+CC[c][0]+'<br>'+bi(CC[c][1],CC[c][2])+'</th>'}).join('')+'</tr>';
+    GROUPS.forEach(function(g){
+      var list=DATA.filter(function(d){return d.group===g.id});
+      h+='<tr class="g-'+g.id+'"><td><b style="color:var(--gc)">■</b> '+bi(g.ja,g.vi)+' <small>('+list.length+')</small></td>'+MX_COLS.map(function(c){
+        var n=list.filter(function(d){return (d.kin||[]).some(function(k){return k.c===c})}).length;
+        var a=list.length?n/list.length:0;
+        return '<td class="v" data-n="'+n+'" data-g="'+g.id+'" data-c="'+c+'" style="background:color-mix(in srgb,var(--gc) '+Math.round(25+a*75)+'%,transparent);cursor:'+(n?'pointer':'default')+'">'+n+'</td>'}).join('')+'</tr>';
+    });
+    t.innerHTML=h;
+    t.addEventListener('click',function(e){var td=e.target.closest('td.v');if(!td||td.dataset.n==='0')return;state.g=td.dataset.g;state.c=td.dataset.c;state.q='';document.getElementById('q').value='';renderList();document.getElementById('peoples').scrollIntoView()});
+  })();
+
+  /* ---------- hunt ---------- */
+  var hunt=store('dt-hunt')||{};
+  document.querySelectorAll('#hunt-list input').forEach(function(cb){cb.checked=!!hunt[cb.dataset.k];cb.addEventListener('change',function(){hunt[cb.dataset.k]=cb.checked;store('dt-hunt',hunt)})});
+
+  /* ---------- map links ---------- */
+  var enc=encodeURIComponent;
+  document.querySelectorAll('[data-q]').forEach(function(a){
+    if(a.tagName==='A') a.href='https://www.google.com/maps/search/?api=1&query='+enc(a.dataset.q);
+  });
+  document.querySelectorAll('a[data-dir]').forEach(function(a){
+    a.href='https://www.google.com/maps/dir/?api=1'+(a.dataset.from?'&origin='+enc(a.dataset.from):'')+'&destination='+enc(a.dataset.dir)+'&travelmode=driving';
+  });
+  document.querySelectorAll('a[href^="http"]').forEach(function(a){a.target='_blank';a.rel='noopener'});
+
+  /* ---------- now / next ---------- */
+  var TRIP='2026-10-11';
+  var items=[].slice.call(document.querySelectorAll('.tl-item'));
+  function toMin(s){var p=s.split(':');return +p[0]*60+ +p[1]}
+  function vnNow(){
+    var t=params.get('t'), d=params.get('d');
+    var f=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+    var o={};f.forEach(function(x){o[x.type]=x.value});
+    var date=d||(o.year+'-'+o.month+'-'+o.day);
+    var min=t?toMin(t):(+o.hour%24)*60+ +o.minute;
+    return {date:date,min:min};
+  }
+  /* in JA+VI mode the compact bar shows Japanese; the Vietnamese title goes on the sub line */
+  function L(ja,vi){return isUi('vi')?vi:ja}
+  function fmt(m){var h=Math.floor(m/60),mm=m%60;return (h?h+L('時間','h')+' ':'')+mm+L('分','p')}
+  function mapUrl(el){return 'https://www.google.com/maps/dir/?api=1&destination='+enc(el.dataset.dir)+'&travelmode=driving'}
+  var ENDJA='民族学博物館、おつかれさまでした！', ENDVI='Cảm ơn mọi người — hẹn chuyến sau!';
+  function renderNow(){
+    var box=document.getElementById('now'); if(!box||!items.length) return;
+    var n=vnNow(), cur=null, next=null, i;
+    items.forEach(function(el){el.classList.remove('is-now','is-done')});
+    var lbl,ttl,sub,target;
+    if(n.date<TRIP){
+      lbl=L('見学日','Ngày tham quan'); ttl=L('10月11日（日）10:30 民族学博物館','Chủ nhật 11/10 · 10:30 Bảo tàng Dân tộc học');
+      sub=L('持ち物をチェックしておきましょう','Nhớ chuẩn bị đồ dùng'); target=items[0];
+    }else if(n.date>TRIP){
+      lbl=L('おつかれさまでした','Cảm ơn mọi người'); ttl=L(ENDJA,ENDVI); sub=''; target=items[items.length-1];
+    }else{
+      for(i=0;i<items.length;i++){
+        var s=toMin(items[i].dataset.start),e=toMin(items[i].dataset.end);
+        if(n.min>=e) items[i].classList.add('is-done');
+        if(n.min>=s&&n.min<e){cur=items[i];next=items[i+1]||null}
+        if(!cur&&!next&&n.min<s){next=items[i]}
+      }
+      if(cur){
+        cur.classList.add('is-now');
+        lbl=L('いま','Bây giờ')+' · '+cur.dataset.start+'–'+cur.dataset.end+' ('+L('残り','còn')+' '+fmt(toMin(cur.dataset.end)-n.min)+')';
+        ttl=L(cur.dataset.ja,cur.dataset.vi);
+        sub=next?(L('次','Tiếp theo')+' '+next.dataset.start+' → '+L(next.dataset.ja,next.dataset.vi)):L('この後解散','Sau đó giải tán');
+        target=cur;
+      }else if(next){
+        lbl=L('次','Tiếp theo')+' · '+next.dataset.start+' ('+L('あと','còn')+' '+fmt(toMin(next.dataset.start)-n.min)+')';
+        ttl=L(next.dataset.ja,next.dataset.vi); sub=''; target=next;
+      }else{
+        lbl=L('おつかれさまでした','Cảm ơn mọi người'); ttl=L(ENDJA,ENDVI); sub=''; target=items[items.length-1];
+      }
+    }
+    document.getElementById('now-lbl').textContent=lbl;
+    document.getElementById('now-ttl').textContent=ttl;
+    if(isUi('both')&&target) sub=target.dataset.vi+(sub?' · '+sub:'');
+    document.getElementById('now-sub').textContent=sub;
+    if(!target.id) target.id='step-'+items.indexOf(target);
+    document.getElementById('now-go').href='#'+target.id;
+    var m=document.getElementById('now-map'); m.href=mapUrl(target); m.target='_blank'; m.rel='noopener';
+    box.hidden=false;
+  }
+
+  /* ---------- demography charts ---------- */
+  (function(){
+    var DEMO=null;try{DEMO=JSON.parse(document.getElementById('demo-data').textContent)}catch(e){}
+    if(!DEMO) return;
+    var SER=[{c:'VNM',v:'Việt Nam',j:'ベトナム',k:'s1'},{c:'CHN',v:'Trung Quốc',j:'中国',k:'s2'},{c:'JPN',v:'Nhật Bản',j:'日本',k:'s3'}];
+    var Y=DEMO.years, LAST=DEMO.last_estimate_year, NOW=2026, iNow=Y.indexOf(NOW);
+    function nm(s){return isUi('vi')?s.v:s.j}
+    function bil(n){return isUi('vi')?(n/1e6).toLocaleString('vi-VN',{maximumFractionDigits:1})+' triệu':(n/1e8>=1?(n/1e8).toLocaleString('ja-JP',{maximumFractionDigits:2})+'億':(n/1e4).toLocaleString('ja-JP',{maximumFractionDigits:0})+'万')+'人'}
+    var idx={};SER.forEach(function(s){var b=DEMO.pop[s.c][0];idx[s.c]=DEMO.pop[s.c].map(function(v){return v/b*100})});
+
+    /* stat tiles: 2026 */
+    var tiles=document.getElementById('demo-tiles');
+    function renderTiles(){
+      tiles.innerHTML=SER.map(function(s){
+        return '<div class="tile '+s.k+'"><div class="t-h"><i></i>'+esc(nm(s))+' · 2026</div>'+
+          '<div class="t-v">'+DEMO.median_age[s.c][iNow].toFixed(1)+'<small>'+L('歳','tuổi')+'</small></div>'+
+          '<div class="t-s">'+L('年齢の中央値','tuổi trung vị')+' · '+esc(bil(DEMO.pop[s.c][iNow]))+'</div></div>'}).join('');
+    }
+
+    function lineChart(el,legend,o){
+      var W=Math.max(300,el.clientWidth||600),H=W<520?240:280,m={t:14,r:W<520?74:86,b:28,l:40};
+      var iw=W-m.l-m.r,ih=H-m.t-m.b,x0=Y[0],x1=Y[Y.length-1];
+      var ymax=o.max,ymin=o.min||0;
+      function X(y){return m.l+(y-x0)/(x1-x0)*iw}
+      function YY(v){return m.t+ih-(v-ymin)/(ymax-ymin)*ih}
+      var g='';
+      o.ticks.forEach(function(t){g+='<line class="grid" x1="'+m.l+'" x2="'+(m.l+iw)+'" y1="'+YY(t)+'" y2="'+YY(t)+'"/><text class="ax" x="'+(m.l-6)+'" y="'+(YY(t)+4)+'" text-anchor="end">'+t+'</text>'});
+      [1950,2000,2050,2100].forEach(function(t){g+='<text class="ax" x="'+X(t)+'" y="'+(H-8)+'" text-anchor="middle">'+t+'</text>'});
+      g+='<rect class="proj" x="'+X(LAST)+'" y="'+m.t+'" width="'+(m.l+iw-X(LAST))+'" height="'+ih+'"/>';
+      g+='<text class="ax" x="'+(X(LAST)+4)+'" y="'+(m.t+11)+'">'+L('予測','dự báo')+'</text>';
+      if(o.band) g+='<rect class="band" x="'+X(o.band[0])+'" y="'+m.t+'" width="'+(X(o.band[1])-X(o.band[0]))+'" height="'+ih+'"/><text class="band-l" x="'+(X(o.band[0])+3)+'" y="'+(m.t+ih-6)+'">'+o.band[2]()+'</text>';
+      g+='<line class="now" x1="'+X(NOW)+'" x2="'+X(NOW)+'" y1="'+m.t+'" y2="'+(m.t+ih)+'"/>';
+      var labels=[];
+      SER.forEach(function(s){
+        var d=o.val(s.c),est='',pro='';
+        Y.forEach(function(y,i){var p=X(y).toFixed(1)+','+YY(d[i]).toFixed(1);if(y<=LAST)est+=(est?'L':'M')+p;if(y>=LAST)pro+=(pro?'L':'M')+p});
+        g+='<path class="ln '+s.k+'" d="'+est+'"/><path class="ln dash '+s.k+'" d="'+pro+'"/>';
+        g+='<circle class="dot '+s.k+'" r="4.5" cx="'+X(NOW)+'" cy="'+YY(d[iNow])+'"/>';
+        labels.push({s:s,y:YY(d[d.length-1]),v:d[d.length-1]});
+      });
+      /* direct labels at line ends, nudged apart */
+      labels.sort(function(a,b){return a.y-b.y});
+      for(var i=1;i<labels.length;i++) if(labels[i].y-labels[i-1].y<15) labels[i].y=labels[i-1].y+15;
+      labels.forEach(function(l){g+='<circle class="dot '+l.s.k+'" r="3.5" cx="'+(m.l+iw+8)+'" cy="'+(l.y-4)+'"/><text class="lbl" x="'+(m.l+iw+15)+'" y="'+l.y+'">'+esc(nm(l.s))+'</text>'});
+      g+='<line class="xh" id="'+el.id+'-xh" y1="'+m.t+'" y2="'+(m.t+ih)+'" visibility="hidden"/>';
+      g+='<rect class="hit" x="'+m.l+'" y="'+m.t+'" width="'+iw+'" height="'+ih+'"/>';
+      el.innerHTML='<svg viewBox="0 0 '+W+' '+H+'" width="100%" height="'+H+'">'+g+'</svg><div class="tip" hidden></div>';
+      legend.innerHTML=SER.map(function(s){return '<span><i class="'+s.k+'"></i>'+esc(nm(s))+'</span>'}).join('')+
+        '<span><i class="ln-solid"></i>'+L('推計','ước tính')+'</span><span><i class="ln-dash"></i>'+L('予測','dự báo')+'</span><span><i class="ln-now"></i>2026</span>';
+      var svg=el.querySelector('svg'),tip=el.querySelector('.tip'),xh=el.querySelector('.xh');
+      function move(ev){
+        var r=svg.getBoundingClientRect(),px=(ev.touches?ev.touches[0].clientX:ev.clientX)-r.left,sx=px*W/r.width;
+        var yr=x0+(sx-m.l)/iw*(x1-x0),bi=0;
+        Y.forEach(function(y,i){if(Math.abs(y-yr)<Math.abs(Y[bi]-yr))bi=i});
+        var xx=X(Y[bi]);xh.setAttribute('x1',xx);xh.setAttribute('x2',xx);xh.setAttribute('visibility','visible');
+        tip.innerHTML='<b>'+Y[bi]+(Y[bi]>LAST?' <small>('+L('予測','dự báo')+')</small>':'')+'</b>'+SER.map(function(s){
+          return '<div><i class="'+s.k+'"></i>'+esc(nm(s))+' <span>'+o.fmt(s.c,bi)+'</span></div>'}).join('');
+        tip.hidden=false;
+        var tx=xx*r.width/W;tip.style.left=Math.min(Math.max(tx-tip.offsetWidth/2,0),r.width-tip.offsetWidth)+'px';
+      }
+      function out(){tip.hidden=true;xh.setAttribute('visibility','hidden')}
+      var hit=svg.querySelector('.hit');
+      hit.addEventListener('mousemove',move);hit.addEventListener('touchstart',move,{passive:true});hit.addEventListener('touchmove',move,{passive:true});
+      hit.addEventListener('mouseleave',out);
+    }
+    function renderTable(){
+      var t=document.getElementById('demo-table'),rows=[1950,1975,2000,2023,2026,2050,2075,2100];
+      t.innerHTML='<tr><th>'+L('年','Năm')+'</th>'+SER.map(function(s){return '<th>'+esc(nm(s))+'<br>'+L('人口','dân số')+'</th>'}).join('')+
+        SER.map(function(s){return '<th>'+esc(nm(s))+'<br>'+L('中央値','tuổi TV')+'</th>'}).join('')+'</tr>'+
+        rows.map(function(y){var i=Y.indexOf(y);return '<tr><td>'+y+(y>LAST?'*':'')+'</td>'+
+          SER.map(function(s){return '<td>'+(DEMO.pop[s.c][i]/1e6).toLocaleString('vi-VN',{maximumFractionDigits:1})+'M</td>'}).join('')+
+          SER.map(function(s){return '<td>'+DEMO.median_age[s.c][i].toFixed(1)+'</td>'}).join('')+'</tr>'}).join('');
+    }
+    function renderAll(){
+      renderTiles();
+      lineChart(document.getElementById('chart-pop'),document.getElementById('legend-pop'),{
+        val:function(c){return idx[c]},max:500,ticks:[100,200,300,400,500],
+        fmt:function(c,i){return Math.round(idx[c][i])+' · '+bil(DEMO.pop[c][i])}});
+      lineChart(document.getElementById('chart-age'),document.getElementById('legend-age'),{
+        val:function(c){return DEMO.median_age[c]},max:65,min:10,band:[2007,2036,function(){return L('🇻🇳 人口ボーナス 2007–2036','🇻🇳 dân số vàng 2007–2036')}],ticks:[10,20,30,40,50,60],
+        fmt:function(c,i){return DEMO.median_age[c][i].toFixed(1)+L('歳',' tuổi')}});
+      renderTable();
+    }
+    window.__renderDemo=renderAll;
+    var rt;window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(renderAll,150)});
+  })();
+
+  /* ---------- architecture cards ---------- */
+  (function(){
+    var A=[];try{A=JSON.parse(document.getElementById('arch-data').textContent)}catch(e){}
+    if(!A.length) return;
+    var ICON={zone:'🏛',house:'🛖'};
+    function card(a){
+      var imgs=a.img||[],ph;
+      if(imgs.length){
+        ph='<div class="ph">'+imgs.map(function(im,i){return '<figure><img src="assets/'+esc(im.f)+'" alt="'+esc(a.vi)+'" loading="lazy">'+
+          (im.vi?'<figcaption>'+bi(im.ja||im.vi,im.vi)+'</figcaption>':'')+(imgs.length>1?'<span class="cnt">'+(i+1)+'/'+imgs.length+' ⇆</span>':'')+'</figure>'}).join('')+'</div>';
+      }else ph='<div class="noimg" aria-hidden="true">'+ICON[a.kind]+'</div>';
+      var eth=a.ethnic&&document.getElementById('e-'+a.ethnic);
+      var facts=function(l){return (l||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('')};
+      return '<article class="ac" id="arch-'+esc(a.id)+'">'+ph+'<div class="bd"><h4>'+bi(a.ja,a.vi)+'</h4>'+
+        (a.origin_vi?'<div class="org">📍 '+bi(a.origin_ja,a.origin_vi)+'</div>':'')+
+        '<p class="sum">'+bi(a.summary_ja,a.summary_vi)+'</p>'+
+        (eth?'<a class="eth-link" href="#e-'+esc(a.ethnic)+'" data-open="e-'+esc(a.ethnic)+'">👘 '+bi(eth._d.ja,eth._d.vi)+' →</a>':'')+
+        '<details><summary>'+bi('もっと読む','Đọc thêm')+'</summary>'+
+        '<ul class="ja">'+facts(a.facts_ja)+'</ul><ul class="vi">'+facts(a.facts_vi)+'</ul>'+
+        (a.look_vi?'<div class="look">👀 '+bi(a.look_ja,a.look_vi)+'</div>':'')+
+        '<div class="rm">'+(a.url_vi?'<a class="btn" href="'+esc(a.url_vi)+'" target="_blank" rel="noopener">📖 '+bi('公式（越）','Trang chính thức')+'</a>':'')+
+        (a.url_en?'<a class="btn" href="'+esc(a.url_en)+'" target="_blank" rel="noopener">📖 Official (EN)</a>':'')+'</div></details></div></article>';
+    }
+    document.getElementById('arch-zones').innerHTML=A.filter(function(a){return a.kind==='zone'}).map(card).join('');
+    document.getElementById('arch-houses').innerHTML=A.filter(function(a){return a.kind==='house'}).map(card).join('');
+    document.querySelectorAll('[data-open]').forEach(function(l){l.addEventListener('click',function(){
+      state.g=null;state.c='';state.q='';document.getElementById('q').value='';renderList();
+      var d=document.getElementById(l.dataset.open);if(d)d.open=true})});
+  })();
+  renderSeen();
+  setLang(params.get('lang')||saved||'ja');
+  renderList();
+  setInterval(renderNow,30000);
+})();
+</script>
+</body>
+</html>

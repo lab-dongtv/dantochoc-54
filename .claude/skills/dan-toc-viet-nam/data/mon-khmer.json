@@ -1,0 +1,498 @@
+[
+  {
+    "id": "khmer",
+    "vi": "Khmer",
+    "ja": "クメール族",
+    "alt": "Khơ-me, Khmer Nam Bộ, Khmer Krom",
+    "group": "mon-khmer",
+    "pop": 1319652,
+    "region_vi": "Đồng bằng sông Cửu Long: Sóc Trăng, Trà Vinh, Kiên Giang, An Giang, Bạc Liêu, Cà Mau",
+    "region_ja": "メコンデルタ（ソクチャン、チャビン、キエンザン、アンザン、バクリエウ、カマウ）",
+    "hi_vi": "Phật giáo Nam tông, ngôi chùa là trung tâm cộng đồng và nơi học chữ Khmer. Lễ Ók Om Bók với đua ghe ngo, Tết Chôl Chnăm Thmây tháng 4.",
+    "hi_ja": "上座部仏教を信仰し、寺院が共同体と文字教育の中心。月を祀るオックオムボック祭のゴー舟競漕や、4月の正月チョルチュナムトメイが有名。",
+    "kin": [
+      {
+        "c": "KH",
+        "vi": "Người Khmer Campuchia — cùng ngôn ngữ, tôn giáo, chữ viết",
+        "ja": "カンボジアのクメール人（言語・宗教・文字が同じ）"
+      },
+      {
+        "c": "TH",
+        "vi": "Khmer Bắc ở Surin, Buriram, Sisaket",
+        "ja": "タイ東北部スリン・ブリーラムの北部クメール人"
+      },
+      {
+        "c": "US",
+        "vi": "Khmer Krom ở Mỹ (~30.000, 1999)",
+        "ja": "アメリカのクメール・クロム（約3万人・1999年）"
+      },
+      {
+        "c": "FR",
+        "vi": "Khmer Krom ở Pháp (~3.000, 1999)",
+        "ja": "フランスのクメール・クロム（約3,000人・1999年）"
+      },
+      {
+        "c": "AU",
+        "vi": "Khmer Krom ở Úc (~1.000, 1999)",
+        "ja": "オーストラリアのクメール・クロム（約1,000人・1999年）"
+      }
+    ],
+    "vme_vi": "Khu trưng bày trong nhà, phần Nam Bộ: ghe ngo, dàn nhạc ngũ âm, đồ thờ Phật, trang phục.",
+    "vme_ja": "屋内展示の南部コーナー：ゴー舟、五音楽器、仏具、民族衣装。"
+  },
+  {
+    "id": "ba-na",
+    "vi": "Ba Na",
+    "ja": "バナ族",
+    "alt": "Bahnar, Tơ Lô, Giơ Lâng, Rơ Ngao, Krem, Roh, Kon Kđe, Ala Công",
+    "group": "mon-khmer",
+    "pop": 286910,
+    "region_vi": "Gia Lai, Kon Tum, Bình Định, Phú Yên",
+    "region_ja": "ザライ省、コントゥム省、ビンディン省、フーイエン省",
+    "hi_vi": "Nhà rông mái cao hình lưỡi rìu là biểu tượng của làng. Cồng chiêng, đàn t'rưng, sử thi và tượng nhà mồ trong lễ bỏ mả.",
+    "hi_ja": "斧の刃形の高い屋根をもつ共同家屋「ニャーロン」が村の象徴。ゴング（銅鑼）文化、竹琴トルン、叙事詩、墓放棄祭の墓像で知られる。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Các tộc nhánh Bahnar ở Nam Lào (Alak, Oi, Laven) — họ hàng ngôn ngữ",
+        "ja": "南ラオスのバナール系諸族（アラック、オイ、ラヴェン）と言語的に近縁"
+      },
+      {
+        "c": "KH",
+        "vi": "Tampuan, Brao ở Đông Bắc Campuchia — cùng nhánh Bahnar",
+        "ja": "カンボジア北東部のタンプオン族、ブラオ族（同じバナール語派）"
+      }
+    ],
+    "vme_vi": "Nhà rông Ba Na ở khu ngoài trời (mẫu Kon Tum, cao ~19 m) — công trình cao nhất; trong nhà: cồng chiêng, gùi.",
+    "vme_ja": "屋外展示のバナ族のニャーロン（コントゥム様式、高さ約19m）が最大の見どころ。屋内ではゴングや背負い籠。"
+  },
+  {
+    "id": "xo-dang",
+    "vi": "Xơ Đăng",
+    "ja": "セダン族",
+    "alt": "Sedang, Xơ Teng, Tơ Đrá, Mơ Nâm, Ca Dong, Ha Lăng",
+    "group": "mon-khmer",
+    "pop": 212277,
+    "region_vi": "Kon Tum (đông nhất), Quảng Nam, Quảng Ngãi",
+    "region_ja": "コントゥム省（最多）、クアンナム省、クアンガイ省",
+    "hi_vi": "Làng có nhà rông, nổi tiếng nghề rèn; nhóm Mơ Nâm làm ruộng nước. Cồng chiêng, lễ mừng lúa mới, thổ cẩm nền đen hoa văn trắng đỏ.",
+    "hi_ja": "村にはニャーロンがあり、鍛冶技術で知られる。モナム支族は水田耕作を行う。ゴング、新米祭、黒地に赤白模様の織物。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Họ hàng ngôn ngữ với các tộc Bahnar ở Nam Lào",
+        "ja": "南ラオスのバナール系諸族と言語的に近縁"
+      }
+    ],
+    "vme_vi": "Khu trưng bày Trường Sơn–Tây Nguyên (trong nhà): cồng chiêng, trang phục, nông cụ.",
+    "vme_ja": "屋内のチュオンソン・中部高原コーナー：ゴング、衣装、農具。"
+  },
+  {
+    "id": "hre",
+    "vi": "Hrê",
+    "ja": "フレ族",
+    "alt": "Chăm Rê, Thượng Ba Tơ",
+    "group": "mon-khmer",
+    "pop": 149460,
+    "region_vi": "Quảng Ngãi (Ba Tơ, Sơn Hà, Minh Long), Bình Định (An Lão)",
+    "region_ja": "クアンガイ省（バトー、ソンハー、ミンロン）、ビンディン省アンラオ",
+    "hi_vi": "Làm ruộng nước từ sớm bên cạnh nương rẫy. Nhạc cụ đàn ra-ngói, đàn brook, cồng chiêng; hát kể ka-lêu.",
+    "hi_ja": "焼畑に加え早くから水田稲作を営む。弦楽器ラーゴイやブロック、ゴングを奏で、語り歌カレウを伝える。",
+    "kin": [
+      {
+        "c": "VN",
+        "vi": "Chỉ ở Việt Nam; ngôn ngữ gần Ba Na, Xơ Đăng, Co",
+        "ja": "ベトナムのみに居住。言語はバナ族、セダン族、コー族に近い"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên: nhạc cụ, thổ cẩm.",
+    "vme_ja": "チュオンソン・中部高原コーナー：楽器、織物。"
+  },
+  {
+    "id": "co-ho",
+    "vi": "Cơ Ho",
+    "ja": "コホー族",
+    "alt": "Koho, Xrê, Nốp, Cơ Don, Chil, Lạch, Trinh",
+    "group": "mon-khmer",
+    "pop": 200800,
+    "region_vi": "Lâm Đồng (chủ yếu), Bình Thuận, Ninh Thuận, Khánh Hoà",
+    "region_ja": "ラムドン省（中心）、ビントゥアン省、ニントゥアン省、カインホア省",
+    "hi_vi": "Xã hội mẫu hệ, con theo họ mẹ. Kèn bầu, cồng chiêng; truyền thuyết K'Lang – H'Biang gắn với núi Lang Biang (Đà Lạt).",
+    "hi_ja": "母系社会で子は母の姓を継ぐ。瓢箪笙やゴングを奏で、ダラットのランビアン山の伝説（クラン王子とビアン姫）で知られる。",
+    "kin": [
+      {
+        "c": "KH",
+        "vi": "Cùng nhánh Nam Bahnar với Bunong, Stieng ở Campuchia",
+        "ja": "カンボジアのプノン族、スティエン族と同じ南バナール語群"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên: kèn bầu, gùi, thổ cẩm.",
+    "vme_ja": "チュオンソン・中部高原コーナー：瓢箪笙、背負い籠、織物。"
+  },
+  {
+    "id": "mnong",
+    "vi": "Mnông",
+    "ja": "ムノン族",
+    "alt": "M'nông, Bunong, Gar, Nông, Preh, Rlăm, Kuênh, Biat",
+    "group": "mon-khmer",
+    "pop": 127334,
+    "region_vi": "Đắk Nông, Đắk Lắk (Buôn Đôn, Lắk), Bình Phước, Lâm Đồng",
+    "region_ja": "ダクノン省、ダクラク省（ブオンドン、ラク）、ビンフオック省、ラムドン省",
+    "hi_vi": "Nổi tiếng săn bắt và thuần dưỡng voi ở Buôn Đôn. Mẫu hệ, sử thi Ót N'drong, cồng chiêng, ché quý, rượu cần.",
+    "hi_ja": "ブオンドンでの野生象の捕獲と調教で有名。母系社会で、叙事詩オットンドロン、ゴング、貴重な壺、竹ストローで飲む壺酒の文化をもつ。",
+    "kin": [
+      {
+        "c": "KH",
+        "vi": "Bunong ở Mondulkiri — cùng tộc, cùng ngôn ngữ",
+        "ja": "カンボジア・モンドルキリ州のプノン族（同一民族・同一言語）"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên: dụng cụ săn voi, ché, cồng chiêng.",
+    "vme_ja": "チュオンソン・中部高原コーナー：象狩りの道具、壺、ゴング。"
+  },
+  {
+    "id": "xtieng",
+    "vi": "Xtiêng",
+    "ja": "スティエン族",
+    "alt": "Stiêng, Xa Điêng, Bù Lơ, Bù Đek, Bù Biêk",
+    "group": "mon-khmer",
+    "pop": 100752,
+    "region_vi": "Bình Phước (chủ yếu), Tây Ninh, Đồng Nai, Bình Dương",
+    "region_ja": "ビンフオック省（中心）、タイニン省、ドンナイ省、ビンズオン省",
+    "hi_vi": "Nhóm vùng cao làm rẫy, nhóm vùng thấp làm ruộng nước. Cồng chiêng, kèn bầu, dệt thổ cẩm, đan gùi.",
+    "hi_ja": "高地の支族は焼畑、低地の支族は水田を営む。ゴング、瓢箪笙、織物、背負い籠づくりが伝わる。",
+    "kin": [
+      {
+        "c": "KH",
+        "vi": "Stieng ở Kratié, Kampong Cham — cùng tộc",
+        "ja": "カンボジアのクラチエ州、コンポンチャム州のスティエン族（同一民族）"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên / Nam Bộ (trong nhà).",
+    "vme_ja": "屋内のチュオンソン・中部高原または南部コーナー。"
+  },
+  {
+    "id": "bru-van-kieu",
+    "vi": "Bru-Vân Kiều",
+    "ja": "ブル・ヴァンキエウ族",
+    "alt": "Bru, Vân Kiều, Măng Coong, Tri, Khùa",
+    "group": "mon-khmer",
+    "pop": 94598,
+    "region_vi": "Quảng Trị (Hướng Hoá, Đakrông), Quảng Bình, Thừa Thiên Huế",
+    "region_ja": "クアンチ省（フオンホア、ダクロン）、クアンビン省、トゥアティエン・フエ",
+    "hi_vi": "Nhà sàn, khèn bè, đàn ta-lư, dân ca sim. Sống dọc đường mòn Hồ Chí Minh, gắn với lịch sử chiến tranh.",
+    "hi_ja": "高床式住居に住み、笙ケンやタール琴、恋歌シムを伝える。ホーチミン・ルート沿いに住み、戦争の歴史とも関わりが深い。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Bru/Makong, Tri, So ở Savannakhet, Khammouane — rất gần",
+        "ja": "ラオスのサワンナケート、カムアン県のブル（マコン）、トリ、ソー族と非常に近い"
+      },
+      {
+        "c": "TH",
+        "vi": "Người So/Bru ở Sakon Nakhon, Nakhon Phanom",
+        "ja": "タイのサコンナコーン、ナコーンパノム県のソー族（ブル）"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên, phần Bắc Trường Sơn.",
+    "vme_ja": "チュオンソン・中部高原コーナーの北チュオンソン部分。"
+  },
+  {
+    "id": "co-tu",
+    "vi": "Cơ Tu",
+    "ja": "コトゥ族",
+    "alt": "Katu, Ca Tu, Ka Tâu, Phương, Nal, Bhnoong",
+    "group": "mon-khmer",
+    "pop": 74173,
+    "region_vi": "Quảng Nam (Đông Giang, Tây Giang, Nam Giang), Thừa Thiên Huế (A Lưới, Nam Đông), Đà Nẵng",
+    "region_ja": "クアンナム省（ドンザン、タイザン、ナムザン）、フエ（アルオイ、ナムドン）、ダナン",
+    "hi_vi": "Làng hình tròn quanh nhà gươl chạm khắc; điêu khắc gỗ nhà mồ nổi tiếng. Múa tung tung – da dá, thổ cẩm đính hạt cườm.",
+    "hi_ja": "彫刻を施した集会所グオルを囲む円形の村。墓の木彫りが名高い。男女の踊りトゥントゥン・ザザー、ビーズを織り込んだ織物が特徴。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Katu ở Sekong, Salavan — cùng tộc",
+        "ja": "ラオスのセコン、サラワン県のカトゥ族（同一民族）"
+      }
+    ],
+    "vme_vi": "Khu ngoài trời có công trình Cơ Tu (nhà mồ/tượng gỗ — xem biển chỉ dẫn); trong nhà: thổ cẩm hạt cườm.",
+    "vme_ja": "屋外にコトゥ族の建造物（墓屋・木彫像、現地の案内板で確認）。屋内ではビーズ織物。"
+  },
+  {
+    "id": "gie-trieng",
+    "vi": "Giẻ Triêng",
+    "ja": "ジェ・チエン族",
+    "alt": "Gié Triêng, Đgiéh, Tareb, Triêng, Ve, La Ve, Bnoong",
+    "group": "mon-khmer",
+    "pop": 63322,
+    "region_vi": "Kon Tum (Đắk Glei, Ngọc Hồi), Quảng Nam (Phước Sơn, Nam Giang)",
+    "region_ja": "コントゥム省（ダクレイ、ゴックホイ）、クアンナム省（フオックソン、ナムザン）",
+    "hi_vi": "Nhà rông và nhà dài nhiều thế hệ. Đàn klông pút thổi bằng hơi vỗ tay, đàn ống tre, cồng chiêng.",
+    "hi_ja": "ニャーロンと多世代のロングハウスに暮らす。手を打って空気を送る竹楽器クロンプット、竹琴、ゴングが特徴。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Triang (Talieng), Jeh, Ve ở Sekong, Attapeu — cùng ngôn ngữ",
+        "ja": "ラオスのセコン、アタプー県のタリエン族、ジェ族、ヴェ族（同系言語）"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên: nhạc cụ tre, gùi.",
+    "vme_ja": "チュオンソン・中部高原コーナー：竹の楽器、背負い籠。"
+  },
+  {
+    "id": "ta-oi",
+    "vi": "Tà Ôi",
+    "ja": "タオイ族",
+    "alt": "Ta Oi, Tôi Ôi, Pa Cô, Pa Hi",
+    "group": "mon-khmer",
+    "pop": 52356,
+    "region_vi": "Thừa Thiên Huế (A Lưới), Quảng Trị (Đakrông, Hướng Hoá)",
+    "region_ja": "トゥアティエン・フエ（アルオイ）、クアンチ省（ダクロン、フオンホア）",
+    "hi_vi": "Nghề dệt Zèng đính hạt cườm — Di sản văn hoá phi vật thể quốc gia. Nhà sàn dài, dân ca cà lơi.",
+    "hi_ja": "ビーズを織り込むゼン織りが国の無形文化遺産に指定。高床式のロングハウスに住み、民謡カロイを伝える。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Ta Oi ở Salavan, Sekong — cùng tộc",
+        "ja": "ラオスのサラワン、セコン県のタオイ族（同一民族）"
+      }
+    ],
+    "vme_vi": "Tìm vải dệt Zèng ở khu Trường Sơn–Tây Nguyên.",
+    "vme_ja": "チュオンソン・中部高原コーナーでゼン織りを探そう。"
+  },
+  {
+    "id": "ma",
+    "vi": "Mạ",
+    "ja": "マ族",
+    "alt": "Châu Mạ, Mạ Ngăn, Mạ Xốp, Mạ Tô, Mạ Krung",
+    "group": "mon-khmer",
+    "pop": 50322,
+    "region_vi": "Lâm Đồng (Bảo Lộc, Di Linh, Cát Tiên), Đồng Nai, Đắk Nông",
+    "region_ja": "ラムドン省（バオロック、ジリン、カッティエン）、ドンナイ省、ダクノン省",
+    "hi_vi": "Phụ nữ dệt vải hoa văn tinh xảo, đàn ông giỏi rèn. Cồng chiêng, kèn bầu, nhà sàn dài.",
+    "hi_ja": "女性は精緻な文様の織物、男性は鍛冶に優れる。ゴング、瓢箪笙、高床式ロングハウスが伝わる。",
+    "kin": [
+      {
+        "c": "VN",
+        "vi": "Chủ yếu ở Việt Nam; ngôn ngữ gần Cơ Ho, Xtiêng, Mnông",
+        "ja": "主にベトナムに居住。言語はコホー族、スティエン族、ムノン族に近い"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên: thổ cẩm, nhạc cụ.",
+    "vme_ja": "チュオンソン・中部高原コーナー：織物、楽器。"
+  },
+  {
+    "id": "co",
+    "vi": "Co",
+    "ja": "コー族",
+    "alt": "Cor, Col, Cùa, Trầu",
+    "group": "mon-khmer",
+    "pop": 40442,
+    "region_vi": "Quảng Ngãi (Trà Bồng), Quảng Nam (Bắc Trà My, Nam Trà My)",
+    "region_ja": "クアンガイ省チャーボン、クアンナム省チャーミー",
+    "hi_vi": "Nổi tiếng trồng quế Trà Bồng, Trà My (xưa dùng để tiến vua). Nhà sàn dài, cồng chiêng, hát xà ru.",
+    "hi_ja": "かつて王朝に献上されたチャーボン・チャーミーの肉桂（シナモン）栽培で有名。高床式ロングハウス、ゴング、歌謡サールー。",
+    "kin": [
+      {
+        "c": "VN",
+        "vi": "Chỉ ở Việt Nam; ngôn ngữ gần Hrê, Xơ Đăng",
+        "ja": "ベトナムのみに居住。言語はフレ族、セダン族に近い"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên (trong nhà).",
+    "vme_ja": "屋内のチュオンソン・中部高原コーナー。"
+  },
+  {
+    "id": "cho-ro",
+    "vi": "Chơ Ro",
+    "ja": "チョロ族",
+    "alt": "Châu Ro, Dơ Ro, Chro, Chrau",
+    "group": "mon-khmer",
+    "pop": 29520,
+    "region_vi": "Đồng Nai (Xuân Lộc, Định Quán), Bà Rịa–Vũng Tàu, Bình Thuận",
+    "region_ja": "ドンナイ省（スアンロック、ディンクアン）、バリア・ブンタウ、ビントゥアン省",
+    "hi_vi": "Cư dân bản địa lâu đời của Đông Nam Bộ. Lễ cúng thần lúa Sayangva, cồng chiêng; nay sống xen cư với người Việt.",
+    "hi_ja": "南部東部地方の古くからの先住民。稲の神を祀るサヤンヴァ祭やゴングを伝え、現在はキン族と混住している。",
+    "kin": [
+      {
+        "c": "VN",
+        "vi": "Chỉ ở Việt Nam; gần Mạ, Xtiêng, Cơ Ho",
+        "ja": "ベトナムのみに居住。マ族、スティエン族、コホー族に近い"
+      }
+    ],
+    "vme_vi": "Khu Nam Bộ / Trường Sơn–Tây Nguyên (trong nhà).",
+    "vme_ja": "屋内の南部またはチュオンソン・中部高原コーナー。"
+  },
+  {
+    "id": "xinh-mun",
+    "vi": "Xinh Mun",
+    "ja": "シンムン族",
+    "alt": "Puộc, Pụa, Xá, Xinh Mun Dạ, Xinh Mun Nghẹt",
+    "group": "mon-khmer",
+    "pop": 29503,
+    "region_vi": "Sơn La (Yên Châu, Mai Sơn, Sông Mã), Điện Biên",
+    "region_ja": "ソンラ省（イエンチャウ、マイソン、ソンマー）、ディエンビエン省",
+    "hi_vi": "Nhà sàn mái mai rùa với khau cút ở đầu hồi; trang phục và tiếng nói chịu ảnh hưởng mạnh văn hoá Thái.",
+    "hi_ja": "亀甲形の屋根で妻飾り「カウクット」をもつ高床式住居。衣装や言葉はターイ族文化の影響を強く受けている。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Họ hàng ngôn ngữ với Khmu ở Bắc Lào",
+        "ja": "北ラオスのクムー族と言語的に近縁"
+      }
+    ],
+    "vme_vi": "Khu trưng bày Tây Bắc (trong nhà).",
+    "vme_ja": "屋内の西北部コーナー。"
+  },
+  {
+    "id": "khang",
+    "vi": "Kháng",
+    "ja": "カン族",
+    "alt": "Xá Khao, Xá Xúa, Xá Dón, Xá Dẩng, Xá Hốc, Xá Ái, Quảng Lâm",
+    "group": "mon-khmer",
+    "pop": 16180,
+    "region_vi": "Sơn La (Quỳnh Nhai, Thuận Châu, Mường La), Điện Biên, Lai Châu",
+    "region_ja": "ソンラ省（クインニャイ、トゥアンチャウ、ムオンラ）、ディエンビエン省、ライチャウ省",
+    "hi_vi": "Giỏi đóng và đi thuyền đuôi én trên sông Đà, sông Mã; đan lát khéo. Múa vỗ ống tre, chịu ảnh hưởng văn hoá Thái.",
+    "hi_ja": "ダー川やマー川で燕尾形の舟を造り操る技術に長け、竹細工も巧み。竹筒を打つ踊りがあり、ターイ族文化の影響も受ける。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Họ hàng ngôn ngữ với Khmu ở Lào",
+        "ja": "ラオスのクムー族と言語的に近縁"
+      }
+    ],
+    "vme_vi": "Khu Tây Bắc: thuyền, đồ đan lát.",
+    "vme_ja": "西北部コーナー：舟、竹細工。"
+  },
+  {
+    "id": "mang",
+    "vi": "Mảng",
+    "ja": "マン族",
+    "alt": "Mảng Ư, Xá Lá Vàng, Xá Mảng",
+    "group": "mon-khmer",
+    "pop": 4650,
+    "region_vi": "Lai Châu (Mường Tè, Nậm Nhùn, Sìn Hồ), Điện Biên",
+    "region_ja": "ライチャウ省（ムオンテー、ナムニュン、シンホー）、ディエンビエン省",
+    "hi_vi": "Trước đây du canh, săn bắt hái lượm. Phụ nữ có tục xăm cằm, đeo nhiều trang sức bạc, mặc váy đen.",
+    "hi_ja": "かつては移動耕作と狩猟採集で暮らした。女性は顎（口の周り）に入れ墨をし、多くの銀飾りと黒いスカートを身につける。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "莽人 (Mang) ở huyện Kim Bình, Vân Nam; được xếp vào dân tộc Bố Lãng (布朗族) từ 2009",
+        "ja": "雲南省金平県の莽人（マン人）。2009年に布朗族（プーラン族）に編入"
+      }
+    ],
+    "vme_vi": "Khu trưng bày Tây Bắc (trong nhà).",
+    "vme_ja": "屋内の西北部コーナー。"
+  },
+  {
+    "id": "kho-mu",
+    "vi": "Khơ Mú",
+    "ja": "クムー族",
+    "alt": "Khmu, Kmhmu, Xá Cẩu, Mứn Xen, Pu Thênh, Tày Hay",
+    "group": "mon-khmer",
+    "pop": 90612,
+    "region_vi": "Nghệ An (Kỳ Sơn, Tương Dương), Điện Biên, Sơn La, Lai Châu, Yên Bái, Thanh Hoá",
+    "region_ja": "ゲアン省（キーソン、トゥオンズオン）、ディエンビエン、ソンラ、ライチャウ、イエンバイ、タインホア",
+    "hi_vi": "Nổi tiếng đan lát tre mây (gùi, ếp, mâm). Nhà sàn, lễ cúng lúa, dân ca tơm.",
+    "hi_ja": "竹や籐の編み細工（背負い籠、米びつ、盆）が特に有名。高床式住居、稲の祭り、民謡トムを伝える。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Khmu — nhóm thiểu số lớn nhất Lào (~11% dân số)",
+        "ja": "ラオス最大の少数民族クムー族（人口の約11%）"
+      },
+      {
+        "c": "TH",
+        "vi": "Khmu ở Nan, Chiang Rai",
+        "ja": "タイのナーン、チェンライ県のクムー族"
+      },
+      {
+        "c": "CN",
+        "vi": "克木人 (Kemu) ở Mãnh Lạp, Tây Song Bản Nạp — chưa là dân tộc riêng",
+        "ja": "雲南省シーサンパンナ勐腊県の克木人（独立民族としては未認定）"
+      },
+      {
+        "c": "MM",
+        "vi": "Khmu ở Myanmar — có mặt, chưa rõ số lượng",
+        "ja": "ミャンマーのクム族 — 居住あり（人数不明）"
+      },
+      {
+        "c": "US",
+        "vi": "Khmu ở Mỹ (~20.000)",
+        "ja": "アメリカのクム族（約2万人）"
+      }
+    ],
+    "vme_vi": "Khu Tây Bắc: đồ đan lát tre mây.",
+    "vme_ja": "西北部コーナー：竹・籐の編み細工。"
+  },
+  {
+    "id": "ro-mam",
+    "vi": "Rơ Măm",
+    "ja": "ロマム族",
+    "alt": "Romam",
+    "group": "mon-khmer",
+    "pop": 639,
+    "region_vi": "Làng Le, xã Mô Rai, huyện Sa Thầy, Kon Tum",
+    "region_ja": "コントゥム省サータイ県モーライ村レー集落",
+    "hi_vi": "Một trong những dân tộc ít người nhất. Trồng bông, dệt vải; nam đóng khố, nữ quấn váy; nhà sàn, nhà rông, cồng chiêng.",
+    "hi_ja": "ベトナムで最も人口の少ない民族の一つ。綿を栽培して布を織り、男性はふんどし、女性は巻きスカート。高床式住居とニャーロン、ゴング。",
+    "kin": [
+      {
+        "c": "VN",
+        "vi": "Chỉ ở Việt Nam; gần Ba Na, Xơ Đăng, Brâu",
+        "ja": "ベトナムのみに居住。バナ族、セダン族、ブラウ族に近い"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên (trong nhà).",
+    "vme_ja": "屋内のチュオンソン・中部高原コーナー。"
+  },
+  {
+    "id": "brau",
+    "vi": "Brâu",
+    "ja": "ブラウ族",
+    "alt": "Brao, Brạu",
+    "group": "mon-khmer",
+    "pop": 525,
+    "region_vi": "Làng Đắk Mế, xã Bờ Y, huyện Ngọc Hồi, Kon Tum (gần ngã ba Đông Dương)",
+    "region_ja": "コントゥム省ゴックホイ県ボーイ村ダクメー集落（インドシナ三国国境付近）",
+    "hi_vi": "Bộ chiêng Tha (hai chiếc) quý nổi tiếng; trước đây có tục cà răng, căng tai. Nhà sàn, làm rẫy.",
+    "hi_ja": "2枚一組の貴重なゴング「チエン・ター」で知られる。かつては歯を削る風習や耳たぶを広げる習俗があった。高床式住居、焼畑。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Brao ở Attapeu — cùng tộc",
+        "ja": "ラオス・アタプー県のブラオ族（同一民族）"
+      },
+      {
+        "c": "KH",
+        "vi": "Brao, Kreung ở Ratanakiri — cùng tộc",
+        "ja": "カンボジア・ラタナキリ州のブラオ族、クルン族（同一民族）"
+      }
+    ],
+    "vme_vi": "Khu Trường Sơn–Tây Nguyên: cồng chiêng.",
+    "vme_ja": "チュオンソン・中部高原コーナー：ゴング。"
+  },
+  {
+    "id": "o-du",
+    "vi": "Ơ Đu",
+    "ja": "オドゥ族",
+    "alt": "Tày Hạt, Idu",
+    "group": "mon-khmer",
+    "pop": 428,
+    "region_vi": "Xã Nga My, huyện Tương Dương, Nghệ An",
+    "region_ja": "ゲアン省トゥオンズオン県ガーミー村",
+    "hi_vi": "Dân tộc ít người nhất Việt Nam; tiếng mẹ đẻ gần như mất. Giữ lễ đón tiếng sấm đầu năm độc đáo.",
+    "hi_ja": "ベトナムで最も人口の少ない民族で、固有の言語はほぼ失われた。年初の雷鳴を迎える独特の儀礼を守っている。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Họ hàng ngôn ngữ với Khmu ở Lào",
+        "ja": "ラオスのクムー族と言語的に近縁"
+      }
+    ],
+    "vme_vi": "Khu trưng bày Tây Bắc / miền núi Bắc Trung Bộ (trong nhà).",
+    "vme_ja": "屋内の西北部・北中部山地コーナー。"
+  }
+]

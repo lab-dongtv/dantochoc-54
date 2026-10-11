@@ -1,0 +1,369 @@
+[
+ {
+  "id": "trong-dong",
+  "kind": "zone",
+  "vi": "Tòa Trống đồng",
+  "ja": "ブロンズドラム館（銅鼓館）",
+  "ethnic": null,
+  "origin_vi": "Thiết kế bởi KTS Hà Đức Lịnh (người Tày) theo hình trống đồng Đông Sơn; khai trương 11/1997.",
+  "origin_ja": "タイー族の建築家ハー・ドゥック・リンがドンソン銅鼓を模して設計。1997年11月開館。",
+  "summary_vi": "Tòa trưng bày 2 tầng (2.000 m²), chủ yếu dành cho trưng bày thường xuyên về 54 dân tộc Việt Nam, song ngữ ba thứ tiếng Việt–Pháp–Anh.",
+  "summary_ja": "2階建て・展示面積2,000㎡の展示棟。大部分がベトナム54民族の常設展で、解説はベトナム語・フランス語・英語の3言語。",
+  "facts_vi": [
+   "Khai trương bởi Phó Chủ tịch nước Nguyễn Thị Bình và Tổng thống Pháp Jacques Chirac (11/1997)",
+   "Hợp tác với Chính phủ Pháp; Christine Hemmet và KTS Véronique Dollfus tham gia",
+   "Lộ trình 12 không gian: Giới thiệu chung, Việt, Mường-Thổ-Chứt, Tày-Thái, Kađai, Hmông-Dao, Tạng-Miến, Môn-Khơ-me (Bắc; Trường Sơn-Tây Nguyên), Nam Đảo, Chăm-Hoa-Khơ-me, Giao lưu văn hóa",
+   "Có 2 không gian trưng bày nhất thời và Phòng Khám phá dành cho trẻ em"
+  ],
+  "facts_ja": [
+   "1997年11月、グエン・ティ・ビン国家副主席とフランスのシラク大統領が開館",
+   "フランス政府の協力で制作。民族学者クリスティーヌ・エメ、建築家ヴェロニク・ドルフュスが参加",
+   "12の展示空間：導入、ベト（キン）、ムオン・トー・チュット、タイー・タイ、カダイ、モン・ザオ、チベット・ビルマ、北部モン・クメール、チュオンソン・中部高原モン・クメール、オーストロネシア、チャム・ホア・クメール、文化交流",
+   "企画展示室2室と子ども向け「発見の部屋」もある"
+  ],
+  "look_vi": "Quan sát hình dáng trống đồng của tòa nhà; đi theo lộ trình 12 không gian từ người Việt đến Nam Đảo, chú ý đồ vải, đồ đan, nhạc cụ tre và hiện vật nghi lễ.",
+  "look_ja": "建物そのものの銅鼓形に注目。12の展示空間を順にたどり、織物・編み細工・竹の楽器・儀礼具を見比べたい。",
+  "url_vi": "https://vme.vass.gov.vn/toa-trong-dong",
+  "url_en": "https://vme-en.vass.gov.vn/bronze-drum-building"
+ },
+ {
+  "id": "vuon",
+  "kind": "zone",
+  "vi": "Vườn Kiến trúc",
+  "ja": "建築庭園（野外展示）",
+  "ethnic": null,
+  "origin_vi": "Khu trưng bày ngoài trời của bảo tàng với 10 công trình kiến trúc dân gian.",
+  "origin_ja": "10棟の民家・墓屋を移築・再建した博物館の野外展示エリア。",
+  "summary_vi": "Khu vườn nhiều cây xanh, có suối nhân tạo chảy về hồ thủy đình (nơi diễn rối nước) và lối nhỏ dẫn tới 10 công trình kiến trúc dân gian.",
+  "summary_ja": "緑豊かな庭園に人工の小川と水上人形劇の水亭池があり、小道で10棟の民家・墓屋を巡る。",
+  "facts_vi": [
+   "10 công trình: Chăm, Việt, nhà rông Ba-na, nhà dài Ê-đê, nhà mồ Gia-rai, nhà mồ Cơ-tu, Tày, Dao, Hmông, Hà Nhì",
+   "Có ghe Ngo của người Khơ-me và cối giã gạo bằng sức nước của người Dao",
+   "Rối nước biểu diễn trước nhà Việt vào thứ Bảy, Chủ nhật",
+   "“Mỗi ngôi nhà đều có lai lịch và đời sống của nó.”"
+  ],
+  "facts_ja": [
+   "10棟：チャム、ベト、バナの共同家屋、エデのロングハウス、ザライ墓屋、コートゥ墓屋、タイー、ザオ、モン、ハニ",
+   "クメールのゴー舟、ザオの水力米つき臼も展示",
+   "土・日曜にはベト族の家の前で水上人形劇",
+   "「どの家にもそれぞれの来歴と暮らしがある」（公式サイト）"
+  ],
+  "look_vi": "Đi vòng theo các lối nhỏ; so sánh nhà sàn, nhà trệt, nhà trình tường và nhà mồ; cuối tuần xem rối nước bên hồ trước nhà Việt.",
+  "look_ja": "小道を一周し、高床・土間・版築・墓屋の違いを比較。週末は池の水上人形劇も。",
+  "url_vi": "https://vme.vass.gov.vn/vuon-kien-truc",
+  "url_en": "https://vme-en.vass.gov.vn/architectural-garden"
+ },
+ {
+  "id": "canh-dieu",
+  "kind": "zone",
+  "vi": "Tòa Cánh diều",
+  "ja": "凧館（東南アジア館）",
+  "ethnic": null,
+  "origin_vi": "Khởi công năm 2006; do KTS Đại học Xây dựng Hà Nội thiết kế mô phỏng hình cánh diều.",
+  "origin_ja": "2006年着工。ハノイ建設大学の建築家が凧の形を模して設計。",
+  "summary_vi": "Tòa nhà 4 tầng “Đông Nam Á”, có 4 trưng bày thường xuyên về văn hóa ngoài Việt Nam, cùng không gian trưng bày nhất thời, giáo dục, chiếu phim và đa phương tiện.",
+  "summary_ja": "4階建ての「東南アジア」館。ベトナム国外の文化を扱う常設展4つのほか、企画展・教育・映画・マルチメディア室を備える。",
+  "facts_vi": [
+   "Tầng 4 dùng bảo quản hiện vật",
+   "Văn hóa Đông Nam Á (tầng 1): đồ vải, đời sống hàng ngày, đời sống xã hội, nghệ thuật biểu diễn, tôn giáo",
+   "Tranh kính Indonesia: 68 bức do O’ong Maryono và Rosalia Sciortino tặng năm 2006",
+   "Một thoáng châu Á: 560 hiện vật GS. Kaneko Kazushige tặng năm 2005",
+   "Vòng quanh thế giới: gần 200 tác phẩm từ sưu tập GS. Lê Thành Khôi, theo 4 châu lục"
+  ],
+  "facts_ja": [
+   "4階は収蔵庫",
+   "「東南アジアの文化」（1階）：織物・日常生活・社会生活・芸能・宗教",
+   "「インドネシアのガラス絵」：マリョノ夫妻が2006年に寄贈した68点",
+   "「アジアの一瞥」：日本の金子量重教授が2005年に寄贈した560点",
+   "「世界一周」：レー・タイン・コイ教授コレクションから約200点、4大陸別"
+  ],
+  "look_vi": "Ở tầng 2 tìm trưng bày “Một thoáng châu Á” với gốm Nhật Bản do GS. Kaneko tặng; xem tranh kính Indonesia vẽ ngược trên kính.",
+  "look_ja": "2階「アジアの一瞥」では金子教授寄贈の日本の陶器も。裏から描くインドネシアのガラス絵も必見。",
+  "url_vi": "https://vme.vass.gov.vn/toa-canh-dieu",
+  "url_en": "https://vme-en.vass.gov.vn/kite-building"
+ },
+ {
+  "id": "cham",
+  "kind": "house",
+  "vi": "Khuôn viên nhà Chăm",
+  "ja": "チャム族の屋敷",
+  "ethnic": "cham",
+  "origin_vi": "Khuôn viên của một gia đình quý tộc Chăm Bà La Môn ở Ninh Thuận (trang không nêu năm dựng tại bảo tàng).",
+  "origin_ja": "ニントゥアンのバラモン系チャム族貴族の屋敷（博物館での建設年は公式ページに記載なし）。",
+  "summary_vi": "Khuôn viên gồm 5 ngôi nhà bố trí theo tập tục truyền thống; trong xã hội Chăm, khuôn viên thể hiện rõ đẳng cấp của gia chủ.",
+  "summary_ja": "伝統的な配置に従う5棟からなる屋敷。チャム社会では屋敷構えが家の身分をはっきり示す。",
+  "facts_vi": [
+   "5 nhà: Sang lâm (nhà lẫm), Sang Ye (nhà tục), Sang mayau (nhà kề), Sang ton (nhà cao), Sang ging (nhà bếp)",
+   "Bố trí theo truyền thống, trừ hướng nhà bị đổi do thế đất của bảo tàng",
+   "Được gọi là “nhà sàn thấp của người Chăm”"
+  ],
+  "facts_ja": [
+   "5棟：サン・ラム（倉）、サン・イェ（俗の家）、サン・マヤウ（付属屋）、サン・トン（高い家）、サン・ギン（台所）",
+   "配置は伝統どおりだが、敷地の都合で向きだけ変更",
+   "公式には「チャム族の低い高床住居」と紹介"
+  ],
+  "look_vi": "Tìm đủ 5 ngôi nhà và quan sát cách sắp xếp chúng trong khuôn viên.",
+  "look_ja": "5棟すべてを見つけ、屋敷内での並び方を観察しよう。",
+  "url_vi": "https://vme.vass.gov.vn/nha-nguoi-cham/nha-nguoi-cham-557585",
+  "url_en": "https://vme-en.vass.gov.vn/cham-house/cham-house-559656"
+ },
+ {
+  "id": "viet",
+  "kind": "house",
+  "vi": "Nhà Việt (khuôn viên nhà bà Cố Hợi)",
+  "ja": "ベト（キン）族の家（コー・ホイ夫人の屋敷）",
+  "ethnic": "kinh",
+  "origin_vi": "Nhà bà Cố Hợi, gia đình khá giả ở xã Thọ Lộc, huyện Thọ Xuân, Thanh Hóa; nhà chính dựng 1906 (trang không nêu năm dựng tại bảo tàng).",
+  "origin_ja": "タインホア省トースアン県トーロック村の裕福なコー・ホイ夫人の家。母屋は1906年築（博物館での再建年は記載なし）。",
+  "summary_vi": "Khuôn viên nhà ngói của một gia đình khá giả nửa đầu thế kỷ XX, gồm nhà chính, nhà học, nhà ngang, bếp, giếng và bể nước mưa.",
+  "summary_ja": "20世紀前半の裕福な家の瓦葺き屋敷。母屋・学問所・横屋・台所・井戸・雨水槽からなる。",
+  "facts_vi": [
+   "Nhà chính 5 gian (1906) để thờ tự, tiếp khách và ở",
+   "Năm 1933 nối thêm 5 gian để dạy học; năm 1937 dựng nhà ngang",
+   "Ba gian thờ có nhiều chạm khắc gỗ và 11 bức đại tự chữ Hán",
+   "Nhà thấp vì tục không được cao hơn đình và vì vùng Thanh Hóa hay có bão",
+   "Ở làng nhà quay hướng nam, tại bảo tàng phải đổi hướng"
+  ],
+  "facts_ja": [
+   "母屋5間（1906年）は祖先祭祀・接客・居住を兼ねる",
+   "1933年に学問所5間を増築、1937年に横屋を建設",
+   "祭祀の3間には木彫と漢字の扁額11枚",
+   "村の亭（ディン）より高くしない慣習と台風のため屋根が低い",
+   "村では南向きだったが、博物館では向きを変更"
+  ],
+  "look_vi": "Vào gian thờ xem 11 bức đại tự chữ Hán và chạm khắc; để ý mái thấp, giếng và bể nước mưa; cuối tuần xem rối nước trước nhà.",
+  "look_ja": "祭祀の間の扁額11枚と木彫、低い屋根、井戸と雨水槽に注目。週末は家の前で水上人形劇。",
+  "url_vi": "https://vme.vass.gov.vn/nha-nguoi-viet/nha-nguoi-viet-557586",
+  "url_en": "https://vme-en.vass.gov.vn/viet-house/viet-house-559657"
+ },
+ {
+  "id": "bana",
+  "kind": "house",
+  "vi": "Nhà rông Ba-na",
+  "ja": "バナ族の共同家屋（ニャー・ロン）",
+  "ethnic": "ba-na",
+  "origin_vi": "Theo mẫu nhà rông làng Kon Rbàng (xã Vinh Quang, TP Kon Tum, Kon Tum; nay xã Ngọk Bạy, Quảng Ngãi); dựng tại bảo tàng năm 2003.",
+  "origin_ja": "コントゥム市ヴィンクアン村（現クアンガイ省ゴックバイ村）のコンルバン村の共同家屋がモデル。2003年に博物館で建設。",
+  "summary_vi": "Nhà rông cao gần 19 m, mái cong cao vút, là “bộ mặt của làng” và không gian sinh hoạt xã hội, nghi lễ của đàn ông Ba-na.",
+  "summary_ja": "高さ約19mの反り屋根の共同家屋。「村の顔」であり、バナ族男性の社交と儀礼の場。",
+  "facts_vi": [
+   "Cao gần 19 m (kể cả dải hoa văn trên nóc), sàn cao gần 3 m, diện tích trong nhà hơn 90 m²",
+   "40 người làng Kon Rbàng dựng, công cụ chính là rìu",
+   "8 cột lớn, 4 cột đường kính gần 60 cm; xà dọc, đòn tay dài 14–15 m",
+   "Treo đầu trâu hiến sinh và đầu thú săn; cất giữ vật thiêng của làng; ngày thường phụ nữ không lên nhà rông",
+   "Năm 2025, người già và thanh niên Ba-na cùng lợp lại mái"
+  ],
+  "facts_ja": [
+   "高さ約19m（棟飾り含む）、床高約3m、床面積90㎡超",
+   "コンルバン村の40人が斧を主な道具に建設",
+   "大柱8本（うち4本は直径約60cm）、桁・母屋材は長さ14〜15m",
+   "生贄の水牛や狩りの獲物の頭を掛け、村の聖物を保管。普段女性は上がらない",
+   "2025年、長老と若者が一緒に屋根を葺き替えた"
+  ],
+  "look_vi": "Ngắm mái cong phồng ở phần dưới; tìm 4 cột lớn, hệ xà ngang–đứng–xiên, cột dựa ché rượu cần, trống và bếp.",
+  "look_ja": "下部が膨らむ反り屋根、太い4本柱、縦横斜めに組んだ梁、酒甕を立てかける柱、太鼓と炉を探そう。",
+  "url_vi": "https://vme.vass.gov.vn/nha-rong-ba-na/nha-rong-bana-557587",
+  "url_en": "https://vme-en.vass.gov.vn/bahnar-communal-house/the-bahnar-communal-house-559658"
+ },
+ {
+  "id": "ede",
+  "kind": "house",
+  "vi": "Nhà dài Ê-đê",
+  "ja": "エデ族のロングハウス",
+  "ethnic": "e-de",
+  "origin_vi": "Theo nhà gia đình bà H’Đách Êban (Ê-đê Kpạ) làm năm 1967 ở buôn Ky, Buôn Ma Thuột, Đắk Lắk; bản EN ghi dựng lại tại bảo tàng năm 2000.",
+  "origin_ja": "ダクラク省バンメトート市キー村、エデ・クパ人のフダック・エバン家の家（1967年築）が原型。英語版では2000年に再建。",
+  "summary_vi": "Nhà sàn dài 42,5 m của một đại gia đình mẫu hệ giàu có, giữ hướng bắc–nam theo tập quán Ê-đê, trưng bày gần 300 hiện vật.",
+  "summary_ja": "裕福な母系大家族の長さ42.5mの高床式ロングハウス。エデの慣習どおり南北向きで、約300点を展示。",
+  "facts_vi": [
+   "Dài 42,5 m, rộng 6 m, sàn cao 1,10 m",
+   "Nhà càng đông người càng dài; xưa có nhà dài khoảng 200 m",
+   "Đầu nhà phía bắc có cửa chính và sân sàn; đầu hồi phía nam là cuối nhà",
+   "Cột, xà lớn chạm khắc cầu kỳ; cầu thang đầu nhà xưa rộng hơn 1 m",
+   "Có ghế Kpan, chiêng, trống, ché rượu cần, cột khách, cột chiêng, cột chủ"
+  ],
+  "facts_ja": [
+   "長さ42.5m、幅6m、床高1.10m",
+   "住む人が増えるほど家は長くなり、昔は約200mの家もあった",
+   "北側が正面で入口と高床の前庭、南側の妻側が奥",
+   "大きな柱と梁に精巧な彫刻。かつての正面階段は幅1m以上",
+   "クパン椅子、ゴング、太鼓、酒甕、客の柱・ゴングの柱・主人の柱がある"
+  ],
+  "look_vi": "Đứng ở sân sàn đầu nhà phía bắc nhìn dọc nhà; tìm ghế Kpan dài, các cột có tên riêng và ché rượu cần.",
+  "look_ja": "北側の高床前庭から家の奥行きを眺め、長いクパン椅子、名前のある柱、酒甕を探そう。",
+  "url_vi": "https://vme.vass.gov.vn/nha-nguoi-e-de/nha-nguoi-e-de-557588",
+  "url_en": "https://vme-en.vass.gov.vn/ede-house/ede-house-559659"
+ },
+ {
+  "id": "giarai",
+  "kind": "house",
+  "vi": "Nhà mồ Gia-rai",
+  "ja": "ザライ族の墓屋",
+  "ethnic": "gia-rai",
+  "origin_vi": "Do 5 người đàn ông Gia-rai Aráp ở làng Mrông Ngọ (huyện Chư Pah, Gia Lai) dựng năm 1998.",
+  "origin_ja": "ザライ省チューパー県ムロンゴ村のザライ・アラップ人男性5人が1998年に建設。",
+  "summary_vi": "Nhà mồ tập thể (ở làng chôn được khoảng 30 người), bao quanh bởi hàng rào tượng gỗ, làm đẹp chỉ để phục vụ lễ bỏ mả.",
+  "summary_ja": "村では約30人を葬る共同墓屋。木彫像の柵で囲まれ、墓放棄祭のためだけに美しく造られる。",
+  "facts_vi": [
+   "Tượng đẽo bằng rìu, đục, dao; có tượng trai gái giao hoan và phụ nữ mang thai, tượng trưng sự sinh sôi",
+   "Mái lợp gỗ ván, phủ phên nan tre vẽ phẩm đỏ tự chế",
+   "Hình tạc trên nóc tả lễ bỏ mả",
+   "Bên trong đặt ché, bát, đĩa, chai, chén và mô hình nông cụ cho người chết",
+   "Sau lễ (vài ba ngày), nhà mồ bị bỏ hoang"
+  ],
+  "facts_ja": [
+   "斧・鑿・刀で彫った像。交わる男女や妊婦の像は豊穣・生殖の象徴",
+   "板葺き屋根を手製の赤い顔料で文様を描いた竹編みで覆う",
+   "屋根上の彫刻は墓放棄祭の様子",
+   "内部には甕・椀・皿・瓶・杯と農具の模型を死者のために置く",
+   "数日間の儀礼の後、墓屋は放置され朽ちていく"
+  ],
+  "look_vi": "Đi quanh hàng rào tượng để xem các tượng sinh sôi; ngước nhìn phên mái vẽ đỏ và hình tạc trên nóc.",
+  "look_ja": "像の柵を一周して豊穣の像を観察し、赤い文様の屋根と棟の彫刻を見上げよう。",
+  "url_vi": "https://vme.vass.gov.vn/nha-mo-gia-rai/nha-mo-gia-rai-557589",
+  "url_en": "https://vme-en.vass.gov.vn/giarai-tomb-house/giarai-tomb-house-559660"
+ },
+ {
+  "id": "cotu",
+  "kind": "house",
+  "vi": "Nhà mồ Cơ-tu",
+  "ja": "コートゥ族の墓屋",
+  "ethnic": "co-tu",
+  "origin_vi": "Do anh Bríu Nga (36 tuổi) làm tại thôn Aliêng, Quảng Nam, theo mẫu nhà mồ làm cho bố vợ năm 1996; dựng tại bảo tàng 12/2005.",
+  "origin_ja": "クアンナム省アリエン村でブリウ・ガー氏（36歳）が1996年に義父のために造った墓屋を手本に製作。2005年12月に博物館で建設。",
+  "summary_vi": "Nhà mồ của người giàu có, uy tín, làm cho tang lễ lần thứ hai, khi quan tài hài cốt được đặt vào cỗ quách lớn chạm khắc công phu.",
+  "summary_ja": "富と威信のある人のための墓屋。第二次葬で遺骨の棺を精巧な彫刻の大きな外棺に納める。",
+  "facts_vi": [
+   "Hình đầu trâu cho thấy tang lễ có hiến tế trâu, đồng thời là biểu tượng của cải",
+   "Các họa tiết: kỳ đà, rồng, chim tring, ngọn rau dớn, lá cây móc, người ngồi rầu rĩ",
+   "Trưng bày cáng khiêng người chết và giá cúng cơm",
+   "Được gọi là “nhà mồ cá nhân”"
+  ],
+  "facts_ja": [
+   "水牛の頭の彫刻は葬儀での水牛供犠を示し、富の象徴でもある",
+   "モチーフ：オオトカゲ、竜、トリン鳥、シダの若芽、モック椰子の葉、悲しげに座る人",
+   "遺体を運ぶ担架と供え飯の棚も展示",
+   "公式には「個人の墓屋」と紹介"
+  ],
+  "look_vi": "Tìm cỗ quách chạm khắc, các đầu trâu, hình người ngồi rầu rĩ; xem chiếc cáng và giá cúng cơm.",
+  "look_ja": "彫刻された外棺、水牛の頭、悲しげに座る人の像を探し、担架と供え飯の棚も見よう。",
+  "url_vi": "https://vme.vass.gov.vn/nha-mo-co-tu/nha-mo-co-tu-557590",
+  "url_en": "https://vme-en.vass.gov.vn/cotu-tomb-house/cotu-tomb-house-559661"
+ },
+ {
+  "id": "tay",
+  "kind": "house",
+  "vi": "Nhà sàn Tày",
+  "ja": "タイー族の高床住居",
+  "ethnic": "tay",
+  "origin_vi": "Nhà ông Đào Thế Diện làm năm 1967 ở bản Thẩm Rộc, xã Bình Yên, huyện Định Hóa, Thái Nguyên; 12 người Tày dựng lại tại bảo tàng năm 1999 trong hai tuần.",
+  "origin_ja": "タイグエン省ディンホア県ビンイエン村タムロック集落、ダオ・テー・ジエン氏の家（1967年築）。1999年に同郷のタイー族12人が2週間で再建。",
+  "summary_vi": "Nhà sàn cao 1,8 m, rộng hơn 100 m², mái lá cọ; người ở trên sàn, gầm sàn dành cho vật nuôi và việc nhà.",
+  "summary_ja": "床高1.8m・100㎡超のヤシ葺き高床住居。人は床上に住み、床下は家畜と作業の場。",
+  "facts_vi": [
+   "Mái lợp khoảng 6.000 tàu lá cọ",
+   "Gỗ, tre, nứa ngâm nước và bùn 3–6 tháng trở lên để chống mọt",
+   "Nan vách nhuộm đen bằng nhọ nồi trộn củ nâu, đan hoa văn giống thổ cẩm và đồ đan Tày",
+   "Gầm sàn: trâu, bò, lợn, gà, củi, nông cụ, xay thóc, giã gạo, giã cốm",
+   "Trong cổng có chòi nhỏ là miếu thờ thổ công"
+  ],
+  "facts_ja": [
+   "屋根はヤシの葉約6,000枚",
+   "木・竹は虫害を防ぐため水と泥に3〜6か月以上浸す",
+   "壁の竹ひごは煤と薯莨で黒く染めて編み、タイーの織物や編み細工と同じ文様に",
+   "床下は牛・豚・鶏、薪、農具、籾すりや米・青米つきの場",
+   "門の内側に家の土地神を祀る小さな祠"
+  ],
+  "look_vi": "Xem vách đan hoa văn nan đen, mái lá cọ, gầm sàn với cối xay, cối giã và miếu thổ công ở cổng.",
+  "look_ja": "黒い文様の編み壁、ヤシ葺き屋根、床下の臼、門の土地神の祠に注目。",
+  "url_vi": "https://vme.vass.gov.vn/nha-nguoi-tay/nha-nguoi-tay-557591",
+  "url_en": "https://vme-en.vass.gov.vn/tay-house/tay-house-559662"
+ },
+ {
+  "id": "dao",
+  "kind": "house",
+  "vi": "Nhà Dao (nửa sàn nửa đất)",
+  "ja": "ザオ族の半高床・半土間の家",
+  "ethnic": "dao",
+  "origin_vi": "Theo mẫu nhà ông Bàn Văn Sấm, thôn Khe Mụ, xã Sơn Hà, huyện Bảo Thắng, Lào Cai; ông cùng 7 người Dao Họ dựng tại bảo tàng năm 1999 trong 23 ngày.",
+  "origin_ja": "ラオカイ省バオタン県ソンハー村ケームー集落のバン・ヴァン・サム氏の家がモデル。1999年、氏とザオ・ホ人7人が23日で建設。",
+  "summary_vi": "Nhà nửa sàn nửa đất thích ứng với sườn núi dốc; việc làm nhà theo truyền thống với nhiều kiêng kỵ.",
+  "summary_ja": "急斜面に適応した半高床・半土間の家。建築は伝統に従い多くの禁忌を伴う。",
+  "facts_vi": [
+   "12 cột chính bằng lõi gỗ thọ không mối mọt, đã dùng 60–70 năm; 4 gia đình nhượng lại cho bảo tàng",
+   "Kiêng lấy cây đổ, cây bị dây leo quấn hoặc cụt ngọn",
+   "Chỉ chủ nhà được phủ nóc: vỗ 3 cái xuống mái hỏi “đã tối chưa?”, mọi người đáp “tối rồi”",
+   "Mái thường lợp lại sau 5–6 năm",
+   "Sàn lộ thiên để tắm, giặt, phơi, ngâm chàm, nhuộm vải; kho nhỏ trữ lúa, ngô, đậu"
+  ],
+  "facts_ja": [
+   "主柱12本は虫に強いトー材の芯材で60〜70年使用。4家族が博物館に譲った",
+   "倒木、蔓の巻いた木、梢の折れた木は使わない",
+   "棟を葺くのは家長のみ。屋根を3回叩き「暗くなったか？」と問い、皆が「暗くなった」と答える",
+   "屋根は5〜6年ごとに葺き替える",
+   "露天の床は沐浴・洗濯・藍染めの場、脇の小屋に米・トウモロコシ・豆を貯蔵"
+  ],
+  "look_vi": "Quan sát chỗ chuyển từ phần sàn sang phần đất, 12 cột gỗ thọ, sàn ngâm chàm và kho lúa; gần đó có cối giã gạo bằng sức nước.",
+  "look_ja": "高床と土間の境目、トー材の12本柱、藍染めの露天床と穀物小屋を観察。近くに水力の米つき臼も。",
+  "url_vi": "https://vme.vass.gov.vn/nha-nguoi-dao/nha-nguoi-dao-557592",
+  "url_en": "https://vme-en.vass.gov.vn/yao-house/yao-house-559663"
+ },
+ {
+  "id": "hmong",
+  "kind": "house",
+  "vi": "Nhà Hmông (nhà trệt lợp ván pơmu)",
+  "ja": "モン族の家（ポムー材の板葺き土間住居）",
+  "ethnic": "mong",
+  "origin_vi": "Ông Thào Nụ Thào làm năm 1984 ở bản Đề Chờ Chua A, xã Púng Luông, huyện Mù Cang Chải, Yên Bái; 7 người Hmông Hoa dựng lại tại bảo tàng năm 1999 trong 6 ngày.",
+  "origin_ja": "イエンバイ省ムーカンチャイ県プンルオン村デーチョーチュアA集落、タオ・ヌ・タオ氏が1984年に建築。1999年に花モン7人が6日で再建。",
+  "summary_vi": "Nhà trệt hoàn toàn bằng gỗ pơmu, mái lợp khoảng 600 tấm ván; khuôn viên có chuồng ngựa và lò rèn.",
+  "summary_ja": "すべてポムー材で造られた土間住居。屋根は板約600枚で葺かれ、敷地に馬小屋と鍛冶場がある。",
+  "facts_vi": [
+   "Cột, kèo, xà, vách, mái đều bằng gỗ pơmu",
+   "Mái khoảng 600 tấm ván, mỗi tấm dài 1,2 m, rộng 0,3–0,4 m",
+   "Dụng cụ: búa, dao, đục do thợ rèn Hmông làm",
+   "Có thể gạt lệch tấm ván mái để lấy sáng cho chỗ dệt vải",
+   "Trong nhà có giường khách, cối xay gỗ, chỗ thờ cúng, cột ma nhà, buồng chủ nhà"
+  ],
+  "facts_ja": [
+   "柱・梁・壁・屋根すべてポムー材",
+   "屋根板約600枚、1枚長さ1.2m・幅0.3〜0.4m",
+   "道具はモンの鍛冶が作った斧・刀・鑿",
+   "屋根板を棒でずらして機織り場に光を入れられる",
+   "客用寝台、木の挽き臼、祭壇、家の霊の柱、主人の部屋がある"
+  ],
+  "look_vi": "Tìm tấm ván mái có thể gạt để lấy sáng, cột ma nhà, cối xay gỗ; ra sau xem lò rèn và chuồng ngựa.",
+  "look_ja": "光を入れるためにずらせる屋根板、家の霊の柱、木の挽き臼を探し、鍛冶場と馬小屋も見よう。",
+  "url_vi": "https://vme.vass.gov.vn/nha-nguoi-hmong/nha-nguoi-hmong-557593",
+  "url_en": "https://vme-en.vass.gov.vn/hmong-house/hmong-house-559664"
+ },
+ {
+  "id": "hani",
+  "kind": "house",
+  "vi": "Nhà trình tường Hà Nhì",
+  "ja": "ハニ族の版築土壁の家",
+  "ethnic": "ha-nhi",
+  "origin_vi": "Theo mẫu nhà ông Tráng A Lù, thôn Lao Chải 1, xã Y Tý, huyện Bát Xát, Lào Cai; 20 người Hà Nhì dựng tại bảo tàng năm 2004 trong 56 ngày.",
+  "origin_ja": "ラオカイ省バットサット県イーティー村ラオチャイ1集落、チャン・ア・ルー氏の家がモデル。2004年にハニ族20人が56日で建設。",
+  "summary_vi": "Nhà rộng hơn 80 m², tường đất trình dày 45 cm, cao 4 m, mái cỏ tranh dày; bên cạnh có nhà phụ làm chuồng trâu, ngựa.",
+  "summary_ja": "80㎡超、厚さ45cm・高さ4mの版築土壁と厚い茅葺き屋根の家。隣の付属屋は水牛と馬の小屋。",
+  "facts_vi": [
+   "Tường bằng đất sét lẫn sỏi, đá nhỏ, đổ khuôn ván và giã bằng chày gỗ; đặt tre tươi, đá hộc cho chắc",
+   "Mỗi khuôn 6 người: 2 đổ đất, 2 giã, 1 cho tre và đá, 1 làm phẳng mặt",
+   "Tường dùng hết 150 m³ đất và 14 m³ đá",
+   "Mái 1.500 bó cỏ tranh (hơn 10 tấn), dày 45 cm khi mới lợp",
+   "Lợp gốc cỏ quay xuống, ngọn hướng lên nóc, khác nhiều dân tộc khác"
+  ],
+  "facts_ja": [
+   "小石混じりの粘土を板枠に入れ木の杵で突き固め、青竹と石を入れて補強",
+   "1枠6人：土入れ2、突き2、竹・石入れ1、壁面仕上げ1",
+   "壁に土150㎥と石14㎥を使用",
+   "屋根は茅1,500束（10トン超）、葺き立て時の厚さ45cm",
+   "茅の根元を下、穂先を棟に向けて葺く点が他民族と異なる"
+  ],
+  "look_vi": "Đứng ở cửa để cảm nhận độ dày tường đất; nhìn kỹ mép mái để thấy gốc cỏ tranh quay xuống; xem nhà phụ chuồng trâu ngựa.",
+  "look_ja": "入口で土壁の厚みを実感し、軒先で茅の根元が下を向いているか確かめよう。付属の家畜小屋も。",
+  "url_vi": "https://vme.vass.gov.vn/nha-nguoi-ha-nhi/nha-nguoi-ha-nhi-557595",
+  "url_en": "https://vme-en.vass.gov.vn/hanhi-house/hani-house-559666"
+ }
+]

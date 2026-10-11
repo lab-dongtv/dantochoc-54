@@ -1,0 +1,106 @@
+[
+  {
+    "id": "kinh",
+    "vi": "Kinh",
+    "ja": "キン族（ベト族）",
+    "alt": "Việt",
+    "group": "viet-muong",
+    "pop": 82085826,
+    "region_vi": "Khắp cả nước, chủ yếu đồng bằng và đô thị",
+    "region_ja": "全国各地。主に平野部と都市",
+    "hi_vi": "Làng có đình, chùa, lũy tre; thờ cúng tổ tiên; Tết Nguyên đán; nghề gốm, tranh Đông Hồ, múa rối nước.",
+    "hi_ja": "村には亭（ディン）・寺・竹垣があり、祖先祭祀を重視。旧正月テト、陶磁器、ドンホー版画、水上人形劇で知られる。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Kinh (京族) Quảng Tây",
+        "ja": "キン族（京族）・広西"
+      },
+      {
+        "c": "JP",
+        "vi": "Cộng đồng người Việt tại Nhật",
+        "ja": "在日ベトナム人コミュニティ"
+      },
+      {
+        "c": "US",
+        "vi": "Cộng đồng người Việt tại Mỹ",
+        "ja": "在米ベトナム系住民"
+      },
+      {
+        "c": "FR",
+        "vi": "Cộng đồng người Việt tại Pháp",
+        "ja": "在仏ベトナム系住民"
+      },
+      {
+        "c": "KH",
+        "vi": "Người Việt ở Campuchia",
+        "ja": "カンボジアのベトナム系住民"
+      }
+    ],
+    "vme_vi": "Khu người Việt trong nhà Trống Đồng; nhà Việt và sân khấu múa rối nước ở vườn ngoài trời.",
+    "vme_ja": "本館「銅鼓館」のキン族展示、屋外展示場のキン族の家と水上人形劇の舞台。"
+  },
+  {
+    "id": "muong",
+    "vi": "Mường",
+    "ja": "ムオン族",
+    "alt": "Mol, Mual",
+    "group": "viet-muong",
+    "pop": 1452095,
+    "region_vi": "Hoà Bình, Thanh Hoá, Phú Thọ, Sơn La",
+    "region_ja": "ホアビン省、タインホア省、フート省、ソンラ省",
+    "hi_vi": "Nhà sàn; cạp váy dệt hoa văn tinh xảo; cồng chiêng; sử thi Mo Mường 'Đẻ đất đẻ nước' trong tang lễ.",
+    "hi_ja": "高床式住居。精巧な織り柄のスカート帯、銅鑼（ゴング）、葬儀で語られる叙事詩「モ・ムオン」が有名。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Các nhóm Việt nhỏ (Thavung, Maleng)",
+        "ja": "ヴィエト系少数集団（タヴン、マレン）"
+      }
+    ],
+    "vme_vi": "Khu Việt–Mường: cồng chiêng, cạp váy Mường, hiện vật lễ tang.",
+    "vme_ja": "ヴィエト・ムオン語群の展示：ゴング、ムオン族のスカート帯、葬儀関連の資料。"
+  },
+  {
+    "id": "tho",
+    "vi": "Thổ",
+    "ja": "トー族",
+    "alt": "Kẹo, Mọn, Cuối, Đan Lai",
+    "group": "viet-muong",
+    "pop": 91430,
+    "region_vi": "Miền tây Nghệ An, Thanh Hoá",
+    "region_ja": "ゲアン省西部、タインホア省",
+    "hi_vi": "Hợp thành từ nhiều nhóm địa phương; ngôn ngữ gần tiếng Mường; nghề đan lát, dệt võng, chiếu sợi gai.",
+    "hi_ja": "複数の地域集団から成り、言葉はムオン語に近い。竹細工や麻のハンモック・ござ作りが伝統工芸。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Các nhóm Việt nhỏ (gần gũi ngôn ngữ)",
+        "ja": "ヴィエト系少数集団（言語的に近縁）"
+      }
+    ],
+    "vme_vi": "Tìm trong khu trưng bày nhóm Việt–Mường: đồ đan lát, nông cụ.",
+    "vme_ja": "ヴィエト・ムオン語群の展示内で、竹細工や農具を探してみよう。"
+  },
+  {
+    "id": "chut",
+    "vi": "Chứt",
+    "ja": "チュット族",
+    "alt": "Sách, Mày, Rục, Arem, Mã Liềng",
+    "group": "viet-muong",
+    "pop": 7513,
+    "region_vi": "Quảng Bình (Minh Hoá, Tuyên Hoá, Bố Trạch)",
+    "region_ja": "クアンビン省の山間部",
+    "hi_vi": "Một số nhóm (Rục, Arem) đến giữa thế kỷ 20 còn sống trong hang đá, hái lượm, săn bắt; giỏi đan lát mây tre.",
+    "hi_ja": "ルック、アレムなど一部の集団は20世紀半ばまで岩陰で採集・狩猟生活を送っていた。籐や竹の編み物が得意。",
+    "kin": [
+      {
+        "c": "LA",
+        "vi": "Maleng, Thavung (nhánh Việt)",
+        "ja": "マレン、タヴン（ヴィエト系）"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Việt–Mường: đồ đan lát, dụng cụ săn bắt, ảnh cuộc sống mái đá.",
+    "vme_ja": "ヴィエト・ムオン語群の展示：編み籠、狩猟具、岩陰生活の写真など。"
+  }
+]

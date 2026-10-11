@@ -1,0 +1,86 @@
+[
+  {
+    "id": "la-chi",
+    "vi": "La Chí",
+    "ja": "ラチ族",
+    "alt": "Cù Tê, Thổ Đen",
+    "group": "kadai",
+    "pop": 15126,
+    "region_vi": "Hà Giang (Hoàng Su Phì, Xín Mần), Lào Cai (Bắc Hà)",
+    "region_ja": "ハザン省（ホアンスーフィ、シンマン）、ラオカイ省",
+    "hi_vi": "Nhà nửa sàn nửa đất; giỏi ruộng bậc thang; tự trồng bông, dệt vải chàm; Tết tháng Bảy là lễ lớn.",
+    "hi_ja": "半高床・半土間の家に住み、棚田耕作に長ける。綿を育てて藍染めの布を織り、旧暦7月の正月が大切な祭り。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Lachi (拉基人), Vân Nam",
+        "ja": "ラチ人（拉基人）・雲南"
+      }
+    ],
+    "vme_vi": "Tìm trong khu trưng bày nhóm Kadai (Ka Đai): trang phục chàm, dụng cụ dệt.",
+    "vme_ja": "カダイ語群の展示で、藍染め衣装や織りの道具を探そう。"
+  },
+  {
+    "id": "la-ha",
+    "vi": "La Ha",
+    "ja": "ラハ族",
+    "alt": "Xá Khao, Khlá Phlạo",
+    "group": "kadai",
+    "pop": 10157,
+    "region_vi": "Sơn La (Thuận Châu, Mường La), Lào Cai (Văn Bàn)",
+    "region_ja": "ソンラ省、ラオカイ省",
+    "hi_vi": "Cư dân cổ ở Tây Bắc, chịu ảnh hưởng mạnh văn hoá Thái (nhà sàn, trang phục, xôi); làm nương rẫy, đánh cá sông Đà.",
+    "hi_ja": "西北部の古い住民で、ターイ族文化の影響が強い（高床式住居・衣装・おこわ）。焼畑やダー川での漁労を営む。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Các nhóm nói tiếng Kra (gần gũi ngôn ngữ)",
+        "ja": "クラ語系の諸集団（言語的に近縁）"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Kadai (Ka Đai); so sánh với hiện vật Thái ở khu Tày–Thái.",
+    "vme_ja": "カダイ語群の展示で探し、タイー・ターイ語群のターイ族資料と比べてみよう。"
+  },
+  {
+    "id": "co-lao",
+    "vi": "Cờ Lao",
+    "ja": "コーラオ族",
+    "alt": "Ke Lao, Tống; Cờ Lao Xanh/Trắng/Đỏ",
+    "group": "kadai",
+    "pop": 4003,
+    "region_vi": "Hà Giang (Đồng Văn, Hoàng Su Phì, Yên Minh)",
+    "region_ja": "ハザン省（ドンヴァン、ホアンスーフィ、イエンミン）",
+    "hi_vi": "Trồng ngô trong hốc đá trên cao nguyên đá Đồng Văn; nghề đan lát tre nổi tiếng; thờ tổ tiên, thổ thần.",
+    "hi_ja": "ドンヴァン石灰岩高原の岩のくぼみでトウモロコシを育てる。竹細工で知られ、祖先と土地神を祀る。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Ngật Lão (仡佬族), Quý Châu",
+        "ja": "コーラオ族（仡佬族）・貴州"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Kadai (Ka Đai): đồ đan lát, trang phục.",
+    "vme_ja": "カダイ語群の展示で、竹細工や衣装を探そう。"
+  },
+  {
+    "id": "pu-peo",
+    "vi": "Pu Péo",
+    "ja": "プペオ族",
+    "alt": "Ka Pèo, Pen Ti Lô Lô",
+    "group": "kadai",
+    "pop": 903,
+    "region_vi": "Hà Giang (Đồng Văn, Mèo Vạc, Yên Minh)",
+    "region_ja": "ハザン省（ドンヴァン、メオヴァク、イエンミン）",
+    "hi_vi": "Một trong những dân tộc ít người nhất; giữ trống đồng (cặp trống đực – cái) dùng trong tang lễ, lễ cầu mùa.",
+    "hi_ja": "ベトナムで最も人口の少ない民族の一つ。雌雄一対の銅鼓を伝え、葬儀や豊作祈願の儀礼で用いる。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Qabiao (普标人), Vân Nam",
+        "ja": "プーピャオ人（普标人）・雲南"
+      }
+    ],
+    "vme_vi": "Tìm trong khu Kadai (Ka Đai): hiện vật/ảnh trống đồng của người Pu Péo nếu có.",
+    "vme_ja": "カダイ語群の展示で、プペオ族の銅鼓に関する資料があれば注目。"
+  }
+]

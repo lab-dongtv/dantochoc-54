@@ -1,0 +1,95 @@
+[
+  {
+    "id": "hoa",
+    "vi": "Hoa",
+    "ja": "ホア族（華人）",
+    "alt": "Người Hán, Minh Hương; Quảng Đông, Triều Châu, Phúc Kiến, Hải Nam, Hẹ (Khách Gia)",
+    "group": "han",
+    "pop": 749466,
+    "region_vi": "TP.HCM (Chợ Lớn), Đồng Nai, Sóc Trăng, Kiên Giang, Bạc Liêu, Cà Mau, Bình Dương",
+    "region_ja": "ホーチミン市（チョロン）を中心に、ドンナイ省、ソクチャン省、キエンザン省、バクリエウ省など",
+    "hi_vi": "Hội quán đồng hương (Tuệ Thành, Nghĩa An, Phúc Kiến Hội An), thờ Thiên Hậu (Mazu), Tết Nguyên Tiêu, thế mạnh thương mại và ẩm thực.",
+    "hi_ja": "同郷会館（チョロンの穂城会館、ホイアンの福建会館など）、天后（媽祖）信仰、元宵節で知られ、商業や食文化にも強い。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Quê gốc Quảng Đông, Phúc Kiến, Triều Châu, Hải Nam – quan hệ trực tiếp",
+        "ja": "広東・福建・潮州・海南がルーツ。直接つながる"
+      },
+      {
+        "c": "TH",
+        "vi": "Hoa kiều Thái Lan (đa số Triều Châu) – cùng nguồn gốc",
+        "ja": "タイ華人（多くが潮州系）とは同じルーツ"
+      },
+      {
+        "c": "MY",
+        "vi": "Hoa kiều Malaysia, Singapore (Phúc Kiến, Quảng Đông, Hakka)",
+        "ja": "マレーシア・シンガポールの華人（福建・広東・客家系）"
+      },
+      {
+        "c": "TW",
+        "vi": "Thân nhân, quan hệ qua Phúc Kiến và Hakka",
+        "ja": "福建系・客家系を通じた親族関係がある"
+      },
+      {
+        "c": "MM",
+        "vi": "Hoa kiều Myanmar (~1,64 triệu, 2012): Phúc Kiến, Quảng Đông, Hakka, Vân Nam, Kokang",
+        "ja": "ミャンマー華人（約164万人・2012年）：福建・広東・客家・雲南系、コーカン"
+      }
+    ],
+    "vme_vi": "Tìm khu nhóm Hán trong nhà Trống Đồng: đồ thờ, trang phục, vật dụng buôn bán.",
+    "vme_ja": "本館の漢語系コーナーで祭具、衣装、商売道具などを見てみよう。"
+  },
+  {
+    "id": "ngai",
+    "vi": "Ngái",
+    "ja": "ガイ族",
+    "alt": "Ngái Hắc Cá, Ngái Lầu Mẫn, Hẹ, Đản, Xín, Lê, Khách Gia",
+    "group": "han",
+    "pop": 1649,
+    "region_vi": "Quảng Ninh, Bắc Giang, Thái Nguyên, Lạng Sơn, Hải Phòng; rải rác ở Đồng Nai, TP.HCM",
+    "region_ja": "クアンニン省、バクザン省、タイグエン省、ランソン省など。南部にも少数",
+    "hi_vi": "Nói tiếng Khách Gia (Hakka); làm ruộng nước, đánh cá ven biển; hát sơn ca đối đáp. Một trong những dân tộc ít người nhất.",
+    "hi_ja": "客家語を話し、水田稲作や沿岸漁業を営む。男女の掛け合い歌「山歌」が特徴。ベトナムで最も人口の少ない民族の一つ。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Người Khách Gia (客家人) ở Quảng Đông, Quảng Tây – quan hệ ngôn ngữ trực tiếp",
+        "ja": "広東・広西の客家人。言語・文化的に直接つながる（中国では漢族扱い）"
+      },
+      {
+        "c": "MY",
+        "vi": "Cộng đồng Hakka ở Malaysia",
+        "ja": "マレーシアの客家系コミュニティ"
+      },
+      {
+        "c": "TW",
+        "vi": "Cộng đồng Hakka ở Đài Loan",
+        "ja": "台湾の客家系コミュニティ"
+      }
+    ],
+    "vme_vi": "Tìm trong khu nhóm Hán ở nhà Trống Đồng (hiện vật có thể ít).",
+    "vme_ja": "本館の漢語系コーナーで探してみよう（展示品は少ないかもしれない）。"
+  },
+  {
+    "id": "san-diu",
+    "vi": "Sán Dìu",
+    "ja": "サンジウ族",
+    "alt": "Sán Déo, Trại, Trại Đất, Mán Quần Cộc, Mán Váy Xẻ; tự gọi San Déo Nhín (山瑶人)",
+    "group": "han",
+    "pop": 183004,
+    "region_vi": "Thái Nguyên, Vĩnh Phúc, Bắc Giang, Quảng Ninh, Tuyên Quang, Phú Thọ",
+    "region_ja": "タイグエン省、ヴィンフック省、バクザン省、クアンニン省、トゥエンクアン省など",
+    "hi_vi": "Nói phương ngữ gần tiếng Quảng Đông nhưng phong tục gần người Dao; nổi tiếng hát đối đáp Soọng cô, trồng chè Thái Nguyên.",
+    "hi_ja": "広東語に近い方言を話すが、風習はザオ族に近い。男女の掛け合い歌「ソンコー」や茶づくりで知られる。",
+    "kin": [
+      {
+        "c": "CN",
+        "vi": "Quê gốc Quảng Đông – Quảng Tây; tên tự gọi gợi liên hệ với người Dao (瑤族)",
+        "ja": "広東・広西がルーツ。自称「山瑶人」はヤオ族とのつながりを示す"
+      }
+    ],
+    "vme_vi": "Tìm trong khu nhóm Hán ở nhà Trống Đồng: trang phục váy xẻ, đồ bạc, sách hát.",
+    "vme_ja": "本館の漢語系コーナーで、スリット入りスカートの衣装や銀飾り、歌の本を探してみよう。"
+  }
+]
